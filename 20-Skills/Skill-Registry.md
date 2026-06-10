@@ -59,6 +59,18 @@ WHERE tags INCLUDES "skill"
 SORT file.name ASC
 ```
 
+### Research
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Skill",
+  description AS "Description",
+  estimated_time AS "Est. Time",
+  agent_executable AS "Agent-Ready"
+FROM "20-Skills/research"
+WHERE tags INCLUDES "skill"
+SORT file.name ASC
+```
+
 ### Administration
 ```dataview
 TABLE WITHOUT ID

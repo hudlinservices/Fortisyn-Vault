@@ -11,6 +11,15 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-09] setup | Knowledge Scout skill created
+
+Created autonomous research skill system:
+- `20-Skills/research/knowledge-scout.md` — 7-step scout workflow with self-improvement
+- `20-Skills/research/gap-priorities.md` — persistent gap registry (14 initial gaps identified)
+- `90-System/agents/knowledge-scout-agent.md` — dedicated agent with appropriate gates
+- Updated `Skill-Registry.md`, `index.md`, `CLAUDE.md` with research domain and scout workflow
+- Weekly cron scheduled for Sunday 7:13 PM CST
+
 ## [2026-06-09] lint | First lint pass
 
 Full wiki health check. Fixed: 7 pages missing frontmatter (README, test-run, music-library-missing, lab-network, linking-guide, search-config, Skill-Registry), 4 agent run logs, 2 broken links in lab-network, zero inbound links to new concept pages (added cross-refs from llm_wiki.md), stale path reference in pythonslayers corporate hub. Noted: 27 stale pages from May 18-24, thin project content, Dataview dependency for external LLM readability, no daily notes since May 26, agent dormancy since May 19. Report filed at [[Inbox/lint-2026-06-09]].

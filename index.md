@@ -110,6 +110,8 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | Page | Summary |
 |---|---|
 | [[20-Skills/Skill-Registry\|Skill Registry]] | Master registry of all available skills |
+| [[20-Skills/research/knowledge-scout\|Knowledge Scout]] | Autonomous research skill — finds gaps, researches via NotebookLM, synthesizes wiki pages, self-improves |
+| [[20-Skills/research/gap-priorities\|Gap Priorities]] | Persistent registry of identified knowledge gaps between scout runs |
 | [[20-Skills/admin/capture-daily-notes\|Capture Daily Notes]] | Daily note capture and processing routine |
 | [[20-Skills/admin/agent-test-skill\|Agent Integration Test]] | Test skill for agent runtime verification |
 | [[20-Skills/content-creation/publish-blog-post\|Publish Blog Post]] | Blog post publishing workflow |
@@ -154,6 +156,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[90-System/agents/Agent-Registry\|Agent Registry]] | Registry of all defined AI agents and their capabilities |
 | [[90-System/agents/content-agent\|Content Agent]] | Content agent definition — file creation, editing, research |
 | [[90-System/agents/marketing-agent\|Marketing Agent]] | Marketing agent definition — surveys, status reports, analysis |
+| [[90-System/agents/knowledge-scout-agent\|Knowledge Scout Agent]] | Research agent definition — autonomous gap finding and NotebookLM research |
 | [[90-System/agents/agent-template\|Agent Template]] | Template for defining new agents |
 | [[90-System/agents/run-logs/marketing-agent-run-2026-05-19\|Marketing Agent Run: 2026-05-19]] | Marketing agent execution log |
 

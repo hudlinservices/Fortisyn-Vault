@@ -144,6 +144,20 @@ When the human asks a question against the wiki:
 4. **Synthesize an answer** with citations — reference specific pages with wikilinks
 5. **Offer to file the answer** — if the answer is valuable, offer to save it as a new wiki page. A comparison you built, an analysis, a connection you discovered — these compound the knowledge base.
 
+## Scout Workflow
+
+When the human says "scout" or "scout for gaps":
+
+1. **Scan** — Read `index.md`, `log.md`, `gap-priorities.md`, and the last lint report. Scan corporate hubs, project pages, and `40-Resources/` for knowledge gaps: stubs, missing concept pages, disconnected pages, stale content.
+2. **Rank** — Prioritize 3-5 gaps by compound value. Gaps that connect 3+ pages score highest. Stub enrichment scores next. New concept pages score third.
+3. **Present** — Show the ranked list to the human for approval. Do not proceed without approval.
+4. **Research** — For each approved gap: create a NotebookLM notebook, add 2-4 web sources, query with 3 questions (overview → connections → implications).
+5. **Synthesize** — Create or enrich wiki pages with findings. Use proper frontmatter, cross-references, and source attribution. Flag contradictions.
+6. **Update** — Update `index.md`, `log.md`, `gap-priorities.md`. Append to "Research Strategies" in `20-Skills/research/knowledge-scout.md` with what worked.
+7. **File** — Human reviews results.
+
+Full workflow defined in: [[20-Skills/research/knowledge-scout|Knowledge Scout]]
+
 ## Lint Workflow
 
 The human says "lint the wiki" (run periodically, ~weekly):
