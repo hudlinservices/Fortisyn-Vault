@@ -37,7 +37,5 @@ SORT priority ASC
 ```
 /home/projects/pythonslayers/
 ├── chat_assistant/    ← AI chat app (backend + frontend)
-├── my_brain/          ← Original vault dev directory
-├── my_brain-vault/    ← Active vault (this system)
 └── spanish_tutor/     ← Language learning platform
 ```

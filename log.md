@@ -11,6 +11,16 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-09] ingest | LLM Wiki Methodology
+
+First ingest into the vault. Processed `raw/2026-06-09 - LLM Wiki Methodology.md` and extracted 4 concept pages:
+- [[40-Resources/rag-vs-wiki|RAG vs Wiki Knowledge]] — comparison of retrieval vs compounding approaches
+- [[40-Resources/three-layer-architecture|Three-Layer Architecture]] — raw sources → wiki → schema explained
+- [[40-Resources/wiki-operations|Wiki Operations]] — ingest, query, lint workflows
+- [[40-Resources/index-log-pattern|Index and Log Pattern]] — how index.md and log.md drive navigation
+
+Also created `raw/` directory with README, rewrote `CLAUDE.md` as full schema with workflow documentation, and updated `index.md` with all new pages.
+
 ## [2026-06-09] merge | Vault consolidation from pythonslayers/my_brain
 
 Merged `/home/projects/pythonslayers/my_brain/` into this vault. Actions:

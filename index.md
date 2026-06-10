@@ -135,6 +135,16 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | Page | Summary |
 |---|---|
 | [[40-Resources/llm_wiki\|LLM Wiki]] | Methodology for building personal knowledge bases with LLMs — the pattern this vault follows |
+| [[40-Resources/rag-vs-wiki\|RAG vs Wiki Knowledge]] | Comparison: RAG rediscovers every query, Wiki compounds over time |
+| [[40-Resources/three-layer-architecture\|Three-Layer Architecture]] | Raw sources → Wiki → Schema — the architecture that makes this work |
+| [[40-Resources/wiki-operations\|Wiki Operations]] | Ingest, query, and lint — the three maintenance operations |
+| [[40-Resources/index-log-pattern\|Index and Log Pattern]] | How index.md and log.md work together for wiki navigation |
+
+### Raw Sources
+| Page | Summary |
+|---|---|
+| [[raw/README\|Raw Sources README]] | What goes in raw/, how ingest works, naming conventions |
+| [[raw/2026-06-09 - LLM Wiki Methodology\|LLM Wiki Methodology]] | Original methodology document — first source ingested into the vault |
 
 ## System
 
