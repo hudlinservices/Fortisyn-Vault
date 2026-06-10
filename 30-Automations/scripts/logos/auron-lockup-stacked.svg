@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C84A"/>
+      <stop offset="40%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#B8942E"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8A44E"/>
+      <stop offset="50%" style="stop-color:#E8C84A"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Centered stacked layout -->
+  <!-- Mark -->
+  <g transform="translate(92,10)">
+    <polygon points="58,5 102,52 58,100 14,52" fill="none" stroke="url(#gold)" stroke-width="2.4" opacity="0.35"/>
+    <polygon points="58,24 38,52 58,80" fill="url(#gold)" opacity="0.12"/>
+    <polygon points="58,24 78,52 58,80" fill="url(#gold)" opacity="0.10"/>
+    <polygon points="58,5 45,38 58,24 71,38" fill="url(#gold)" opacity="0.06"/>
+    <line x1="58" y1="5" x2="58" y2="100" stroke="url(#gold)" stroke-width="1.2" opacity="0.4"/>
+    <circle cx="58" cy="52" r="5" fill="url(#gold)"/>
+    <circle cx="58" cy="52" r="2" fill="#FAF8F5" opacity="0.9"/>
+  </g>
+
+  <!-- Wordmark centered below -->
+  <text x="150" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="400" letter-spacing="14" fill="#1A1A1A" text-anchor="middle">
+    <tspan fill="url(#goldH)">A</tspan>URON
+  </text>
+  <line x1="38" y1="170" x2="262" y2="170" stroke="url(#goldH)" stroke-width="1.5"/>
+  <text x="150" y="196" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="400" letter-spacing="7" fill="#B8942E" text-anchor="middle">GOLDEN MEDIA</text>
+</svg>

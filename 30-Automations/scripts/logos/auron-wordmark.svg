@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 70">
+  <defs>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8A44E"/>
+      <stop offset="50%" style="stop-color:#E8C84A"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <text x="0" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="400" letter-spacing="12" fill="#1A1A1A">
+    <tspan fill="url(#goldH)">A</tspan>URON
+  </text>
+  <line x1="0" y1="56" x2="310" y2="56" stroke="url(#goldH)" stroke-width="1.5"/>
+</svg>

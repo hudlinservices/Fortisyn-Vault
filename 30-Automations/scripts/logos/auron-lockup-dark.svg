@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+  <rect width="500" height="150" fill="#1A1A1A" rx="0"/>
+  <defs>
+    <linearGradient id="goldD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0D860"/>
+      <stop offset="40%" style="stop-color:#E0C040"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+    <linearGradient id="goldHD" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="50%" style="stop-color:#F0D860"/>
+      <stop offset="100%" style="stop-color:#E0C040"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(30,18)">
+    <polygon points="58,5 102,52 58,100 14,52" fill="none" stroke="url(#goldD)" stroke-width="2.4" opacity="0.35"/>
+    <polygon points="58,24 38,52 58,80" fill="url(#goldD)" opacity="0.14"/>
+    <polygon points="58,24 78,52 58,80" fill="url(#goldD)" opacity="0.12"/>
+    <polygon points="58,5 45,38 58,24 71,38" fill="url(#goldD)" opacity="0.08"/>
+    <line x1="58" y1="5" x2="58" y2="100" stroke="url(#goldD)" stroke-width="1.2" opacity="0.4"/>
+    <circle cx="58" cy="52" r="5" fill="url(#goldD)"/>
+    <circle cx="58" cy="52" r="2" fill="#FAF8F5" opacity="0.9"/>
+  </g>
+
+  <g transform="translate(170,0)">
+    <text y="95" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="400" letter-spacing="14" fill="#FAF8F5">
+      <tspan fill="url(#goldHD)">A</tspan>URON
+    </text>
+    <line x1="0" y1="110" x2="302" y2="110" stroke="url(#goldHD)" stroke-width="1.6"/>
+    <text x="151" y="136" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" letter-spacing="7" fill="#D4AF37" text-anchor="middle">GOLDEN MEDIA</text>
+  </g>
+</svg>

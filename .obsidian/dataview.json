@@ -1,0 +1,8 @@
+{
+  "enable_js_queries": true,
+  "enable_inline_queries": true,
+  "task_link_location": "end",
+  "task_link_text": "link",
+  "warn_on_empty_result": false,
+  "refresh_interval": 5000
+}

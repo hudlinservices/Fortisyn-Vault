@@ -1,0 +1,16 @@
+{
+  "name": "agents",
+  "version": "1.0.0",
+  "description": "AI agent runtime for My Brain — DeepSeek-powered",
+  "main": "run-agent.js",
+  "scripts": {
+    "test": "node run-agent.js --help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "openai": "^4.104.0"
+  }
+}

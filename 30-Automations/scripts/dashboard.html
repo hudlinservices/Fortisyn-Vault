@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Brain — Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;min-height:100vh}
+.header{background:#161b22;border-bottom:1px solid #30363d;padding:16px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.header h1{font-size:20px;font-weight:600;color:#f0f6fc}
+.header .stats{display:flex;gap:20px;font-size:13px;color:#8b949e;flex-wrap:wrap}
+.header .stats span{color:#58a6ff;font-weight:600}
+.main{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:16px 24px;max-width:1600px;margin:0 auto}
+@media(max-width:1000px){.main{grid-template-columns:1fr}}
+.card{background:#161b22;border:1px solid #484f58;border-radius:8px;padding:16px}
+.card h2{font-size:14px;font-weight:600;color:#f0f6fc;margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.card-full{grid-column:1/-1}
+.card-blue{border-color:#1f6feb}
+.card-red{border-color:#da3633}
+.card-green{border-color:#238636}
+.btn-row{display:flex;gap:8px;flex-wrap:wrap}
+.btn{padding:10px 18px;border:1px solid #30363d;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600;transition:all .15s;display:inline-flex;align-items:center;gap:6px;text-transform:uppercase;letter-spacing:.5px}
+.btn-light{color:#0d1117;background:#c9d1d9;border-color:#c9d1d9}
+.btn-light:hover{background:#f0f6fc;border-color:#f0f6fc}
+.btn-dark{color:#f0f6fc;background:#0d1117;border:1px solid #f0f6fc}
+.btn-dark:hover{background:#161b22;border-color:#c9d1d9}
+.btn:hover{background:#484f58;border-color:#8b949e}
+.btn-sm{padding:4px 10px;font-size:10px;text-transform:none;letter-spacing:0}
+.btn-xs{padding:2px 8px;font-size:10px;text-transform:none;letter-spacing:0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:8px 10px;border-bottom:1px solid #30363d;color:#8b949e;font-weight:500;font-size:12px;text-transform:uppercase}
+td{padding:8px 10px;border-bottom:1px solid #21262d}
+tr:hover{background:#1c2129}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:500}
+.badge-active{background:#23863633;color:#3fb950}
+.badge-paused{background:#9e6a0333;color:#d2991d}
+.badge-completed{background:#1f6feb33;color:#58a6ff}
+.badge-p1{background:#da363333;color:#f85149}
+.badge-p2{background:#9e6a0333;color:#d2991d}
+.badge-p3{background:#6e40c933;color:#b392f0}
+.badge-py{background:#3572A533;color:#3572A5}
+.badge-sh{background:#89e05133;color:#89e051}
+.badge-ts{background:#3178c633;color:#3178c6}
+.badge-js{background:#f1e05a33;color:#f1e05a}
+.chart-wrap{position:relative;height:200px;margin:0 auto}
+.chart-wrap-lg{height:280px}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:6px}
+.dot-active{background:#3fb950}
+.dot-recent{background:#d2991d}
+.dot-dormant{background:#484f58}
+.dot-ok{background:#3fb950}
+.dot-warn{background:#d2991d}
+.dot-err{background:#f85149}
+.empty{color:#484f58;font-style:italic;padding:20px 0;text-align:center}
+pre{background:#0d1117;padding:8px 12px;border-radius:4px;font-size:12px;overflow-x:auto;max-height:300px;overflow-y:auto}
+input{border:1px solid #30363d;border-radius:4px;padding:6px 10px;background:#0d1117;color:#c9d1d9;font-size:13px}
+.script-output{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px;margin-top:8px;display:none;max-height:400px;overflow-y:auto}
+.script-output .result-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.script-output .exit-ok{color:#3fb950;font-weight:600}
+.script-output .exit-err{color:#f85149;font-weight:600}
+.group-header{cursor:pointer;display:flex;align-items:center;gap:8px;padding:8px 10px;background:#1c2129;border-radius:6px;margin-bottom:4px;user-select:none;font-size:13px;font-weight:600;color:#f0f6fc}
+.group-header:hover{background:#21262d}
+.group-header .arrow{transition:transform .2s;font-size:10px;color:#8b949e}
+.group-header.collapsed .arrow{transform:rotate(-90deg)}
+.group-body{padding-left:20px;margin-bottom:8px}
+.group-body.collapsed{display:none}
+.corp{color:#58a6ff}.proj{color:#3fb950}
+.action-result{font-size:12px;color:#8b949e;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>My Brain — Agentic OS</h1>
+  <div class="stats" id="stats">Loading...</div>
+</div>
+<div class="main">
+
+  <!-- Quick Actions -->
+  <div class="card card-blue">
+    <h2>Quick Actions</h2>
+    <div class="btn-row">
+      <button class="btn btn-light" onclick="action('daily-note')">Daily Note</button>
+      <button class="btn btn-light" onclick="createProject()">New Project</button>
+      <button class="btn btn-light" onclick="action('open-obsidian')">Open Obsidian</button>
+      <button class="btn btn-light" onclick="window.location.reload()">Refresh</button>
+    </div>
+    <div class="action-result" id="actionResult"></div>
+  </div>
+
+  <!-- Automations -->
+  <div class="card card-red" id="automations-card">
+    <h2>Automations</h2>
+    <div id="automations-buttons"></div>
+    <div class="script-output" id="scriptOutput">
+      <div class="result-header">
+        <strong id="scriptOutputTitle">Output</strong>
+        <button class="btn btn-sm" style="text-transform:none;letter-spacing:0;padding:4px 10px;font-size:11px" onclick="document.getElementById('scriptOutput').style.display='none'">Close</button>
+      </div>
+      <pre id="scriptOutputBody"></pre>
+    </div>
+    <div class="action-result" id="automationResult"></div>
+  </div>
+
+  <!-- Token Usage -->
+  <div class="card card-full card-green">
+    <h2>Token Usage</h2>
+    <div id="token-summary"></div>
+    <div style="margin-top:12px" id="token-table"></div>
+  </div>
+
+  <!-- Sessions -->
+  <div class="card">
+    <h2>Sessions</h2>
+    <div id="sessions-table"></div>
+  </div>
+
+  <!-- Observations -->
+  <div class="card">
+    <h2>claude-mem Activity</h2>
+    <div id="obs-table"></div>
+  </div>
+
+  <!-- Scripts -->
+  <div class="card card-full">
+    <h2>Scripts</h2>
+    <div id="scripts-grouped"></div>
+  </div>
+
+  <!-- Projects -->
+  <div class="card">
+    <h2>Projects</h2>
+    <div id="projects-table"></div>
+  </div>
+
+  <!-- Tasks Chart -->
+  <div class="card">
+    <h2>Tasks by Project</h2>
+    <div class="chart-wrap-lg" id="chart-bar-wrap"><canvas id="chart-bar"></canvas></div>
+  </div>
+
+  <!-- Agent Runs -->
+  <div class="card">
+    <h2>Agent Runs</h2>
+    <div id="agents-table"></div>
+  </div>
+
+  <!-- Agent Outcomes -->
+  <div class="card">
+    <h2>Agent Outcomes</h2>
+    <div class="chart-wrap" id="chart-doughnut-wrap"><canvas id="chart-doughnut"></canvas></div>
+  </div>
+
+  <!-- Recent Observations -->
+  <div class="card card-full">
+    <h2>Recent Observations</h2>
+    <div id="recent-obs-table"></div>
+  </div>
+
+  <!-- Daily Notes -->
+  <div class="card card-full">
+    <h2>Recent Daily Notes</h2>
+    <div id="daily-table"></div>
+  </div>
+
+</div>
+<script>
+var API='http://localhost:4200/api';
+
+function api(u){return fetch(API+u).then(function(r){return r.json()})}
+
+function action(name,extra){
+  var d=document.getElementById('actionResult');
+  d.textContent='Running...';
+  var u='http://localhost:4200/api/action?name='+name;
+  if(extra) u+='&'+new URLSearchParams(extra).toString();
+  fetch(u).then(function(r){return r.json()}).then(function(data){
+    d.textContent=data.ok?(data.output||'Done'):'Error: '+data.error
+  }).catch(function(e){d.textContent='Error: '+e.message})
+}
+
+function createProject(){
+  var name=prompt('Project name:');
+  if(name) action('new-project',{project:name}).then(function(){setTimeout(function(){window.location.reload()},500)})
+}
+
+function runScript(scriptPath, scriptName){
+  var out=document.getElementById('scriptOutput');
+  var body=document.getElementById('scriptOutputBody');
+  var title=document.getElementById('scriptOutputTitle');
+  var result=document.getElementById('automationResult');
+  out.style.display='block';
+  title.textContent='Running: '+scriptName;
+  body.textContent='Running...';
+  body.style.color='#d2991d';
+  result.textContent='';
+  out.scrollIntoView({behavior:'smooth'});
+
+  fetch('http://localhost:4200/api/scripts/run?path='+encodeURIComponent(scriptPath))
+    .then(function(r){return r.json()})
+    .then(function(data){
+      title.innerHTML='<span class="'+(data.ok?'exit-ok':'exit-err')+'">Exit: '+data.exitCode+'</span> '+scriptName;
+      body.style.color='#c9d1d9';
+      body.textContent=(data.stdout||'(no output)')+(data.stderr?'\n\n--- stderr ---\n'+data.stderr:'');
+      result.textContent=data.ok?'Completed successfully':'Completed with errors';
+    })
+    .catch(function(e){
+      title.textContent='Error — '+scriptName;
+      body.style.color='#f85149';
+      body.textContent=e.message;
+      result.textContent='Failed: '+e.message;
+    });
+}
+
+function toggleGroup(header){
+  header.classList.toggle('collapsed');
+  header.nextElementSibling.classList.toggle('collapsed');
+}
+
+function fmtTok(n){if(n>=1e6)return (n/1e6).toFixed(1)+'M';if(n>=1e3)return (n/1e3).toFixed(1)+'K';return String(n)}
+
+// Stats bar
+api('/stats').then(function(s){
+  document.getElementById('stats').innerHTML=
+    '<div>Files: <span>'+s.totalFiles+'</span></div>'+
+    '<div>Projects: <span>'+s.projects+'</span></div>'+
+    '<div>Sessions: <span>'+s.activeSessions+'/'+s.sessions+'</span></div>'+
+    '<div>Obs. projects: <span>'+s.observationProjects+'</span></div>'+
+    '<div>Size: <span>'+s.totalSizeKB+' KB</span></div>'
+});
+
+// Automations — dynamic from scripts API
+api('/scripts').then(function(scripts){
+  var d=document.getElementById('automations-buttons');
+  // Find important scripts by name
+  var automations = [];
+  var seen = {};
+  scripts.forEach(function(s){
+    var key = s.name;
+    if (seen[key]) return;
+    seen[key] = true;
+    if (s.name === 'import_movies.py' || s.name === 'music_cleanup.py' || s.name === 'dashboard-server.js') {
+      var label = s.name.replace(/[._-]/g,' ').replace('.py','').replace('.js','').replace('.sh','').trim();
+      automations.push({label: label.toUpperCase(), path: s.path, name: s.name, project: s.project});
+    }
+  });
+  // Sort: import movies, music cleanup, then rest
+  automations.sort(function(a,b){
+    var order = {'IMPORT MOVIES':1,'MUSIC CLEANUP':2};
+    return (order[a.label]||99) - (order[b.label]||99);
+  });
+  if (!automations.length) {
+    d.innerHTML = '<span class="empty">No automation scripts found</span>';
+  } else {
+    d.innerHTML = '<div class="btn-row">'+automations.map(function(a){
+      return '<button class="btn btn-dark" onclick="runScript(\''+a.path.replace(/'/g,"\\'")+'\',\''+a.name.replace(/'/g,"\\'")+'\')" title="'+a.project+'">'+a.label+'</button>';
+    }).join('')+'</div>';
+  }
+});
+
+// Token usage
+api('/tokens').then(function(data){
+  var s = data.summary;
+  var d = document.getElementById('token-summary');
+  d.innerHTML = '<div style="display:flex;gap:24px;flex-wrap:wrap;font-size:14px">'+
+    '<div><span style="color:#8b949e">Today:</span> <strong style="color:#58a6ff">'+fmtTok(s.todayTokens)+'</strong></div>'+
+    '<div><span style="color:#8b949e">This week:</span> <strong style="color:#3fb950">'+fmtTok(s.weekTokens)+'</strong></div>'+
+    '<div><span style="color:#8b949e">This month:</span> <strong style="color:#d2991d">'+fmtTok(s.monthTokens)+'</strong></div>'+
+    '<div><span style="color:#8b949e">All time:</span> <strong style="color:#f0f6fc">'+fmtTok(s.allTokens)+'</strong></div>'+
+    '</div>';
+
+  var tbl = document.getElementById('token-table');
+  tbl.innerHTML = '<table><tr><th>Project</th><th>Est. Tokens</th><th>Files</th><th>Active Days</th></tr>'+
+    data.projects.slice(0,12).map(function(p){
+      return '<tr><td><strong>'+p.project+'</strong></td><td>'+fmtTok(p.estTokens)+'</td><td>'+p.files+'</td><td>'+Object.keys(p.daily).length+'</td></tr>';
+    }).join('')+'</table>';
+});
+
+// Sessions
+api('/sessions').then(function(sessions){
+  var d=document.getElementById('sessions-table');
+  if(!sessions.length){d.innerHTML='<div class="empty">No sessions found</div>';return}
+  var cl=function(a){return{active:'dot-active',recent:'dot-recent',dormant:'dot-dormant'}[a]||''};
+  var label=function(a){return{active:'active',recent:'recent',dormant:'dormant'}[a]||a};
+  d.innerHTML='<table><tr><th></th><th>Project</th><th>Status</th><th>Last Activity</th><th>Files</th></tr>'+
+    sessions.slice(0,15).map(function(s){
+      return'<tr><td><span class="dot '+cl(s.active)+'"></span></td>'+
+      '<td><strong>'+s.project+'</strong></td>'+
+      '<td>'+label(s.active)+'</td>'+
+      '<td>'+s.ageMinutes+'m ago</td>'+
+      '<td>'+s.files+'</td></tr>';
+    }).join('')+'</table>';
+});
+
+// Observations
+api('/observations').then(function(obs){
+  var d=document.getElementById('obs-table');
+  if(!obs.length){d.innerHTML='<div class="empty">No observations yet</div>';return}
+  d.innerHTML='<table><tr><th>Project</th><th>Count</th><th>Last Activity</th></tr>'+
+    obs.map(function(o){return'<tr><td><strong>'+o.project+'</strong></td><td>'+o.count+'</td><td>'+o.lastActivity+'</td></tr>'}).join('')+'</table>';
+});
+
+// Scripts grouped
+api('/scripts').then(function(scripts){
+  var d=document.getElementById('scripts-grouped');
+  if(!scripts.length){d.innerHTML='<div class="empty">No scripts found</div>';return}
+  var tree={};
+  scripts.forEach(function(s){
+    var parts=s.project.split('/');
+    var company=parts[0]||'unknown';
+    var project=parts.slice(1).join('/')||'root';
+    if(!tree[company])tree[company]={};
+    if(!tree[company][project])tree[company][project]=[];
+    tree[company][project].push(s);
+  });
+  var bc=function(t){return{py:'badge-py',sh:'badge-sh',ts:'badge-ts',js:'badge-js'}[t]||''};
+  var html='';
+  Object.keys(tree).sort().forEach(function(company){
+    var projects=tree[company];
+    var pkeys=Object.keys(projects).sort();
+    var total=pkeys.reduce(function(a,k){return a+projects[k].length},0);
+    html+='<div class="group-header collapsed" onclick="toggleGroup(this)"><span class="arrow">&#9660;</span><span class="corp">'+company+'</span><span style="color:#8b949e;font-weight:400;font-size:11px">('+pkeys.length+' projects, '+total+' scripts)</span></div>';
+    html+='<div class="group-body collapsed">';
+    pkeys.forEach(function(project){
+      html+='<div class="group-header collapsed" onclick="toggleGroup(this);event.stopPropagation()"><span class="arrow">&#9660;</span><span class="proj">'+project+'</span><span style="color:#8b949e;font-weight:400;font-size:11px">('+projects[project].length+')</span></div>';
+      html+='<div class="group-body collapsed"><table><tr><th>Script</th><th>Type</th><th>Size</th><th>Modified</th><th></th></tr>';
+      projects[project].forEach(function(s){
+        html+='<tr><td><strong>'+s.name+'</strong></td><td><span class="badge '+bc(s.type)+'">'+s.type+'</span></td><td>'+s.sizeKB+' KB</td><td>'+s.modified.substring(0,10)+'</td><td><button class="btn btn-sm" style="text-transform:none;letter-spacing:0;padding:4px 10px;font-size:11px" onclick="event.stopPropagation();runScript(\''+s.path.replace(/'/g,"\\'")+'\',\''+s.name.replace(/'/g,"\\'")+'\')">Run</button></td></tr>';
+      });
+      html+='</table></div>';
+    });
+    html+='</div>';
+  });
+  d.innerHTML=html;
+});
+
+// Projects
+api('/projects').then(function(projects){
+  var d=document.getElementById('projects-table');
+  if(!projects.length){d.innerHTML='<div class="empty">No projects yet</div>';return}
+  var bc=function(s){return{active:'badge-active',paused:'badge-paused',completed:'badge-completed'}[s]||''};
+  var bp=function(p){return{P1:'badge-p1',P2:'badge-p2',P3:'badge-p3'}[p]||''};
+  d.innerHTML='<table><tr><th>Project</th><th>P</th><th>Status</th><th>Deadline</th><th>Open</th><th>Done</th></tr>'+
+    projects.map(function(p){return'<tr><td><strong>'+p.name+'</strong></td>'+
+    '<td><span class="badge '+bp(p.priority)+'">'+p.priority+'</span></td>'+
+    '<td><span class="badge '+bc(p.status)+'">'+p.status+'</span></td>'+
+    '<td>'+(p.deadline||'—')+'</td><td>'+p.openTasks+'</td><td>'+p.doneTasks+'</td></tr>'}).join('')+'</table>';
+  var ctx=document.getElementById('chart-bar').getContext('2d');
+  new Chart(ctx,{type:'bar',data:{labels:projects.map(function(p){return p.name}),
+    datasets:[{label:'Done',data:projects.map(function(p){return p.doneTasks}),backgroundColor:'#238636'},
+              {label:'Open',data:projects.map(function(p){return p.openTasks}),backgroundColor:'#30363d'}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      scales:{x:{stacked:true,ticks:{color:'#8b949e'},grid:{color:'#21262d'}},
+              y:{stacked:true,ticks:{color:'#8b949e'},grid:{color:'#21262d'}}},
+      plugins:{legend:{labels:{color:'#8b949e'}}}}});
+});
+
+// Agent runs
+api('/agents').then(function(agents){
+  var d=document.getElementById('agents-table');
+  if(!agents.length){d.innerHTML='<div class="empty">No agent runs yet</div>';return}
+  var sc=function(s){return{completed:'dot-ok',running:'dot-warn',failed:'dot-err',awaiting_decision:'dot-warn'}[s]||''};
+  d.innerHTML='<table><tr><th>Agent</th><th>Status</th><th>Project</th><th>Task</th><th>Progress</th></tr>'+
+    agents.slice(0,10).map(function(a){return'<tr><td>'+a.agent+'</td>'+
+    '<td><span class="dot '+sc(a.status)+'"></span>'+a.status+'</td>'+
+    '<td>'+(a.project||'—')+'</td><td>'+(a.outcome||'').substring(0,60)+'</td>'+
+    '<td>'+a.stepsDone+'/'+a.stepsTotal+'</td></tr>'}).join('')+'</table>';
+  var done=agents.filter(function(a){return a.status==='completed'}).length;
+  var fail=agents.filter(function(a){return a.status==='failed'}).length;
+  var wait=agents.filter(function(a){return a.status==='awaiting_decision'}).length;
+  var run=agents.filter(function(a){return a.status==='running'}).length;
+  var dctx=document.getElementById('chart-doughnut').getContext('2d');
+  new Chart(dctx,{type:'doughnut',data:{labels:['Completed','Failed','Awaiting','Running'],
+    datasets:[{data:[done,fail,wait,run],backgroundColor:['#238636','#da3633','#d2991d','#1f6feb']}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom',labels:{color:'#8b949e',padding:12,font:{size:11}}}}}});
+});
+
+// Recent observations
+api('/observations/recent?limit=20').then(function(obs){
+  var d=document.getElementById('recent-obs-table');
+  if(!obs.length){d.innerHTML='<div class="empty">No recent observations</div>';return}
+  var tc=function(t){var m={feature:'#b392f0',bugfix:'#f85149',discovery:'#58a6ff',decision:'#d2991d',change:'#3fb950',security_alert:'#f85149'};return m[t]||'#8b949e'};
+  d.innerHTML='<table><tr><th>Type</th><th>Project</th><th>Title</th><th>Time</th></tr>'+
+    obs.map(function(o){return'<tr><td><span style="color:'+tc(o.type)+';font-size:11px">'+o.type+'</span></td>'+
+    '<td>'+o.project+'</td><td>'+o.title+'</td><td>'+(o.created||'').substring(0,16)+'</td></tr>'}).join('')+'</table>';
+});
+
+// Daily notes
+api('/daily').then(function(notes){
+  var d=document.getElementById('daily-table');
+  if(!notes.length){d.innerHTML='<div class="empty">No daily notes yet</div>';return}
+  d.innerHTML='<table><tr><th>Date</th><th>Energy</th><th>Priorities</th></tr>'+
+    notes.map(function(n){return'<tr><td><strong>'+n.date+'</strong></td><td>'+n.energy+'</td>'+
+    '<td>'+((n.priorities||[]).filter(function(p){return p}).join(' · ')||'—')+'</td></tr>'}).join('')+'</table>';
+});
+</script>
+</body>
+</html>

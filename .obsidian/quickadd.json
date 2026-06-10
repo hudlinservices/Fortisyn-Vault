@@ -1,0 +1,61 @@
+{
+  "choices": [
+    {
+      "id": "quick-capture",
+      "name": "Quick Capture",
+      "type": "Capture",
+      "captureTo": "00-Dashboard/daily/{{DATE}}.md",
+      "captureToActiveFile": false,
+      "createFileIfNotExists": true,
+      "format": {
+        "displayFormat": "- [ ] {{TIME}} {{VALUE}}",
+        "captureFormat": "\\n- [ ] {{TIME}} {{VALUE}}"
+      },
+      "insertAfter": "## Quick Capture",
+      "prepend": false,
+      "task": false
+    },
+    {
+      "id": "create-daily-note",
+      "name": "Create Daily Note",
+      "type": "Template",
+      "templatePath": "90-System/templates/daily-note.md",
+      "createInFolder": "00-Dashboard/daily",
+      "fileNameFormat": "{{DATE}}",
+      "openFile": true
+    },
+    {
+      "id": "create-weekly-review",
+      "name": "Create Weekly Review",
+      "type": "Template",
+      "templatePath": "90-System/templates/weekly-review.md",
+      "createInFolder": "00-Dashboard/reviews",
+      "fileNameFormat": "{{DATE}}-W{{VALUE:week_number}}-review",
+      "openFile": true
+    },
+    {
+      "id": "inbox-triage",
+      "name": "Inbox Triage",
+      "type": "Capture",
+      "captureTo": "00-Dashboard/daily/{{DATE}}.md",
+      "captureToActiveFile": false,
+      "createFileIfNotExists": true,
+      "format": {
+        "displayFormat": "- [x] {{VALUE}} → [[{{VALUE:project}}]]",
+        "captureFormat": "\\n- [x] {{VALUE}} → [[{{VALUE:project}}]]"
+      },
+      "insertAfter": "## Quick Capture (Processed)",
+      "prepend": false,
+      "task": false
+    },
+    {
+      "id": "execute-skill",
+      "name": "Execute Skill",
+      "type": "Template",
+      "templatePath": "90-System/templates/execution-log.md",
+      "createInFolder": "20-Skills/logs",
+      "fileNameFormat": "{{DATE}}-{{VALUE:skill_slug}}",
+      "openFile": true
+    }
+  ]
+}

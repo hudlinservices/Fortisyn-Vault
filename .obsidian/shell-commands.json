@@ -1,0 +1,28 @@
+{
+  "commands": [
+    {
+      "name": "Delegate to Content Agent",
+      "command": "node 90-System/agents/run-agent.js --agent-def \"90-System/agents/content-agent.md\"",
+      "alias": "content-agent",
+      "confirm": true,
+      "confirmMessage": "What should the Content Agent do?",
+      "platform": "linux"
+    },
+    {
+      "name": "Delegate to Marketing Agent",
+      "command": "node 90-System/agents/run-agent.js --agent-def \"90-System/agents/marketing-agent.md\"",
+      "alias": "marketing-agent",
+      "confirm": true,
+      "confirmMessage": "What should the Marketing Agent do?",
+      "platform": "linux"
+    },
+    {
+      "name": "Resume Agent",
+      "command": "node 90-System/agents/run-agent.js --resume",
+      "alias": "resume-agent",
+      "confirm": true,
+      "confirmMessage": "Path to run log to resume?",
+      "platform": "linux"
+    }
+  ]
+}

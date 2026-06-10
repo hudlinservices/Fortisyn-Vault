@@ -1,0 +1,8 @@
+{
+  "template_folder": "90-System/templates",
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_directory": "30-Automations/scripts",
+  "syntax_highlighting": true
+}

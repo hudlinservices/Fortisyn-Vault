@@ -1,0 +1,31 @@
+# Obsidian workspace (volatile per-machine)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Node.js
+node_modules/
+package-lock.json
+90-System/agents/node_modules/
+90-System/agents/package-lock.json
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Agent lock files
+.locks/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Specs (design docs, not runtime)
+specs/
