@@ -1,3 +1,12 @@
+---
+title: "Bidirectional Linking Guide"
+date: "2026-06-09"
+category: system
+tags:
+  - system
+  - conventions
+  - linking
+---
 # Bidirectional Linking Guide
 
 ## How links work in this system

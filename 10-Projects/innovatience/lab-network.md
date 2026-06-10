@@ -1,3 +1,16 @@
+---
+name: "Lab Network"
+status: "active"
+priority: "P1"
+corporate_entity: "[[_corporate-hub|Innovatience]]"
+tags:
+  - project
+  - innovatience
+  - networking
+  - ubiquiti
+created: "2026-05-27"
+updated: "2026-06-09"
+---
 # Lab Network
 
 - **Organization**: innovatience
@@ -10,8 +23,8 @@ Reviewing client CR-LAB's existing network to recommend a more secure, upgraded 
 
 ## Key Files
 
-- [[startup.md]] — Blueprint
-- [[memory.md]] — Memory snapshot
+- `startup.md` — Blueprint (in project repo)
+- `memory.md` — Memory snapshot (in project repo)
 
 ## NotebookLM
 

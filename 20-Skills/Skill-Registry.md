@@ -4,7 +4,7 @@ type: "moc"
 tags:
   - moc
   - skill-registry
-updated: "{{date}}"
+updated: "2026-06-09"
 ---
 
 # Skill Registry

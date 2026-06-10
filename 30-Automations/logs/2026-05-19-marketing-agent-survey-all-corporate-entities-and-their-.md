@@ -1,4 +1,11 @@
 ---
+title: "---"
+date: "2026-05-19"
+category: agent-run
+tags:
+  - agent-run
+---
+---
 agent: [[90-System/agents/marketing-agent.md]]
 project: [[10-Projects/fortisyn/_corporate-hub.md]]
 delegated_outcome: ""Survey all corporate entities and their projects across the Fortisyn umbrella. Read the project hubs and memory files. Produce a status report at Inbox/fortisyn-status-report.md with: 1) Active entities and what they do, 2) Project count per entity, 3) Which projects have active code vs empty shells, 4) Recommendations for what needs attention. Use read_file and search_vault tools to gather information.""

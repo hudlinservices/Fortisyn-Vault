@@ -11,6 +11,10 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-09] lint | First lint pass
+
+Full wiki health check. Fixed: 7 pages missing frontmatter (README, test-run, music-library-missing, lab-network, linking-guide, search-config, Skill-Registry), 4 agent run logs, 2 broken links in lab-network, zero inbound links to new concept pages (added cross-refs from llm_wiki.md), stale path reference in pythonslayers corporate hub. Noted: 27 stale pages from May 18-24, thin project content, Dataview dependency for external LLM readability, no daily notes since May 26, agent dormancy since May 19. Report filed at [[Inbox/lint-2026-06-09]].
+
 ## [2026-06-09] ingest | LLM Wiki Methodology
 
 First ingest into the vault. Processed `raw/2026-06-09 - LLM Wiki Methodology.md` and extracted 4 concept pages:

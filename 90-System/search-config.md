@@ -1,3 +1,12 @@
+---
+title: "Search Configuration"
+date: "2026-06-09"
+category: system
+tags:
+  - system
+  - search
+  - configuration
+---
 # Search Configuration
 
 ## Obsidian Search Settings

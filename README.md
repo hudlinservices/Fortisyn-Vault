@@ -1,3 +1,11 @@
+---
+title: "My Brain"
+date: "2026-06-09"
+category: system
+tags:
+  - system
+  - readme
+---
 # My Brain — Agentic Personal OS
 
 An agentic personal operating system built on Obsidian. Delegate outcomes to AI agents that plan, execute, and report back. The vault is your single source of truth — projects, skills, automations, and knowledge all in one place.

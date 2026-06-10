@@ -1,4 +1,11 @@
 ---
+title: "---"
+date: "2026-05-19"
+category: agent-run
+tags:
+  - agent-run
+---
+---
 agent: [[90-System/agents/content-agent.md]]
 project: 
 delegated_outcome: ""Create a file at Inbox/test-run.md with the content '# Agent Test Passed\n\nDeepSeek agent runtime is working.' Then say Task complete.""

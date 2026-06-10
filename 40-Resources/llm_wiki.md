@@ -83,4 +83,13 @@ The idea is related in spirit to Vannevar Bush's Memex (1945) — a personal, cu
 
 ## Note
 
+## Concept pages extracted from this document
+
+- [[40-Resources/rag-vs-wiki|RAG vs Wiki Knowledge]] — why compounding beats retrieval
+- [[40-Resources/three-layer-architecture|Three-Layer Architecture]] — raw → wiki → schema
+- [[40-Resources/wiki-operations|Wiki Operations]] — ingest, query, lint
+- [[40-Resources/index-log-pattern|Index and Log Pattern]] — navigation files
+
+---
+
 This document is intentionally abstract. It describes the idea, not a specific implementation. The exact directory structure, the schema conventions, the page formats, the tooling — all of that will depend on your domain, your preferences, and your LLM of choice. Everything mentioned above is optional and modular — pick what's useful, ignore what isn't. For example: your sources might be text-only, so you don't need image handling at all. Your wiki might be small enough that the index file is all you need, no search engine required. You might not care about slide decks and just want markdown pages. You might want a completely different set of output formats. The right way to use this is to share it with your LLM agent and work together to instantiate a version that fits your needs. The document's only job is to communicate the pattern. Your LLM can figure out the rest.
