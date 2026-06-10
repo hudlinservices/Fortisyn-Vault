@@ -11,6 +11,34 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-09] scout | First Knowledge Scout run — Fortisyn structure, Auron Media rebrand, Mercova Retail rebrand
+
+First autonomous scout research run. Researched 3 approved gaps via NotebookLM:
+
+**Fortisyn Group structure:**
+- Documented group architecture: centralized IT (Hudlin Services) + software (Python Slayers) backbone, strategic R&D loop (La Dolce Niente → Soleria), content-to-commerce pipeline (Auron → Mercova)
+- Updated corporate hub with subsidiary table, URLs, synergy model, rebrand timeline
+
+**Auron Media rebrand (formerly Jungle Media):**
+- Research via auron.media site: repositioned from audio/video production to full-stack digital agency
+- Services: websites, branding, AI-powered marketing campaigns, digital content creation
+- Updated corporate hub with rebrand comparison table and auron.media URL
+- Directory on disk still `junglemedia/` — rename pending
+
+**Mercova Retail rebrand (formerly Versa Retail):**
+- Research via mercovaretail.com site: repositioned from broad e-commerce to white-label store platform
+- Tagline: "Your Website. Your Merch. Done." — branded merchandise on client sites
+- Updated corporate hub with rebrand comparison table and mercovaretail.com URL
+- Directory on disk still `versaretail/`, project files still use versa-* naming — rename pending
+
+**Also updated:**
+- Python Slayers corporate hub — added pythonslayers.com URL
+- La Dolce Niente corporate hub — added ladolceniente.com URL, repositioned from "Costa Rica property" to "Property and asset acquisition"
+- index.md — all summaries updated to reflect rebrands and URLs
+- gap-priorities.md — 3 gaps moved to Researched
+
+Total: 5 corporate hubs updated, 3 gaps researched, 2 new URLs discovered.
+
 ## [2026-06-09] setup | Knowledge Scout skill created
 
 Created autonomous research skill system:

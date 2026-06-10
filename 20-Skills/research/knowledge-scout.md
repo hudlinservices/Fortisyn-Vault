@@ -112,20 +112,25 @@ Strategies evolve over time based on what works. Updated by the agent after each
 
 - [2026-06-09] **Wikipedia first.** Wikipedia pages are the best starting source for concept overviews — they're structured, comprehensive, and NotebookLM handles them well. Start every topic research here.
 - [2026-06-09] **Pair technical docs with tutorials.** Official documentation produces dense, accurate but hard-to-synthesize output. Always pair with a tutorial or blog post that explains the same concepts in plain language.
+- [2026-06-09] **SPA sites need text sources.** React SPAs (like auron.media, mercovaretail.com) can't be processed as NotebookLM URL sources — the server only returns a bare `<div id="root">`. Instead, `curl` the page meta tags (`<title>`, `<meta name="description">`) and add them as `type: "text"` sources. NotebookLM synthesizes surprisingly well from just meta descriptions + background context.
 
 ### Query Strategies
 
 - [2026-06-09] **"Key concepts and how they connect"** — this phrasing produces the best synthesis for new concept pages. It forces the notebook to identify the core ideas AND their relationships.
 - [2026-06-09] **"Practical implications"** — this query works well for enriching project pages with actionable context. Use it when the gap is about a project that needs more substance.
 - [2026-06-09] **Three-question cadence** — (1) overview, (2) connections, (3) implications. This order builds: facts first, then relationships, then meaning. Don't skip the connections question — it's what produces cross-references.
+- [2026-06-09] **Rebrand-specific queries work well.** Asking "how does the rebrand from X change the company's positioning?" produced detailed before/after comparison tables from NotebookLM. For rebrand research, make the before/after explicit in the query.
 
 ### Gap Strategies
 
 - [2026-06-09] **Connectivity is the highest-value signal.** A gap that connects 3+ existing pages is worth more than a gap that only affects one page. Prioritize gaps that will create the most wikilinks.
 - [2026-06-09] **Stub enrichment is highest yield per minute.** Taking a page from 1 sentence to 1 paragraph with cross-references takes less research time than creating a brand-new concept page, and immediately improves the vault for anyone reading that page.
 - [2026-06-09] **Corporate hubs first.** The 11 corporate entities are the backbone of the vault. Each one that's still a stub is a missing piece in the overall map. Prioritize these above project-level gaps.
+- [2026-06-09] **Rebrand research has cascading value.** When a corporate entity rebrands, it touches multiple pages: the hub itself, the Fortisyn parent hub (subsidiary list), index.md (section headers and summaries), gap-priorities.md, and any project pages referencing the old name. One rebrand discovery = 5+ page updates. Score rebrand gaps higher.
 
 ### Anti-Strategies (what to avoid)
 
 - [2026-06-09] **Don't research what the vault already knows.** Always check existing pages before creating new ones. A gap that's already covered is wasted time.
 - [2026-06-09] **Don't go deep on one gap at the expense of others.** Better to cover 2-3 gaps at moderate depth than 1 gap exhaustively. The scout's value is in breadth of coverage, not depth per topic.
+- [2026-06-09] **Don't rely on URL sources for React SPAs.** NotebookLM's URL fetcher returns errors for single-page apps (auron.media, mercovaretail.com). Check with `curl` first — if the HTML is just `<div id="root">`, skip the URL source and use text sources instead. Saves a failed source slot per notebook.
+- [2026-06-09] **NotebookLM queries may need retries.** The Auron Media query failed with "RPC rLM1Ne failed: fetch failed" on first attempt but succeeded on retry. Always retry once before giving up on a notebook query.

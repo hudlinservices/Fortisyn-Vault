@@ -1,27 +1,40 @@
 ---
-name: "Jungle Media"
+name: "Auron Media"
 type: "corporate-hub"
 status: "active"
-description: "Audio/video production, content creation, media marketing, and social media company"
+description: "Digital creation and marketing — websites, branding, and AI-powered campaigns. Formerly Jungle Media."
 parent: "[[10-Projects/fortisyn/_corporate-hub|Fortisyn]]"
 path: "/home/projects/junglemedia"
+url: "https://auron.media"
 tags:
   - corporate-hub
+  - auronmedia
   - junglemedia
-updated: "2026-05-18"
+updated: "2026-06-09"
 ---
+# Auron Media
 
-# Jungle Media
+**Digital creation and marketing.** Websites, branding, and AI-powered campaigns that get results. The creative engine for the entire Fortisyn umbrella — any entity needing content, video, social media, or branding goes through Auron Media.
 
-**Audio/video, content creation, media marketing, and social media.** The creative engine — produces video compositions (Hyperframes), audio content, branding visuals, and runs social media presence across the Fortisyn umbrella.
+**URL:** [auron.media](https://auron.media)
 
-## Capabilities
+## Rebrand: Jungle Media → Auron Media
 
-- Video production (Hyperframes compositions)
-- Audio production and engineering
-- Content creation and marketing
-- Social media management
-- Brand and visual identity
+Auron Media was formerly **Jungle Media** (audio/video production, content creation, social media). The rebrand represents a strategic shift:
+
+| Dimension | Jungle Media (old) | Auron Media (new) |
+|-----------|-------------------|-------------------|
+| Focus | Audio/video production | Digital creation and marketing |
+| Core offering | Content and social media | Websites, branding, AI campaigns |
+| Tech stack | Traditional media production | AI-powered marketing technology |
+| Model | Media production house | Full-stack digital agency |
+
+## Services
+
+- **Website design and development** — digital platforms for Fortisyn entities and clients
+- **Branding and visual identity** — brand signatures, logos, design systems
+- **AI-powered marketing campaigns** — data-driven, performance-focused
+- **Digital content creation** — video, social media, and content marketing across all channels
 
 ## Active Projects
 
@@ -40,7 +53,19 @@ SORT priority ASC
 - [[10-Projects/junglemedia/limited-edition-intro|Limited Edition Intro]] — Hyperframes video intro
 - [[10-Projects/junglemedia/signatures|Signatures]] — Brand signatures and visuals
 
+## Related Entities
+
+- [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
+- [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin]] — Personal brand (content, books, speaking)
+- [[10-Projects/versaretail/_corporate-hub|Mercova Retail]] — White-label stores (branded merchandise)
+- [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] — Publishing (book covers, marketing)
+
 ## Notes
 
+### 2026-06-09
+- Scout research: documented rebrand from Jungle Media to Auron Media based on auron.media site and NotebookLM synthesis
+- Directory on disk still `junglemedia/` — rename pending
+- auron.media is a React SPA; description extracted from page meta
+
 ### 2026-05-18
-- Creative engine for the entire umbrella — any entity needing content/video/social goes through Jungle Media
+- Previously documented as Jungle Media — creative engine for the umbrella

@@ -30,7 +30,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Fortisyn
 | Page | Summary |
 |---|---|
-| [[10-Projects/fortisyn/_corporate-hub\|Fortisyn]] | Corporate hub — Fortisyn Group parent entity |
+| [[10-Projects/fortisyn/_corporate-hub\|Fortisyn]] | Parent holding company — 11 entities, centralized IT + software backbone, 2 recent rebrands |
 
 ### Hudlin Services
 | Page | Summary |
@@ -45,18 +45,18 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/innovatience/lab-network\|Lab Network]] | Lab network infrastructure and topology |
 | [[10-Projects/innovatience/website\|Innovatience Website]] | innovatience.ca website project |
 
-### Jungle Media
+### Auron Media (formerly Jungle Media)
 | Page | Summary |
 |---|---|
-| [[10-Projects/junglemedia/_corporate-hub\|Jungle Media]] | Corporate hub — Jungle Media content and media entity |
-| [[10-Projects/junglemedia/Junglemedia\|Junglemedia]] | Jungle Media project overview |
+| [[10-Projects/junglemedia/_corporate-hub\|Auron Media]] | Digital creation and marketing — websites, branding, AI-powered campaigns. Formerly Jungle Media. auron.media |
+| [[10-Projects/junglemedia/Junglemedia\|Junglemedia]] | Auron Media project overview |
 | [[10-Projects/junglemedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
 | [[10-Projects/junglemedia/signatures\|Signatures]] | Brand signatures and visual identity |
 
 ### La Dolce Niente
 | Page | Summary |
 |---|---|
-| [[10-Projects/ladolceniente/_corporate-hub\|La Dolce Niente]] | Corporate hub — La Dolce Niente entity overview |
+| [[10-Projects/ladolceniente/_corporate-hub\|La Dolce Niente]] | Property and asset acquisition — residential, commercial, land. ladolceniente.com |
 
 ### Literary Imprint
 | Page | Summary |
@@ -66,7 +66,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Python Slayers
 | Page | Summary |
 |---|---|
-| [[10-Projects/pythonslayers/_corporate-hub\|Python Slayers]] | Corporate hub — software arm of Fortisyn Group |
+| [[10-Projects/pythonslayers/_corporate-hub\|Python Slayers]] | Full-stack development and digital solutions — pythonslayers.com |
 | [[10-Projects/pythonslayers/my-brain\|My Brain]] | This vault — agentic personal OS, knowledge hub, home dashboard |
 | [[10-Projects/pythonslayers/chat-assistant\|Chat Assistant]] | AI-powered chat application — full-stack |
 | [[10-Projects/pythonslayers/spanish-tutor\|Spanish Tutor]] | Language learning application for Spanish — full-stack |
@@ -87,13 +87,13 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology]] | Corporate hub — Soleria Technology entity overview |
 | [[10-Projects/soleriatechnology/website/soleriatechnology-com\|soleriatechnology.com]] | Soleria Technology website — 12 routes, most complex React SPA in portfolio |
 
-### Versa Retail
+### Mercova Retail (formerly Versa Retail)
 | Page | Summary |
 |---|---|
-| [[10-Projects/versaretail/_corporate-hub\|Versa Retail]] | Corporate hub — Versa Retail e-commerce entity |
-| [[10-Projects/versaretail/Versaretail\|Versaretail]] | Versa Retail project overview |
-| [[10-Projects/versaretail/versa-admin\|Versa Admin]] | Admin dashboard for Versa Retail platform |
-| [[10-Projects/versaretail/versa-api\|Versa API]] | API backend for Versa Retail platform |
+| [[10-Projects/versaretail/_corporate-hub\|Mercova Retail]] | White-label store platform — branded merchandise on your site. Formerly Versa Retail. mercovaretail.com |
+| [[10-Projects/versaretail/Versaretail\|Versaretail]] | Mercova Retail project overview |
+| [[10-Projects/versaretail/versa-admin\|Versa Admin]] | Admin dashboard for Mercova Retail platform |
+| [[10-Projects/versaretail/versa-api\|Versa API]] | API backend for Mercova Retail platform |
 | [[10-Projects/versaretail/versa-store\|Versa Store]] | E-commerce storefront engine |
 | [[10-Projects/versaretail/junglemeditation\|Jungle Meditation]] | Wellness platform — meditation, breathwork, life coaching |
 | [[10-Projects/versaretail/junglewear\|Jungle Wear]] | Apparel brand e-commerce storefront — Django |
@@ -202,4 +202,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities, 30+ projects, 5 skill templates, 2 agents, 6 templates, 4 daily notes. Last updated 2026-06-09.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail), 30+ projects, 5 skill templates, 2 agents, 6 templates, 4 daily notes. Last updated 2026-06-09.
