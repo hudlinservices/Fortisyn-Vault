@@ -25,7 +25,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Aurora Legacy
 | Page | Summary |
 |---|---|
-| [[10-Projects/auroralegacy/_corporate-hub\|Aurora Legacy]] | Corporate hub — Aurora Legacy entity overview |
+| [[10-Projects/auroralegacy/_corporate-hub\|Aurora Legacy]] | Trust company — holds and manages assets across Fortisyn umbrella. auroralegacy.com |
 
 ### Fortisyn
 | Page | Summary |
@@ -35,7 +35,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Hudlin Services
 | Page | Summary |
 |---|---|
-| [[10-Projects/hudlinservices/_corporate-hub\|Hudlin Services]] | Corporate hub — Hudlin Services entity overview |
+| [[10-Projects/hudlinservices/_corporate-hub\|Hudlin Services]] | Managed IT & Networking — internet, DNS, email, Kubernetes clusters. hudlinservices.com |
 
 ### Innovatience
 | Page | Summary |
@@ -61,7 +61,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Literary Imprint
 | Page | Summary |
 |---|---|
-| [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | Corporate hub — Literary Imprint publishing entity |
+| [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | Digital publishing — DIY or done-for-you. Published 5 books by Roy Hudlin. literaryimprint.com |
 
 ### Python Slayers
 | Page | Summary |
@@ -78,8 +78,8 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Roy Hudlin
 | Page | Summary |
 |---|---|
-| [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]] | Corporate hub — personal brand entity |
-| [[10-Projects/royhudlin/website/royhudlin-com\|royhudlin.com]] | Personal brand website — content, book snippets, brand building |
+| [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]] | MindTechArt — meditation teacher, author of 5 books, photographic poetry. royhudlin.com |
+| [[10-Projects/royhudlin/website/royhudlin-com\|royhudlin.com]] | Personal brand website — MindTechArt: mindfulness, creativity, technology |
 
 ### Soleria Technology
 | Page | Summary |

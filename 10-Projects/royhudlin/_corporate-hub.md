@@ -2,25 +2,50 @@
 name: "Roy Hudlin"
 type: "corporate-hub"
 status: "active"
-description: "Personal brand — author of 5 books, social media content, thought leadership"
+description: "Personal brand — meditation teacher, author of 5 books, MindTechArt"
 parent: "[[10-Projects/fortisyn/_corporate-hub|Fortisyn]]"
 path: "/home/projects/royhudlin"
+url: "https://royhudlin.com"
 tags:
   - corporate-hub
   - royhudlin
-updated: "2026-05-18"
+updated: "2026-06-09"
 ---
-
 # Roy Hudlin
 
-**Personal brand entity.** Author of 5 books (published through [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]]). Social media content, book snippets, thought leadership, and personal brand building.
+**MindTechArt.** Meditation teacher, author, and founder of the Fortisyn Group. Work sits at the intersection of mindfulness, creativity, and technology — exploring how stillness fuels innovation.
 
-## Role
+**URL:** [royhudlin.com](https://royhudlin.com)
 
-- Personal brand development and content
-- Social media presence and engagement
-- Book promotion and snippet distribution
-- Thought leadership and speaking
+## Brand
+
+- **MindTechArt** — the synthesis of mindfulness (Mind), creativity (Art), and technology (Tech)
+- **Narrative Alchemy** — storytelling as a timeless art for sharing experiences and connecting humanity
+- Focus: using technology as a tool for growth, not distraction
+
+## Published Books (5)
+
+All published through [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]]:
+
+| # | Title |
+|---|-------|
+| 1 | *The Art of Stillness* |
+| 2 | *Veil's of Mist* |
+| 3 | *Ocean's Embrace* |
+| 4 | *Echoes of Dusk* |
+| 5 | (title pending confirmation) |
+
+## Photographic Poetry
+
+- *Embers of the Golden Hour*
+- *Where Ocean Meets Jungle*
+- *Sunset's Promise*
+
+## Platforms
+
+- Blog — mindfulness, creativity, technology insights
+- Social: LinkedIn, Instagram, YouTube
+- Speaking engagements and thought leadership
 
 ## Active Projects
 
@@ -40,9 +65,10 @@ SORT priority ASC
 
 ## Related Entities
 
-- [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] — Published 5 books
-- [[10-Projects/junglemedia/_corporate-hub|Jungle Media]] — Content production partner
-- [[10-Projects/versaretail/royhudlin|Versa Retail → Roy Hudlin Store]] — E-commerce storefront (separate — retail, not personal brand)
+- [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] — Publisher of all 5 books
+- [[10-Projects/junglemedia/_corporate-hub|Auron Media]] — Content production, social media, branding
+- [[10-Projects/versaretail/_corporate-hub|Mercova Retail]] — Branded merchandise store ([[10-Projects/versaretail/royhudlin|Roy Hudlin Store]])
+- [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
 
 ## File System
 
@@ -51,3 +77,13 @@ SORT priority ASC
 └── websites/
     └── royhudlin.com/    ← Personal brand website (backend + frontend + image-extract)
 ```
+
+## Notes
+
+### 2026-06-09
+- Scout research: added 4 of 5 book titles, MindTechArt brand framework, photographic poetry works, royhudlin.com URL
+- Fixed stale cross-references: "Jungle Media" → "Auron Media", "Versa Retail" → "Mercova Retail"
+- Book #5 title not yet confirmed — pending
+
+### 2026-05-18
+- Previously documented as personal brand entity with 5 books and social media presence

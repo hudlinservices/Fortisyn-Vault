@@ -48,6 +48,35 @@ Created autonomous research skill system:
 - Updated `Skill-Registry.md`, `index.md`, `CLAUDE.md` with research domain and scout workflow
 - Weekly cron scheduled for Sunday 7:13 PM CST
 
+## [2026-06-09] scout | Second run — Roy Hudlin books, Literary Imprint model, Hudlin Services infra
+
+Researched 3 approved gaps via NotebookLM. Bonus: discovered auroralegacy.com URL.
+
+**Roy Hudlin personal brand:**
+- Documented MindTechArt brand framework (mindfulness + creativity + technology)
+- Identified 4 of 5 book titles: *The Art of Stillness*, *Veil's of Mist*, *Ocean's Embrace*, *Echoes of Dusk*
+- Added photographic poetry works: *Embers of the Golden Hour*, *Where Ocean Meets Jungle*, *Sunset's Promise*
+- Added royhudlin.com URL, Narrative Alchemy concept, platform list
+- Fixed stale cross-references: "Jungle Media" → "Auron Media", "Versa Retail" → "Mercova Retail"
+
+**Literary Imprint publishing:**
+- Documented hybrid publishing model: DIY (free, % of sales) vs DFY (no upfront, 15% net)
+- Services: formatting, cover design (via Auron Media), editing, distribution, launch marketing
+- 48-hour manuscript review, can switch paths anytime
+- Added literaryimprint.com URL, 4 of 5 book titles
+
+**Hudlin Services IT infrastructure:**
+- Documented full service catalog: internet, DNS, email, websites, managed support
+- Infrastructure stack: Kubernetes clusters, VLAN segmentation, cloud services, failover
+- 99.9% uptime SLA, proactive monitoring, human-centric support (no chatbots)
+- Added hudlinservices.com URL, Fortisyn dependency table
+
+**Bonus — Aurora Legacy:** Discovered auroralegacy.com during domain sweep. Updated hub with URL.
+
+**Also:** Updated index.md summaries, gap-priorities.md (4 gaps → Researched), knowledge-scout.md self-improvement.
+
+Total: 4 corporate hubs updated (Roy Hudlin, Literary Imprint, Hudlin Services, Aurora Legacy), 4 gaps researched, 6 URLs now documented across all entities.
+
 ## [2026-06-09] lint | First lint pass
 
 Full wiki health check. Fixed: 7 pages missing frontmatter (README, test-run, music-library-missing, lab-network, linking-guide, search-config, Skill-Registry), 4 agent run logs, 2 broken links in lab-network, zero inbound links to new concept pages (added cross-refs from llm_wiki.md), stale path reference in pythonslayers corporate hub. Noted: 27 stale pages from May 18-24, thin project content, Dataview dependency for external LLM readability, no daily notes since May 26, agent dormancy since May 19. Report filed at [[Inbox/lint-2026-06-09]].
