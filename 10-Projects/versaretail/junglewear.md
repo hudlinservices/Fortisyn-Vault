@@ -13,7 +13,7 @@ tags:
   - django
   - ecommerce
 created: "2026-05-18"
-updated: "2026-05-18"
+updated: "2026-06-09"
 ---
 
 # Jungle Wear
