@@ -29,3 +29,6 @@ Thumbs.db
 
 # Specs (design docs, not runtime)
 specs/
+
+# Harness artifacts
+CLAUDE.local.md
