@@ -119,6 +119,9 @@ date: "YYYY-MM-DD"
 
 ## Ingest Workflow
 
+Two ingestion paths:
+
+### Path A: raw/ folder (for markdown/text files)
 When the human drops a source into `raw/` and says "ingest this":
 
 1. **Read** the source file
@@ -131,6 +134,17 @@ When the human drops a source into `raw/` and says "ingest this":
 4. **Update index.md** — add any new pages with links and one-line summaries
 5. **Append to log.md** — `## [YYYY-MM-DD] ingest | Source Title` with a brief description of what was created/updated
 6. **Report** what was done: pages created, pages updated, key insights extracted
+
+### Path B: Vault Ingest notebook (for PDFs, URLs, any format — works from phone)
+NotebookLM notebook `1ded6d40` ("Vault Ingest"). The human can drop documents here from anywhere — phone, tablet, another computer.
+
+When the human says "ingest from the vault ingest notebook" (or the weekly cron fires):
+
+1. **Check** `source_list(notebook_id="1ded6d40")` for new sources not in `90-System/ingest-log.md`
+2. **Query** each new source via `notebook_query` with: "Extract all key concepts, entities, claims, and facts. What should be filed into a knowledge base?"
+3. **Synthesize** — create/update wiki pages, cross-reference, flag contradictions
+4. **Update** `index.md`, `log.md`, `ingest-log.md` (record source IDs as processed)
+5. **Report** what was ingested
 
 A single source should touch 5-15 wiki pages. The goal is synthesis, not just summarization.
 

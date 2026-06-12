@@ -44,9 +44,9 @@ The Fortisyn Group operates through high internal synergy — specialized entiti
 | [[10-Projects/ladolceniente/_corporate-hub\|La Dolce Niente]] | Property and asset acquisition | ladolceniente.com |
 | [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology]] | Home automation and technology solutions | soleriatechnology.com |
 | [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | Publishing — 5 books by Roy Hudlin | — |
-| [[10-Projects/junglemedia/_corporate-hub\|Auron Media]] | Digital creation and marketing (formerly Jungle Media) | auron.media |
+| [[10-Projects/auronmedia/_corporate-hub\|Auron Media]] | Digital creation and marketing (formerly Jungle Media) | auron.media |
 | [[10-Projects/pythonslayers/_corporate-hub\|Python Slayers]] | Software arm — AI, full-stack, automation | pythonslayers.com |
-| [[10-Projects/versaretail/_corporate-hub\|Mercova Retail]] | White-label store platform (formerly Versa Retail) | mercovaretail.com |
+| [[10-Projects/mercovaretail/_corporate-hub\|Mercova Retail]] | White-label store platform (formerly Versa Retail) | mercovaretail.com |
 
 ### Personal Brand
 

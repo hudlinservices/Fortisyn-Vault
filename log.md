@@ -100,6 +100,29 @@ Researched 3 gaps. All 11 corporate hubs now have URLs and enriched content.
 
 **All 11 corporate hubs now documented with URLs and enriched descriptions.** 9 of 14 gaps from initial scan now researched.
 
+## [2026-06-12] scout | Fourth run — Mercova architecture, Limited Edition Intro, directory renames
+
+Researched and corrected 3 gaps:
+
+**Versa → Mercova stale references corrected:**
+- Rewrote versa-admin.md, versa-api.md, versa-store.md with Mercova branding
+- Added architecture diagrams showing Store → API → Admin triad
+- All cross-references updated to Mercova Retail
+
+**Limited Edition Intro enriched:**
+- Expanded stub with Hyperframes workflow context
+- Documented Auron Media → Mercova Retail pipeline (video intros for limited drops)
+- Fixed corporate_entity from "Jungle Media" to "Auron Media"
+
+**Directory renames completed:**
+- `10-Projects/junglemedia/` → `10-Projects/auronmedia/`
+- `10-Projects/versaretail/` → `10-Projects/mercovaretail/`
+- All wikilinks across entire vault updated via sed
+
+**Book #5 confirmed:** *Sloth Adventures: Hank Gets Lost* — first in a planned children's trilogy about Hank the Sloth in Costa Rica. Roy Hudlin hub updated with complete book catalog organized by series.
+
+All 14 original gaps now resolved. Gap registry cleared.
+
 ## [2026-06-09] lint | First lint pass
 
 Full wiki health check. Fixed: 7 pages missing frontmatter (README, test-run, music-library-missing, lab-network, linking-guide, search-config, Skill-Registry), 4 agent run logs, 2 broken links in lab-network, zero inbound links to new concept pages (added cross-refs from llm_wiki.md), stale path reference in pythonslayers corporate hub. Noted: 27 stale pages from May 18-24, thin project content, Dataview dependency for external LLM readability, no daily notes since May 26, agent dormancy since May 19. Report filed at [[Inbox/lint-2026-06-09]].

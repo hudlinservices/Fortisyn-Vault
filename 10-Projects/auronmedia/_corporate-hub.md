@@ -43,21 +43,21 @@ TABLE WITHOUT ID
   file.link AS "Project",
   status AS "Status",
   priority AS "Priority"
-FROM "10-Projects/junglemedia"
+FROM "10-Projects/auronmedia"
 WHERE tags INCLUDES "project" AND status != "archived"
 SORT priority ASC
 ```
 
 ## Projects
 
-- [[10-Projects/junglemedia/limited-edition-intro|Limited Edition Intro]] — Hyperframes video intro
-- [[10-Projects/junglemedia/signatures|Signatures]] — Brand signatures and visuals
+- [[10-Projects/auronmedia/limited-edition-intro|Limited Edition Intro]] — Hyperframes video intro
+- [[10-Projects/auronmedia/signatures|Signatures]] — Brand signatures and visuals
 
 ## Related Entities
 
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
 - [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin]] — Personal brand (content, books, speaking)
-- [[10-Projects/versaretail/_corporate-hub|Mercova Retail]] — White-label stores (branded merchandise)
+- [[10-Projects/mercovaretail/_corporate-hub|Mercova Retail]] — White-label stores (branded merchandise)
 - [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] — Publishing (book covers, marketing)
 
 ## Notes

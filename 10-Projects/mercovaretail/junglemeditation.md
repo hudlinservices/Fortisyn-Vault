@@ -41,8 +41,8 @@ junglemeditation/
 
 ## Related
 
-- [[10-Projects/versaretail/website/junglemeditation-com|junglemeditation.com]] — Website
-- [[10-Projects/junglemedia/_corporate-hub|Jungle Media]] — Content and media for the brand
+- [[10-Projects/mercovaretail/website/junglemeditation-com|junglemeditation.com]] — Website
+- [[10-Projects/auronmedia/_corporate-hub|Jungle Media]] — Content and media for the brand
 
 ## Notes
 

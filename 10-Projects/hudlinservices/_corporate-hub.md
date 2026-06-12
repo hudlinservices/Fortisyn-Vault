@@ -48,7 +48,7 @@ Every entity in the Fortisyn Group depends on Hudlin Services:
 | [[10-Projects/pythonslayers/_corporate-hub\|Python Slayers]] | Software deployment infrastructure |
 | [[10-Projects/ladolceniente/_corporate-hub\|La Dolce Niente]] | Network/internet at Costa Rica property |
 | [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology]] | Network for home automation systems |
-| [[10-Projects/versaretail/_corporate-hub\|Mercova Retail]] | E-commerce hosting and infrastructure |
+| [[10-Projects/mercovaretail/_corporate-hub\|Mercova Retail]] | E-commerce hosting and infrastructure |
 | All other entities | Primary connectivity and infrastructure |
 
 ## Related Entities

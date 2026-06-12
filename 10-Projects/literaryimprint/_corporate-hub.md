@@ -25,7 +25,7 @@ Authors choose their path and can switch at any time. Manuscript drafts reviewed
 |---|---|---|
 | **Cost** | Free to start, small % of sales | No upfront cost, 15% of net sales |
 | **Formatting** | Self-service tools | Professional formatting and layout |
-| **Cover design** | Templates and editor | Custom cover design (via [[10-Projects/junglemedia/_corporate-hub\|Auron Media]]) |
+| **Cover design** | Templates and editor | Custom cover design (via [[10-Projects/auronmedia/_corporate-hub\|Auron Media]]) |
 | **Editing** | Self-managed | Professional editing and proofreading |
 | **Distribution** | Major platforms | Major platforms |
 | **Marketing** | Self-managed | Launch marketing and promotion strategy |
@@ -41,12 +41,12 @@ Authors choose their path and can switch at any time. Manuscript drafts reviewed
 | 2 | *Veil's of Mist* |
 | 3 | *Ocean's Embrace* |
 | 4 | *Echoes of Dusk* |
-| 5 | (title pending) |
+| 5 | *Sloth Adventures: Hank Gets Lost* |
 
 ## Related Entities
 
 - [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin]] — Primary author, 5 books published
-- [[10-Projects/junglemedia/_corporate-hub|Auron Media]] — Custom cover design and marketing visuals
+- [[10-Projects/auronmedia/_corporate-hub|Auron Media]] — Custom cover design and marketing visuals
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
 
 ## Notes
@@ -54,7 +54,7 @@ Authors choose their path and can switch at any time. Manuscript drafts reviewed
 ### 2026-06-09
 - Scout research: documented publishing model (DIY vs DFY), 4 of 5 book titles, literaryimprint.com URL
 - Auron Media partnership for cover design and launch marketing
-- Book #5 title not yet confirmed — pending
+- Book #5 confirmed 2026-06-12: *Sloth Adventures: Hank Gets Lost* — children's book, first of planned trilogy
 
 ### 2026-05-18
 - Previously documented as publishing entity with 5 books and no active filesystem projects

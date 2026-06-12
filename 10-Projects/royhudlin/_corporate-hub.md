@@ -27,13 +27,22 @@ updated: "2026-06-09"
 
 All published through [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]]:
 
-| # | Title |
-|---|-------|
-| 1 | *The Art of Stillness* |
-| 2 | *Veil's of Mist* |
-| 3 | *Ocean's Embrace* |
-| 4 | *Echoes of Dusk* |
-| 5 | (title pending confirmation) |
+### The Mindful Way Trilogy
+| # | Title | Details |
+|---|-------|---------|
+| 1 | *The Art of Stillness* | Finding peace in a fast-paced world |
+
+### Costa Rica Poetry Trilogy
+| # | Title | Details |
+|---|-------|---------|
+| 2 | *Echoes of Dusk* | Sunsets and poetry — photography + verse |
+| 3 | *Ocean's Embrace* | Beaches and poetry — 40 photographs |
+| 4 | *Veils of Mist* | Mountains and poetry — 50 photographs |
+
+### Children's Books
+| # | Title | Details |
+|---|-------|---------|
+| 5 | *Sloth Adventures: Hank Gets Lost* | First in a planned trilogy about Hank the Sloth's adventures in the Costa Rica jungle |
 
 ## Photographic Poetry
 
@@ -66,8 +75,8 @@ SORT priority ASC
 ## Related Entities
 
 - [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] — Publisher of all 5 books
-- [[10-Projects/junglemedia/_corporate-hub|Auron Media]] — Content production, social media, branding
-- [[10-Projects/versaretail/_corporate-hub|Mercova Retail]] — Branded merchandise store ([[10-Projects/versaretail/royhudlin|Roy Hudlin Store]])
+- [[10-Projects/auronmedia/_corporate-hub|Auron Media]] — Content production, social media, branding
+- [[10-Projects/mercovaretail/_corporate-hub|Mercova Retail]] — Branded merchandise store ([[10-Projects/mercovaretail/royhudlin|Roy Hudlin Store]])
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
 
 ## File System

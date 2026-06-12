@@ -26,7 +26,7 @@ Build the Roy Hudlin personal brand:
 - Share book snippets from 5 published books
 - Distribute social media content
 - Establish thought leadership and speaking presence
-- Drive engagement to the [[10-Projects/versaretail/royhudlin|Versa Retail store]]
+- Drive engagement to the [[10-Projects/mercovaretail/royhudlin|Versa Retail store]]
 
 ## Structure
 

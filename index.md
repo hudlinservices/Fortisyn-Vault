@@ -48,10 +48,10 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Auron Media (formerly Jungle Media)
 | Page | Summary |
 |---|---|
-| [[10-Projects/junglemedia/_corporate-hub\|Auron Media]] | Digital creation and marketing — websites, branding, AI-powered campaigns. Formerly Jungle Media. auron.media |
-| [[10-Projects/junglemedia/Junglemedia\|Junglemedia]] | Auron Media project overview |
-| [[10-Projects/junglemedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
-| [[10-Projects/junglemedia/signatures\|Signatures]] | Brand identity system — logos, colors, typography, email signatures for all Fortisyn entities |
+| [[10-Projects/auronmedia/_corporate-hub\|Auron Media]] | Digital creation and marketing — websites, branding, AI-powered campaigns. Formerly Jungle Media. auron.media |
+| [[10-Projects/auronmedia/Junglemedia\|Junglemedia]] | Auron Media project overview |
+| [[10-Projects/auronmedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
+| [[10-Projects/auronmedia/signatures\|Signatures]] | Brand identity system — logos, colors, typography, email signatures for all Fortisyn entities |
 
 ### La Dolce Niente
 | Page | Summary |
@@ -90,15 +90,15 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Mercova Retail (formerly Versa Retail)
 | Page | Summary |
 |---|---|
-| [[10-Projects/versaretail/_corporate-hub\|Mercova Retail]] | White-label store platform — branded merchandise on your site. Formerly Versa Retail. mercovaretail.com |
-| [[10-Projects/versaretail/Versaretail\|Versaretail]] | Mercova Retail project overview |
-| [[10-Projects/versaretail/versa-admin\|Versa Admin]] | Admin dashboard for Mercova Retail platform |
-| [[10-Projects/versaretail/versa-api\|Versa API]] | API backend for Mercova Retail platform |
-| [[10-Projects/versaretail/versa-store\|Versa Store]] | E-commerce storefront engine |
-| [[10-Projects/versaretail/junglemeditation\|Jungle Meditation]] | Wellness platform — meditation, breathwork, life coaching |
-| [[10-Projects/versaretail/junglewear\|Jungle Wear]] | Apparel brand e-commerce storefront — Django |
-| [[10-Projects/versaretail/royhudlin\|Roy Hudlin Store]] | Roy Hudlin branded merchandise store — Django e-commerce |
-| [[10-Projects/versaretail/website/junglemeditation-com\|junglemeditation.com]] | Jungle Meditation website frontend |
+| [[10-Projects/mercovaretail/_corporate-hub\|Mercova Retail]] | White-label store platform — branded merchandise on your site. Formerly Versa Retail. mercovaretail.com |
+| [[10-Projects/mercovaretail/Versaretail\|Versaretail]] | Mercova Retail project overview |
+| [[10-Projects/mercovaretail/versa-admin\|Versa Admin]] | Admin dashboard for Mercova Retail platform |
+| [[10-Projects/mercovaretail/versa-api\|Versa API]] | API backend for Mercova Retail platform |
+| [[10-Projects/mercovaretail/versa-store\|Versa Store]] | E-commerce storefront engine |
+| [[10-Projects/mercovaretail/junglemeditation\|Jungle Meditation]] | Wellness platform — meditation, breathwork, life coaching |
+| [[10-Projects/mercovaretail/junglewear\|Jungle Wear]] | Apparel brand e-commerce storefront — Django |
+| [[10-Projects/mercovaretail/royhudlin\|Roy Hudlin Store]] | Roy Hudlin branded merchandise store — Django e-commerce |
+| [[10-Projects/mercovaretail/website/junglemeditation-com\|junglemeditation.com]] | Jungle Meditation website frontend |
 
 ### Cross-Entity
 | Page | Summary |

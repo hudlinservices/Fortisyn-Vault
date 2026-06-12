@@ -41,9 +41,9 @@ Seven Django projects power the platform:
 
 ## Brand Storefronts
 
-- [[10-Projects/versaretail/junglemeditation|Jungle Meditation]] — Meditation and wellness brand
-- [[10-Projects/versaretail/junglewear|Jungle Wear]] — Apparel brand
-- [[10-Projects/versaretail/royhudlin|Roy Hudlin]] — Personal brand merchandise
+- [[10-Projects/mercovaretail/junglemeditation|Jungle Meditation]] — Meditation and wellness brand
+- [[10-Projects/mercovaretail/junglewear|Jungle Wear]] — Apparel brand
+- [[10-Projects/mercovaretail/royhudlin|Roy Hudlin]] — Personal brand merchandise
 
 ## Tech Stack
 
@@ -58,7 +58,7 @@ TABLE WITHOUT ID
   file.link AS "Project",
   status AS "Status",
   priority AS "Priority"
-FROM "10-Projects/versaretail"
+FROM "10-Projects/mercovaretail"
 WHERE tags INCLUDES "project" AND status != "archived"
 SORT priority ASC
 ```
@@ -66,7 +66,7 @@ SORT priority ASC
 ## Related Entities
 
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
-- [[10-Projects/junglemedia/_corporate-hub|Auron Media]] — Branding and creative for storefronts
+- [[10-Projects/auronmedia/_corporate-hub|Auron Media]] — Branding and creative for storefronts
 - [[10-Projects/pythonslayers/_corporate-hub|Python Slayers]] — Software development (Django apps)
 - [[10-Projects/hudlinservices/_corporate-hub|Hudlin Services]] — Hosting and infrastructure
 

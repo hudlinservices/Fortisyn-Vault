@@ -61,7 +61,7 @@ signatures/
 
 ## Related
 
-- [[10-Projects/junglemedia/_corporate-hub|Auron Media]] — Parent entity, branding and visual identity service
+- [[10-Projects/auronmedia/_corporate-hub|Auron Media]] — Parent entity, branding and visual identity service
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Umbrella brand and all entities
 - [[10-Projects/Corporate-Registry|Corporate Registry]] — Full entity list
 
