@@ -15,14 +15,11 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 
 | # | Gap | Type | Affected Pages | Identified |
 |---|-----|------|----------------|------------|
-| 1 | Soleria Technology — services, clients, URL | corporate-hub | [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology]] | 2026-06-09 |
-| 2 | Innovatience — innovation consulting focus areas, URL | corporate-hub | [[10-Projects/innovatience/_corporate-hub\|Innovatience]] | 2026-06-09 |
-| 3 | Limited Edition Intro — product strategy details | stub | [[10-Projects/junglemedia/limited-edition-intro\|Limited Edition Intro]] | 2026-06-09 |
-| 4 | Signatures — brand identity system | stub | [[10-Projects/junglemedia/signatures\|Signatures]] | 2026-06-09 |
-| 5 | Versa Admin/API/Store — how they fit together under Mercova | concept | [[10-Projects/versaretail/versa-admin\|Versa Admin]], [[10-Projects/versaretail/versa-api\|Versa API]], [[10-Projects/versaretail/versa-store\|Versa Store]] | 2026-06-09 |
-| 6 | Rename junglemedia/ → auronmedia/ directory | rename | [[10-Projects/junglemedia/_corporate-hub\|Auron Media hub]], project files | 2026-06-09 |
-| 7 | Rename versaretail/ → mercovaretail/ directory + versa-* → mercova-* files | rename | [[10-Projects/versaretail/_corporate-hub\|Mercova Retail hub]], 5 project pages | 2026-06-09 |
-| 8 | Roy Hudlin book #5 title unconfirmed | data-gap | [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]], [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | 2026-06-09 |
+| 1 | Limited Edition Intro — product strategy details | stub | [[10-Projects/junglemedia/limited-edition-intro\|Limited Edition Intro]] | 2026-06-09 |
+| 2 | Versa Admin/API/Store — how they fit together under Mercova | concept | [[10-Projects/versaretail/versa-admin\|Versa Admin]], [[10-Projects/versaretail/versa-api\|Versa API]], [[10-Projects/versaretail/versa-store\|Versa Store]] | 2026-06-09 |
+| 3 | Rename junglemedia/ → auronmedia/ directory | rename | [[10-Projects/junglemedia/_corporate-hub\|Auron Media hub]], project files | 2026-06-09 |
+| 4 | Rename versaretail/ → mercovaretail/ directory + versa-* → mercova-* files | rename | [[10-Projects/versaretail/_corporate-hub\|Mercova Retail hub]], 5 project pages | 2026-06-09 |
+| 5 | Roy Hudlin book #5 title unconfirmed | data-gap | [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]], [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | 2026-06-09 |
 
 ## Researched
 
@@ -37,3 +34,6 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 | 2026-06-09 | Literary Imprint — publishing model, book titles, URL | [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint hub]] — DIY/DFY model, 4 of 5 books, services, literaryimprint.com |
 | 2026-06-09 | Hudlin Services — services, infrastructure stack, URL | [[10-Projects/hudlinservices/_corporate-hub\|Hudlin Services hub]] — service catalog, Kubernetes/VLAN/failover stack, hudlinservices.com |
 | 2026-06-09 | Aurora Legacy — URL (bonus) | [[10-Projects/auroralegacy/_corporate-hub\|Aurora Legacy hub]] — auroralegacy.com |
+| 2026-06-09 | Innovatience — consulting focus, URL, client details | [[10-Projects/innovatience/_corporate-hub\|Innovatience hub]] — Technical Systems Consulting, AES Engineering client, innovatience.ca |
+| 2026-06-09 | Soleria Technology — smart home automation, URL | [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology hub]] — smart home products, R&D testbed loop, solariatechnology.com |
+| 2026-06-09 | Signatures — brand identity system (stub enrichment) | [[10-Projects/junglemedia/signatures\|Signatures page]] — 7 brand components, entity-organized asset library, Fortisyn-wide scope |

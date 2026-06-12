@@ -44,15 +44,17 @@ Find what the vault doesn't know and fill it in. Instead of waiting for a human 
 
 2. `[human]` **Review and approve gaps.** Review the ranked gap list. Reorder, remove, or add gaps. Confirm which gaps to research this run. The scout will not proceed without approval. (GATE: creative — gap selection is strategic.)
 
-3. `[agent]` **Research via NotebookLM.** For each approved gap:
-   - Create a notebook: `mcp__notebooklm__notebook_create(title="[YYYY-MM-DD] Scout — <gap topic>")`
-   - Add 2-4 web sources via `mcp__notebooklm__source_add`. Start with Wikipedia for concept overviews, then add recent articles, official docs, or tutorials depending on the topic. Use `type: "url"` for web pages, `type: "text"` for direct content.
-   - Check source processing status via `mcp__notebooklm__source_list` — wait until all sources show "ready."
-   - Query the notebook with 3 questions via `mcp__notebooklm__notebook_query`:
-     1. "What are the key concepts and facts about <topic>? Provide a structured overview."
-     2. "How does <topic> connect to <related vault topics>? What are the relationships?"
-     3. "What are the practical implications or actionable insights from <topic>?"
-   - Extract cited findings from each query response.
+3. `[agent]` **Research via NotebookLM.** Use one persistent notebook across all scout runs:
+   - Call `mcp__notebooklm__notebook_list` first. If a notebook titled "Knowledge Scout" exists, use it by its `notebook_id`. If not, create one: `mcp__notebooklm__notebook_create(title="Knowledge Scout")`.
+   - This notebook persists permanently — sources accumulate and queries build on prior context across every run.
+   - For each approved gap:
+     - Add 2-4 web sources via `mcp__notebooklm__source_add`. Prefer website URLs for corporate entities, Wikipedia for concept overviews, official docs paired with tutorials for technical topics. Use `type: "url"` for web pages, `type: "text"` for direct content or SPA meta descriptions.
+     - Check source processing status via `mcp__notebooklm__source_list` — wait until all sources show "ready."
+     - Query with targeted questions via `mcp__notebooklm__notebook_query`:
+       - Corporate entities: "What are the key facts about <entity>? What services do they offer and how do they connect to related entities?"
+       - Concepts: "What are the key concepts and how do they connect to <related topics>?"
+       - Stubs: "What information would enrich a page about <topic>? What are the key components and practical details?"
+     - Extract cited findings from each query response.
 
 4. `[agent]` **Synthesize into wiki pages.** For each researched gap:
    - Create a concept page in `40-Resources/` (for general topics) or enrich the existing stub page (for project-specific gaps).
@@ -114,6 +116,7 @@ Strategies evolve over time based on what works. Updated by the agent after each
 - [2026-06-09] **Pair technical docs with tutorials.** Official documentation produces dense, accurate but hard-to-synthesize output. Always pair with a tutorial or blog post that explains the same concepts in plain language.
 - [2026-06-09] **SPA sites need text sources.** React SPAs (like auron.media, mercovaretail.com) can't be processed as NotebookLM URL sources — the server only returns a bare `<div id="root">`. Instead, `curl` the page meta tags (`<title>`, `<meta name="description">`) and add them as `type: "text"` sources. NotebookLM synthesizes surprisingly well from just meta descriptions + background context.
 - [2026-06-09] **Domain sweeping is high-yield and near-zero cost.** Before researching corporate entities, do a batch `curl` across all likely domain names (entityname.com). One sweep found 5 live URLs in seconds. Some sites are SPAs (only meta tags visible) but those meta descriptions alone are valuable. Always do a domain sweep at the start of a scout run — it costs nothing and often finds bonus URLs for gaps you weren't even researching.
+- [2026-06-09] **Try spelling variations on domains.** soleriatechnology.com didn't resolve but sol**aria**technology.com does — the company name is "Soleria" but the domain uses "a." When a domain doesn't resolve, try common vowel variations before giving up. The user may know the correct spelling.
 
 ### Query Strategies
 
@@ -138,3 +141,5 @@ Strategies evolve over time based on what works. Updated by the agent after each
 - [2026-06-09] **Don't rely on URL sources for React SPAs.** NotebookLM's URL fetcher returns errors for single-page apps (auron.media, mercovaretail.com). Check with `curl` first — if the HTML is just `<div id="root">`, skip the URL source and use text sources instead. Saves a failed source slot per notebook.
 - [2026-06-09] **NotebookLM queries may need retries.** The Auron Media query failed with "RPC rLM1Ne failed: fetch failed" on first attempt but succeeded on retry. Always retry once before giving up on a notebook query.
 - [2026-06-09] **Don't defer URL-only gaps to a dedicated research run.** Domain sweeps are so cheap they should be done in every run as a side effect. Aurora Legacy's URL was discovered while researching other gaps — it took zero extra NotebookLM notebooks. URL discovery doesn't count against the max-3-gap guardrail.
+
+- [2026-06-12] **One persistent notebook, not per-run notebooks.** Creating a new NotebookLM notebook for every scout run fragments knowledge — the notebook can't learn across runs if sources are siloed. Use one persistent "Knowledge Scout" notebook. Call `notebook_list` at the start of Step 3, create it only once, and add sources cumulatively. Each run's queries benefit from every previous run's sources. The notebook gets smarter the more you use it.

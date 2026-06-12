@@ -77,6 +77,29 @@ Researched 3 approved gaps via NotebookLM. Bonus: discovered auroralegacy.com UR
 
 Total: 4 corporate hubs updated (Roy Hudlin, Literary Imprint, Hudlin Services, Aurora Legacy), 4 gaps researched, 6 URLs now documented across all entities.
 
+## [2026-06-09] scout | Third run — Innovatience, Soleria Technology, Signatures brand identity
+
+Researched 3 gaps. All 11 corporate hubs now have URLs and enriched content.
+
+**Innovatience — Technical Systems Consulting:**
+- Documented consulting services (software, infrastructure, web), innovatience.ca URL
+- AES Engineering confirmed as primary client and revenue source
+- Revenue engine role confirmed — funds the rest of Fortisyn
+
+**Soleria Technology — Smart Home Automation:**
+- Documented products: comfort, security, convenience focus
+- R&D testbed loop: prototype → test at La Dolce Niente → refine → productize
+- Discovered solariatechnology.com (note: domain uses "a" — different from company name)
+- 12-route React SPA, most complex frontend in Fortisyn portfolio
+
+**Signatures — Brand Identity System:**
+- Expanded from thin stub (1 asset) to full brand identity system framework
+- Documented 7 brand components: logo suite, color palette, typography, email signatures, print templates, social templates, guidelines
+- Organized by entity: all 11 Fortisyn entities get their own visual identity within the family
+- Only 1 asset delivered so far — significant growth opportunity identified
+
+**All 11 corporate hubs now documented with URLs and enriched descriptions.** 9 of 14 gaps from initial scan now researched.
+
 ## [2026-06-09] lint | First lint pass
 
 Full wiki health check. Fixed: 7 pages missing frontmatter (README, test-run, music-library-missing, lab-network, linking-guide, search-config, Skill-Registry), 4 agent run logs, 2 broken links in lab-network, zero inbound links to new concept pages (added cross-refs from llm_wiki.md), stale path reference in pythonslayers corporate hub. Noted: 27 stale pages from May 18-24, thin project content, Dataview dependency for external LLM readability, no daily notes since May 26, agent dormancy since May 19. Report filed at [[Inbox/lint-2026-06-09]].

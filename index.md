@@ -40,7 +40,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Innovatience
 | Page | Summary |
 |---|---|
-| [[10-Projects/innovatience/_corporate-hub\|Innovatience]] | Corporate hub — Innovatience entity overview |
+| [[10-Projects/innovatience/_corporate-hub\|Innovatience]] | Technical Systems Consulting — primary revenue engine. Client: AES Engineering. innovatience.ca |
 | [[10-Projects/innovatience/accounting\|Chart of Accounts Pro]] | Professional accounting application — Node.js |
 | [[10-Projects/innovatience/lab-network\|Lab Network]] | Lab network infrastructure and topology |
 | [[10-Projects/innovatience/website\|Innovatience Website]] | innovatience.ca website project |
@@ -51,7 +51,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/junglemedia/_corporate-hub\|Auron Media]] | Digital creation and marketing — websites, branding, AI-powered campaigns. Formerly Jungle Media. auron.media |
 | [[10-Projects/junglemedia/Junglemedia\|Junglemedia]] | Auron Media project overview |
 | [[10-Projects/junglemedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
-| [[10-Projects/junglemedia/signatures\|Signatures]] | Brand signatures and visual identity |
+| [[10-Projects/junglemedia/signatures\|Signatures]] | Brand identity system — logos, colors, typography, email signatures for all Fortisyn entities |
 
 ### La Dolce Niente
 | Page | Summary |
@@ -84,8 +84,8 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 ### Soleria Technology
 | Page | Summary |
 |---|---|
-| [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology]] | Corporate hub — Soleria Technology entity overview |
-| [[10-Projects/soleriatechnology/website/soleriatechnology-com\|soleriatechnology.com]] | Soleria Technology website — 12 routes, most complex React SPA in portfolio |
+| [[10-Projects/soleriatechnology/_corporate-hub\|Soleria Technology]] | Smart home automation — tested at La Dolce Niente, Costa Rica. solariatechnology.com |
+| [[10-Projects/soleriatechnology/website/soleriatechnology-com\|soleriatechnology.com]] | Soleria Technology website — 12-route React SPA, most complex in Fortisyn portfolio |
 
 ### Mercova Retail (formerly Versa Retail)
 | Page | Summary |
