@@ -39,3 +39,6 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 | 2026-06-13 | Django platform architecture | [[40-Resources/django-platform-architecture\|Django Platform Architecture]] — Store→API→Admin triad, conventions, all 6 active projects |
 | 2026-06-13 | Daily capture habit restarted | [[00-Dashboard/daily/2026-06-13\|2026-06-13]] — first daily note in 18 days |
 | 2026-06-13 | /new-project skill | `~/.claude/skills/new-project/SKILL.md` — one-command project initialization |
+| 2026-06-13 | SLF for ROY — missing project page | [[10-Projects/pythonslayers/slf-for-roy\|SLF for ROY]] — AI companion, Django + React PWA |
+| 2026-06-13 | Chat Assistant + Spanish Tutor stubs enriched | [[10-Projects/pythonslayers/chat-assistant\|Chat Assistant]], [[10-Projects/pythonslayers/spanish-tutor\|Spanish Tutor]] — personal projects ecosystem |
+| 2026-06-13 | Second lint pass | [[Inbox/lint-2026-06-13\|Lint Report]] — 16 stale pages, 2 missing, specs/ discovered |

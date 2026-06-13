@@ -4,67 +4,55 @@ status: "active"
 priority: "P2"
 corporate_entity: "[[_corporate-hub|Python Slayers]]"
 path: "/home/personal/spanish-tutor"
-deadline: ""
 goals:
-  - "Language learning application for Spanish"
+  - "Language learning application for Spanish — interactive, structured curriculum"
 tags:
   - project
   - pythonslayers
   - education
   - fullstack
 created: "2026-05-18"
-updated: "2026-06-09"
+updated: "2026-06-13"
 ---
-
 # Spanish Tutor
 
-Language learning application focused on Spanish instruction.
+Language learning application focused on Spanish instruction. Full-stack with curriculum data, backend API, and frontend UI. Part of the `/home/personal/` ecosystem.
 
-## Overview
+## Features
 
-Full-stack language learning platform with backend, frontend, data layer, and formal specification documents.
+- Interactive Spanish learning experience
+- Structured curriculum with progression tracking
+- Speech and pronunciation practice (planned)
+- Vocabulary, grammar exercises, and assessment
 
-## Goals
+## Tech Stack
 
-- [ ] Interactive Spanish learning experience
-- [ ] Structured curriculum with progression
-- [ ] Speech/pronunciation practice
-
-## Tasks
-
-### Active
-- [ ] 
-
-### Backlog
-- [ ] 
+- **Backend:** API server
+- **Frontend:** Learning UI / client
+- **Data:** Curriculum data, vocabulary, exercises (structured content layer)
+- **Specs:** Formal specification documents
 
 ## Structure
 
 ```
-spanish-tutor/
+/home/personal/spanish-tutor/
 ├── backend/     ← API server
 ├── frontend/    ← UI / client
 ├── data/        ← curriculum data, vocab, exercises
 └── specs/       ← specification documents
 ```
 
-## Agent Delegations
+## Related
 
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Run Log",
-  status AS "Status",
-  delegated_outcome AS "Delegated Outcome"
-FROM "30-Automations/logs"
-WHERE contains(file.frontmatter.project, "spanish-tutor")
-SORT start_time DESC
-```
-
-## Skills Used
-
-- 
+- [[10-Projects/pythonslayers/_corporate-hub|Python Slayers]] — Builder
+- [[10-Projects/pythonslayers/slf-for-roy|SLF for ROY]] — Personal AI companion (tutor mode)
+- [[10-Projects/pythonslayers/chat-assistant|Chat Assistant]] — AI chat (personal)
 
 ## Notes
+
+### 2026-06-13
+- Scout: moved from `/home/projects/pythonslayers/` to `/home/personal/` — now a personal project
+- SLF for ROY has a "tutor" mode — potential integration point for Spanish Tutor curriculum
 
 ### 2026-05-18
 - Initial hub created from vault corporate alignment

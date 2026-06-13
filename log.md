@@ -11,6 +11,23 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-13] scout | Sixth run — SLF for ROY page, stub enrichment, lint pass
+
+**SLF for ROY project page created:**
+- AI-powered personal companion (tutor, coach, assistant, mentor)
+- Django + React PWA at /home/personal/slf/
+- Linked to Chat Assistant, Spanish Tutor, My Brain vault
+
+**Chat Assistant + Spanish Tutor enriched:**
+- Updated paths to /home/personal/ (moved from /home/projects/)
+- Added tech stacks, features, and cross-references to SLF for ROY
+- Both now reflect the personal projects ecosystem (chat-assistant, spanish-tutor, slf)
+
+**Second lint pass:**
+- 16 stale pages cataloged, 2 missing pages identified (AES Engineering, social-media-automation skill)
+- specs/ directory discovered — personal-os-infra spec kit output, not yet cataloged
+- Report filed at [[Inbox/lint-2026-06-13]]
+
 ## [2026-06-13] agent | Social Media Agent created
 
 New agent for autonomous social media content creation and posting:
