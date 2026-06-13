@@ -3,7 +3,7 @@ name: "Chat Assistant"
 status: "active"
 priority: "P1"
 corporate_entity: "[[_corporate-hub|Python Slayers]]"
-path: "/home/projects/pythonslayers/chat_assistant"
+path: "/home/personal/chat-assistant"
 deadline: ""
 goals:
   - "AI chat interface with backend + frontend"
@@ -41,7 +41,7 @@ AI chat assistant application built by Python Slayers. Structured as a three-tie
 ## Structure
 
 ```
-chat_assistant/
+chat-assistant/
 ├── backend/     ← API server
 ├── frontend/    ← UI / client
 └── deploy/      ← deployment configs

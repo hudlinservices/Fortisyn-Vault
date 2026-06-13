@@ -30,9 +30,10 @@ SORT priority ASC
 
 ## Projects
 
-- [[10-Projects/pythonslayers/chat-assistant|Chat Assistant]] — AI chat application
+- [[10-Projects/pythonslayers/chat-assistant|Chat Assistant]] — AI chat application (personal)
 - [[10-Projects/pythonslayers/my-brain|My Brain]] — Agentic personal OS (this vault)
-- [[10-Projects/pythonslayers/spanish-tutor|Spanish Tutor]] — Language learning app
+- [[10-Projects/pythonslayers/spanish-tutor|Spanish Tutor]] — Language learning app (personal)
+- [[10-Projects/pythonslayers/slf-for-roy|SLF for ROY]] — Personal AI companion (tutor, coach, assistant, mentor)
 - [[10-Projects/pythonslayers/OneClickLM|OneClickLM]] — NotebookLM MCP server
 
 ## Related Entities
@@ -45,7 +46,13 @@ SORT priority ASC
 
 ```
 /home/projects/pythonslayers/
-├── chat_assistant/    ← AI chat app (backend + frontend)
-├── spanish_tutor/     ← Language learning platform
 └── my_brain/          ← This vault (deprecated path)
+
+/home/personal/
+├── chat-assistant/    ← AI chat app (backend + frontend)
+├── spanish-tutor/     ← Language learning platform
+├── slf/               ← Personal AI companion (tutor, coach, assistant, mentor)
+│   ├── backend/       ← Django API + knowledge graph
+│   ├── frontend/      ← React PWA
+│   └── vault/         ← Personal knowledge vault
 ```

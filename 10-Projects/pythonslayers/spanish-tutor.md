@@ -3,7 +3,7 @@ name: "Spanish Tutor"
 status: "active"
 priority: "P2"
 corporate_entity: "[[_corporate-hub|Python Slayers]]"
-path: "/home/projects/pythonslayers/spanish_tutor"
+path: "/home/personal/spanish-tutor"
 deadline: ""
 goals:
   - "Language learning application for Spanish"
@@ -41,7 +41,7 @@ Full-stack language learning platform with backend, frontend, data layer, and fo
 ## Structure
 
 ```
-spanish_tutor/
+spanish-tutor/
 ├── backend/     ← API server
 ├── frontend/    ← UI / client
 ├── data/        ← curriculum data, vocab, exercises

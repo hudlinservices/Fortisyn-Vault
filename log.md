@@ -11,6 +11,15 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-13] agent | Social Media Agent created
+
+New agent for autonomous social media content creation and posting:
+- `90-System/agents/social-media-agent.md` — agent definition with platform guidelines, brand voice, API docs
+- `/social-media` skill — invoke via `/social-media post`, `/social-media week`, or `/social-media setup`
+- Platforms: Instagram, LinkedIn, YouTube | Brand: MindTechArt voice
+- Content sourced from vault: 5 books, photographic poetry, 11 entities, daily notes
+- Human approval gate before every post. Buffer API + native platform APIs documented.
+
 ## [2026-06-09] scout | First Knowledge Scout run — Fortisyn structure, Auron Media rebrand, Mercova Retail rebrand
 
 First autonomous scout research run. Researched 3 approved gaps via NotebookLM:
@@ -99,6 +108,10 @@ Researched 3 gaps. All 11 corporate hubs now have URLs and enriched content.
 - Only 1 asset delivered so far — significant growth opportunity identified
 
 **All 11 corporate hubs now documented with URLs and enriched descriptions.** 9 of 14 gaps from initial scan now researched.
+
+## [2026-06-13] project | chat-assistant + spanish-tutor moved to /home/personal/ — personal projects, not company-client work
+
+## [2026-06-13] project | SLF for ROY initialized — AI-powered personal companion chatbot, Django + React PWA
 
 ## [2026-06-13] scout | Fifth run — Hyperframes concept, Django architecture, daily notes, /new-project skill
 

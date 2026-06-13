@@ -69,8 +69,9 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 |---|---|
 | [[10-Projects/pythonslayers/_corporate-hub\|Python Slayers]] | Full-stack development and digital solutions — pythonslayers.com |
 | [[10-Projects/pythonslayers/my-brain\|My Brain]] | This vault — agentic personal OS, knowledge hub, home dashboard |
-| [[10-Projects/pythonslayers/chat-assistant\|Chat Assistant]] | AI-powered chat application — full-stack |
-| [[10-Projects/pythonslayers/spanish-tutor\|Spanish Tutor]] | Language learning application for Spanish — full-stack |
+| [[10-Projects/pythonslayers/chat-assistant\|Chat Assistant]] | AI-powered chat application — full-stack (personal project, /home/personal) |
+| [[10-Projects/pythonslayers/spanish-tutor\|Spanish Tutor]] | Language learning application for Spanish — full-stack (personal project, /home/personal) |
+| [[10-Projects/pythonslayers/slf-for-roy\|SLF for ROY]] | AI-powered personal companion — tutor, coach, assistant, mentor. Django + React PWA |
 | [[10-Projects/pythonslayers/OneClickLM\|OneClickLM]] | NotebookLM MCP server — TypeScript, auto-healing auth, 6 tools |
 | [[10-Projects/pythonslayers/music-library-missing\|Missing Music Tracks]] | Tracking missing tracks in the music library |
 | [[10-Projects/pythonslayers/Software-Assistant\|Software Assistant]] | Software assistant project overview |
@@ -160,6 +161,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[90-System/agents/content-agent\|Content Agent]] | Content agent definition — file creation, editing, research |
 | [[90-System/agents/marketing-agent\|Marketing Agent]] | Marketing agent definition — surveys, status reports, analysis |
 | [[90-System/agents/knowledge-scout-agent\|Knowledge Scout Agent]] | Research agent definition — autonomous gap finding and NotebookLM research |
+| [[90-System/agents/social-media-agent\|Social Media Agent]] | Creates and posts brand-aligned content across Instagram, LinkedIn, YouTube |
 | [[90-System/agents/agent-template\|Agent Template]] | Template for defining new agents |
 | [[90-System/agents/run-logs/marketing-agent-run-2026-05-19\|Marketing Agent Run: 2026-05-19]] | Marketing agent execution log |
 
