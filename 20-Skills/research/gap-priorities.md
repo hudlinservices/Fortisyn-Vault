@@ -35,3 +35,7 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 | 2026-06-12 | Limited Edition Intro — Hyperframes stub enrichment | [[10-Projects/auronmedia/limited-edition-intro\|Limited Edition Intro]] — Hyperframes workflow, Auron→Mercova pipeline, P1 context |
 | 2026-06-12 | Directory renames + all wikilinks updated | `junglemedia/`→`auronmedia/`, `versaretail/`→`mercovaretail/` — directories moved, all vault wikilinks updated |
 | 2026-06-12 | Roy Hudlin book #5 title confirmed | [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin hub]] — *Sloth Adventures: Hank Gets Lost*, first of planned children's trilogy |
+| 2026-06-13 | Hyperframes concept page | [[40-Resources/hyperframes\|Hyperframes]] — video framework, capabilities, Fortisyn pipeline, 13 related skills |
+| 2026-06-13 | Django platform architecture | [[40-Resources/django-platform-architecture\|Django Platform Architecture]] — Store→API→Admin triad, conventions, all 6 active projects |
+| 2026-06-13 | Daily capture habit restarted | [[00-Dashboard/daily/2026-06-13\|2026-06-13]] — first daily note in 18 days |
+| 2026-06-13 | /new-project skill | `~/.claude/skills/new-project/SKILL.md` — one-command project initialization |

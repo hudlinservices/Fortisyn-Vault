@@ -19,6 +19,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[00-Dashboard/Monitor\|Monitor]] | MOC for monitoring and observability |
 | [[00-Dashboard/daily/2026-05-21\|2026-05-21]] | Daily note — Thursday |
 | [[00-Dashboard/daily/2026-05-26\|2026-05-26]] | Daily note — Tuesday |
+| [[00-Dashboard/daily/2026-06-13\|2026-06-13]] | Daily note — Friday. Scout #5, /new-project skill, Hyperframes page |
 
 ## Projects
 
@@ -141,6 +142,8 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/three-layer-architecture\|Three-Layer Architecture]] | Raw sources → Wiki → Schema — the architecture that makes this work |
 | [[40-Resources/wiki-operations\|Wiki Operations]] | Ingest, query, and lint — the three maintenance operations |
 | [[40-Resources/index-log-pattern\|Index and Log Pattern]] | How index.md and log.md work together for wiki navigation |
+| [[40-Resources/hyperframes\|Hyperframes]] | HTML-based video composition framework — Remotion + GSAP, 13 related skills |
+| [[40-Resources/django-platform-architecture\|Django Platform Architecture]] | The shared Store→API→Admin triad across Fortisyn Django projects |
 
 ### Raw Sources
 | Page | Summary |

@@ -100,6 +100,33 @@ Researched 3 gaps. All 11 corporate hubs now have URLs and enriched content.
 
 **All 11 corporate hubs now documented with URLs and enriched descriptions.** 9 of 14 gaps from initial scan now researched.
 
+## [2026-06-13] scout | Fifth run — Hyperframes concept, Django architecture, daily notes, /new-project skill
+
+Researched 3 gaps and built a new skill:
+
+**Hyperframes concept page (40-Resources/hyperframes.md):**
+- Documented the HTML-based video composition framework (Remotion + GSAP)
+- Core capabilities: scene composition, animation, captions, TTS, audio-reactive visuals, transitions
+- Fortisyn pipeline: Auron Media produces → Mercova Retail uses for product launches
+- 13 related animation/video skills cataloged
+
+**Django Platform Architecture (40-Resources/django-platform-architecture.md):**
+- Documented the shared Store→API→Admin triad across Mercova projects
+- Project structure convention (core/, config/, data/, staticfiles/, templates/)
+- Design principles: one API, many storefronts; API as single source of truth
+- All 6 active Django projects linked
+
+**Daily capture habit restarted:**
+- Created 00-Dashboard/daily/2026-06-13.md — first daily note in 18 days
+- Documents the Pi setup, scout runs, and current blockers
+
+**New skill: /new-project:**
+- One-command project initialization
+- Creates CLAUDE.md, startup.md, memory.md on disk
+- Creates vault project page with proper frontmatter
+- Updates corporate hub, index.md, log.md
+- Template-based: 5-step workflow (gather → create files → vault page → update nav → report)
+
 ## [2026-06-12] scout | Fourth run — Mercova architecture, Limited Edition Intro, directory renames
 
 Researched and corrected 3 gaps:

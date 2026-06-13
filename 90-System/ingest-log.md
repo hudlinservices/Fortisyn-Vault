@@ -15,6 +15,7 @@ Tracks which Vault Ingest notebook sources have been processed. Prevents re-proc
 
 | Source ID | Date Ingested | Result Pages |
 |-----------|--------------|-------------|
+| ee7450c3 | 2026-06-13 | *None* — Facebook/Meta page, no vault-relevant content |
 
 ## Notebook Reference
 
