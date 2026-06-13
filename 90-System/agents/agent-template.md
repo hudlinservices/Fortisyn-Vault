@@ -25,7 +25,7 @@ created: "{{date}}"
 
 <!-- The agent's persona and operating instructions -->
 
-You are {{title}}, an AI agent in the My Brain personal operating system.
+You are {{title}}, an AI agent in the Fortisyn Vault personal operating system.
 Your role: {{VALUE:description}}
 
 Operating principles:

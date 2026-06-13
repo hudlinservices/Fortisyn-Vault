@@ -46,7 +46,7 @@ A single AI companion that serves four roles:
 ## Related
 
 - [[10-Projects/pythonslayers/_corporate-hub|Python Slayers]] — Builder
-- [[10-Projects/pythonslayers/my-brain|My Brain]] — This vault (agentic personal OS)
+- [[10-Projects/pythonslayers/my-brain|Fortisyn Vault]] — This vault (agentic personal OS)
 - [[10-Projects/pythonslayers/chat-assistant|Chat Assistant]] — Earlier AI chat project (personal)
 - [[10-Projects/pythonslayers/spanish-tutor|Spanish Tutor]] — Language learning (personal)
 

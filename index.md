@@ -68,7 +68,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | Page | Summary |
 |---|---|
 | [[10-Projects/pythonslayers/_corporate-hub\|Python Slayers]] | Full-stack development and digital solutions — pythonslayers.com |
-| [[10-Projects/pythonslayers/my-brain\|My Brain]] | This vault — agentic personal OS, knowledge hub, home dashboard |
+| [[10-Projects/pythonslayers/my-brain\|Fortisyn Vault]] | This vault — agentic personal OS, knowledge hub, home dashboard |
 | [[10-Projects/pythonslayers/chat-assistant\|Chat Assistant]] | AI-powered chat application — full-stack (personal project, /home/personal) |
 | [[10-Projects/pythonslayers/spanish-tutor\|Spanish Tutor]] | Language learning application for Spanish — full-stack (personal project, /home/personal) |
 | [[10-Projects/pythonslayers/slf-for-roy\|SLF for ROY]] | AI-powered personal companion — tutor, coach, assistant, mentor. Django + React PWA |

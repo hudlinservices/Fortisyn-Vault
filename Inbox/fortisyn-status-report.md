@@ -57,7 +57,7 @@ Fortisyn is a holding company that owns 12 corporate entities. Here is the full 
 | **Soleria Technology** | 1* | Home automation dev (no project file), soleriatechnology.com website (no project file) |
 | **Literary Imprint** | 0 | No projects in filesystem (publishing managed externally) |
 | **Jungle Media** | 2 | Limited Edition Intro (P1), Signatures (P2) |
-| **Python Slayers** | 3 | Chat Assistant (P1), My Brain (P1), Spanish Tutor (P2) |
+| **Python Slayers** | 3 | Chat Assistant (P1), Fortisyn Vault (P1), Spanish Tutor (P2) |
 | **Roy Hudlin** | 1 | royhudlin.com (P1) |
 | **Versa Retail** | 6 | Jungle Meditation (P1), Jungle Wear (P2), Roy Hudlin Store (P3), Versa Admin (P2), Versa API (P1), Versa Store (P1) |
 | **Websites** | 0* | Referenced projects (soleriatechnology.com, junglemeditation.com) may exist but have no hub files |
@@ -77,7 +77,7 @@ This section evaluates whether the project has actual source code on disk beyond
 | Project | Entity | Path | Evidence |
 |---------|--------|------|----------|
 | **Chat Assistant** | Python Slayers | `/home/projects/pythonslayers/chat_assistant/` | backend/, frontend/, deploy/ directories confirmed |
-| **My Brain** *(this vault)* | Python Slayers | `/home/projects/pythonslayers/my_brain-vault/` | Active Obsidian vault — this system |
+| **Fortisyn Vault** *(this vault)* | Python Slayers | `/home/projects/pythonslayers/fortisyn-vault/` | Active Obsidian vault — this system |
 | **Spanish Tutor** | Python Slayers | `/home/projects/pythonslayers/spanish_tutor/` | backend/, frontend/, data/, specs/ directories confirmed |
 | **Chart of Accounts Pro** | Innovatience | `/home/projects/innovatience/accounting/` | dist/, public/, src/, tests/, uploads/ directories confirmed; Node.js project |
 | **PMO Setup** | AES Engineering | `/home/projects/aesengineering/pmo-setup/` | docs/, flows/, memory/, powerbi/, scripts/ directories confirmed |

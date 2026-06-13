@@ -27,7 +27,7 @@ Total: 4 concept pages at `40-Resources/marketing/`, 10 sources logged in `inges
 **SLF for ROY project page created:**
 - AI-powered personal companion (tutor, coach, assistant, mentor)
 - Django + React PWA at /home/personal/slf/
-- Linked to Chat Assistant, Spanish Tutor, My Brain vault
+- Linked to Chat Assistant, Spanish Tutor, Fortisyn Vault vault
 
 **Chat Assistant + Spanish Tutor enriched:**
 - Updated paths to /home/personal/ (moved from /home/projects/)
@@ -205,9 +205,9 @@ First ingest into the vault. Processed `raw/2026-06-09 - LLM Wiki Methodology.md
 
 Also created `raw/` directory with README, rewrote `CLAUDE.md` as full schema with workflow documentation, and updated `index.md` with all new pages.
 
-## [2026-06-09] merge | Vault consolidation from pythonslayers/my_brain
+## [2026-06-09] merge | Vault consolidation from pythonslayers/fortisyn-vault
 
-Merged `/home/projects/pythonslayers/my_brain/` into this vault. Actions:
+Merged `/home/projects/pythonslayers/fortisyn-vault/` into this vault. Actions:
 - Copied 21 unique project pages into correct `10-Projects/<org>/` subdirectories
 - Overwrote 6 files with newer versions from source (Home.md, plan.md, agent templates)
 - Merged 8 duplicate Title-Case/kebab-case project pages — deleted auto-generated stubs
@@ -215,7 +215,7 @@ Merged `/home/projects/pythonslayers/my_brain/` into this vault. Actions:
 - Added `llm_wiki.md` to `40-Resources/` — methodology reference
 - Created `index.md` — comprehensive page catalog organized by category
 - Created `log.md` — this file
-- Deleted source vault `/home/projects/pythonslayers/my_brain/`
+- Deleted source vault `/home/projects/pythonslayers/fortisyn-vault/`
 - Committed everything as initial git commit `a708f29`
 
 ## [2026-05-26] auto | Dashboard sync — project stubs registered

@@ -7,7 +7,7 @@ tags:
   - system
   - conventions
 ---
-# My Brain — Agentic Personal OS
+# Fortisyn Vault — Agentic Personal OS
 
 Schema for this vault. Every LLM session starts here. This document tells the LLM how the wiki is structured, what conventions to follow, and what workflows to use when ingesting sources, answering questions, or maintaining the wiki.
 
@@ -21,7 +21,7 @@ Before doing anything else, the LLM reads these two files to understand what's h
 ## Vault Structure
 
 ```
-my_brain-vault/
+fortisyn-vault/
 ├── raw/               ← Immutable source documents (articles, papers, clips)
 ├── 00-Dashboard/      ← Home dashboard, daily notes, weekly reviews
 ├── 10-Projects/       ← Corporate entities → project hubs
@@ -204,4 +204,4 @@ When creating a new page, use the appropriate template from `90-System/templates
 - **Platform**: Obsidian (desktop) + Templater, Dataview, QuickAdd, Shell Commands
 - **Agents**: Node.js + Anthropic SDK (Claude API)
 - **Automation**: Bash scripts orchestrated by agents
-- **Version Control**: Git → `github.com/hudlinservices/my_brain-vault`
+- **Version Control**: Git → `github.com/hudlinservices/fortisyn-vault`

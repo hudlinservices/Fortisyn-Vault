@@ -1,9 +1,9 @@
 ---
-name: "My Brain"
+name: "Fortisyn Vault"
 status: "active"
 priority: "P1"
 corporate_entity: "[[_corporate-hub|Python Slayers]]"
-path: "/home/projects/pythonslayers/my_brain-vault"
+path: "/home/projects/pythonslayers/fortisyn-vault"
 deadline: ""
 goals:
   - "Agentic personal OS — delegate outcomes, agents execute"
@@ -18,7 +18,7 @@ created: "2026-05-18"
 updated: "2026-06-09"
 ---
 
-# My Brain
+# Fortisyn Vault
 
 **This vault.** The agentic personal OS — home dashboard, skill templates, AI agents, knowledge capture, and project memory for all of Fortisyn.
 
@@ -40,7 +40,7 @@ An agentic personal operating system built on Obsidian. Delegate outcomes to AI 
 ## Structure
 
 ```
-my_brain-vault/
+fortisyn-vault/
 ├── 00-Dashboard/    ← Home, daily notes, weekly reviews
 ├── 10-Projects/     ← Corporate entities → project hubs
 ├── 20-Skills/       ← Reusable skill templates by domain

@@ -31,7 +31,7 @@ SORT priority ASC
 ## Projects
 
 - [[10-Projects/pythonslayers/chat-assistant|Chat Assistant]] — AI chat application (personal)
-- [[10-Projects/pythonslayers/my-brain|My Brain]] — Agentic personal OS (this vault)
+- [[10-Projects/pythonslayers/my-brain|Fortisyn Vault]] — Agentic personal OS (this vault)
 - [[10-Projects/pythonslayers/spanish-tutor|Spanish Tutor]] — Language learning app (personal)
 - [[10-Projects/pythonslayers/slf-for-roy|SLF for ROY]] — Personal AI companion (tutor, coach, assistant, mentor)
 - [[10-Projects/pythonslayers/OneClickLM|OneClickLM]] — NotebookLM MCP server
@@ -46,7 +46,7 @@ SORT priority ASC
 
 ```
 /home/projects/pythonslayers/
-└── my_brain/          ← This vault (deprecated path)
+└── fortisyn-vault/          ← This vault (deprecated path)
 
 /home/personal/
 ├── chat-assistant/    ← AI chat app (backend + frontend)

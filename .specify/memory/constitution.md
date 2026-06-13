@@ -1,4 +1,4 @@
-# Project Constitution: My Brain (Agentic OS)
+# Project Constitution: Fortisyn Vault (Agentic OS)
 
 ## Core Principles
 
