@@ -161,7 +161,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[90-System/agents/content-agent\|Content Agent]] | Content agent definition — file creation, editing, research |
 | [[90-System/agents/marketing-agent\|Marketing Agent]] | Marketing agent definition — surveys, status reports, analysis |
 | [[90-System/agents/knowledge-scout-agent\|Knowledge Scout Agent]] | Research agent definition — autonomous gap finding and NotebookLM research |
-| [[90-System/agents/social-media-agent\|Social Media Agent]] | Creates and posts brand-aligned content across Instagram, LinkedIn, YouTube |
+| [[90-System/agents/auron-agent\|Auron Agent]] | Auron Media's content agent — posts to Instagram, LinkedIn, YouTube via Buffer MCP. Serves 6 Fortisyn brands |
 | [[90-System/agents/agent-template\|Agent Template]] | Template for defining new agents |
 | [[90-System/agents/run-logs/marketing-agent-run-2026-05-19\|Marketing Agent Run: 2026-05-19]] | Marketing agent execution log |
 
