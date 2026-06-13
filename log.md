@@ -11,6 +11,17 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-13] ingest | Marketing knowledge base — 10 sources from Vault Ingest notebook
+
+First batch ingest from Vault Ingest notebook. 10 marketing sources processed via NotebookLM:
+
+- **Copywriting** — PAS and AIDA formulas, benefits over features, swipe files. Connected to Auron Media, Mercova, Literary Imprint, Roy Hudlin
+- **Email Marketing** — 3,600% ROI, 5 email types, CAN-SPAM compliance, organic list building. Fortisyn applications per entity
+- **SEO Fundamentals** — Crawl/index/rank, long-tail keywords, relevance + authority. Every Fortisyn website mapped
+- **Growth Hacking** — Test fast/scale what works, UGC, partnerships, data-driven virality. Entity-specific tactics
+
+Total: 4 concept pages at `40-Resources/marketing/`, 10 sources logged in `ingest-log.md`
+
 ## [2026-06-13] scout | Sixth run — SLF for ROY page, stub enrichment, lint pass
 
 **SLF for ROY project page created:**

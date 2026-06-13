@@ -145,6 +145,14 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/index-log-pattern\|Index and Log Pattern]] | How index.md and log.md work together for wiki navigation |
 | [[40-Resources/hyperframes\|Hyperframes]] | HTML-based video composition framework — Remotion + GSAP, 13 related skills |
 | [[40-Resources/sff-llm-build\|SFF LLM Machine]] | Carry-on portable PC build — RTX 3090, 64GB, runs any Ollama model. Costa Rica-ready |
+
+### Marketing
+| Page | Summary |
+|---|---|
+| [[40-Resources/marketing/copywriting\|Copywriting]] | Persuasive writing formulas (PAS, AIDA) — benefits over features, swipe files |
+| [[40-Resources/marketing/email-marketing\|Email Marketing]] | 3,600% ROI channel — 5 email types, CAN-SPAM compliance, organic list building |
+| [[40-Resources/marketing/seo-fundamentals\|SEO Fundamentals]] | Relevance + authority ranking, long-tail keywords, content volume strategy |
+| [[40-Resources/marketing/growth-hacking\|Growth Hacking]] | Test fast, scale what works — UGC, partnerships, data-driven virality |
 | [[40-Resources/django-platform-architecture\|Django Platform Architecture]] | The shared Store→API→Admin triad across Fortisyn Django projects |
 
 ### Raw Sources
