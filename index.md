@@ -102,6 +102,11 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/mercovaretail/royhudlin\|Roy Hudlin Store]] | Roy Hudlin branded merchandise store — Django e-commerce |
 | [[10-Projects/mercovaretail/website/junglemeditation-com\|junglemeditation.com]] | Jungle Meditation website frontend |
 
+### Clients (External)
+| Page | Summary |
+|---|---|
+| [[10-Projects/aesengineering/_corporate-hub\|AES Engineering]] | External client of Innovatience — electrical/lighting/technology consulting engineering firm, Vancouver BC. Fortisyn's revenue engine. aesengr.com |
+
 ### Cross-Entity
 | Page | Summary |
 |---|---|
@@ -118,6 +123,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[20-Skills/admin/agent-test-skill\|Agent Integration Test]] | Test skill for agent runtime verification |
 | [[20-Skills/content-creation/publish-blog-post\|Publish Blog Post]] | Blog post publishing workflow |
 | [[20-Skills/marketing/product-launch\|Product Launch Routine]] | Product launch campaign workflow |
+| [[20-Skills/marketing/social-media-automation\|Social Media Automation]] | Execution template behind the Auron Agent — vault content → scheduled Buffer posts, human approval gate |
 
 ## Automations
 
@@ -153,6 +159,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/marketing/email-marketing\|Email Marketing]] | 3,600% ROI channel — 5 email types, CAN-SPAM compliance, organic list building |
 | [[40-Resources/marketing/seo-fundamentals\|SEO Fundamentals]] | Relevance + authority ranking, long-tail keywords, content volume strategy |
 | [[40-Resources/marketing/growth-hacking\|Growth Hacking]] | Test fast, scale what works — UGC, partnerships, data-driven virality |
+| [[40-Resources/marketing/social-media-marketing\|Social Media Marketing]] | Fifth marketing pillar — platforms, planned vs unplanned content, paid vs organic, connects to email/SEO/copywriting |
 | [[40-Resources/django-platform-architecture\|Django Platform Architecture]] | The shared Store→API→Admin triad across Fortisyn Django projects |
 
 ### Raw Sources
@@ -217,4 +224,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail), 30+ projects, 5 skill templates, 2 agents, 6 templates, 4 daily notes. Last updated 2026-06-09.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 3 agents, 6 templates, 4 daily notes. Last updated 2026-06-15.

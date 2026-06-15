@@ -11,6 +11,27 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-15] scout | Seventh run (autonomous cron) — AES Engineering, social-media-automation skill, Social Media Marketing concept
+
+Autonomous cron run — no human gate. Selected 3 gaps from the 2026-06-13 lint report's open recommendations and the broken-link scan.
+
+**Gap selection rationale (recorded per autonomous-run protocol):**
+1. **AES Engineering** (highest compound value) — referenced from 5+ live pages (Innovatience hub, Fortisyn hub, Corporate-Registry, status report) with **broken wikilinks** to `10-Projects/aesengineering/_corporate-hub`. Lint rec #1. Fixing it resolves dead links AND documents Fortisyn's only revenue source.
+2. **social-media-automation skill** — the *active* Auron Agent's `allowed_skills` points to this non-existent page (broken link). Lint rec #2. Connects 6 brands + Buffer + marketing pages.
+3. **Social Media Marketing concept page** — paired with #2 (shared research sources), completes the marketing concept set (copywriting/email/SEO/growth → +social). Links 4 existing marketing pages + Auron Agent.
+Lint rec #3 (specs/ cataloging) was dropped — the `specs/` directory no longer exists.
+
+**⚠️ Tooling deviation:** NotebookLM auth was unavailable (`No cookies found` — cannot interactively re-login in cron). Fell back to WebSearch + WebFetch on authoritative sources (aesengr.com, Wikipedia, Buffer/Sprout Social). All findings attributed via `source:` frontmatter.
+
+**Pages created:**
+- [[10-Projects/aesengineering/_corporate-hub|AES Engineering]] — AES Engineering Ltd (aesengr.com): electrical/lighting/technology consulting engineering, founded 2001, ~150 staff, Vancouver BC + Alberta. Documented services, sectors, the Innovatience engagement (PMO Setup), and revenue-engine role. **Flagged contradiction:** vault calls AES "industrial engineering" but the firm is electrical/technology — left existing claims intact with a ⚠️ callout for Roy to confirm.
+- [[20-Skills/marketing/social-media-automation|Social Media Automation]] — execution skill behind the Auron Agent: vault content → Buffer queue → human approval gate → publish + log. 2026 automation best practices (automate posting not relationships, ML best-time, AI-assist/human-approve).
+- [[40-Resources/marketing/social-media-marketing|Social Media Marketing]] — fifth marketing pillar: platforms, planned vs unplanned, paid vs organic, KPIs, connections to email/SEO/copywriting/growth.
+
+**Bonus fix:** corrected stale `junglemedia` → `auronmedia` wikilink in `growth-hacking.md`.
+
+**Broken links resolved:** Innovatience hub, Fortisyn hub, and Auron Agent now point to existing pages.
+
 ## [2026-06-13] ingest | Marketing knowledge base — 10 sources from Vault Ingest notebook
 
 First batch ingest from Vault Ingest notebook. 10 marketing sources processed via NotebookLM:

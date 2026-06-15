@@ -32,7 +32,7 @@ Rapid, creative, low-cost growth tactics. For startups and lean teams — which 
 | [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | Author referral program, free first chapter → email capture |
 | [[10-Projects/mercovaretail/_corporate-hub\|Mercova Retail]] | Merchant success stories, limited drops create urgency |
 | [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]] | Book excerpt → newsletter signup, meditation challenge UGC |
-| [[10-Projects/junglemedia/_corporate-hub|Auron Media]] | Portfolio virality, before/after content, client results |
+| [[10-Projects/auronmedia/_corporate-hub|Auron Media]] | Portfolio virality, before/after content, client results |
 
 ## Related
 

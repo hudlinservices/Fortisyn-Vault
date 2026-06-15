@@ -13,7 +13,12 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 
 ## Unresearched (priority order)
 
-*All 14 original gaps resolved across 4 scout runs (2026-06-09 to 2026-06-12). New gaps will appear here as the vault grows.*
+*All 14 original gaps + the 2026-06-13 lint recommendations resolved. New gaps below as the vault grows.*
+
+| Priority | Gap | Notes |
+|----------|-----|-------|
+| Low | AES Engineering firm identity confirmation | Identified as AES Engineering Ltd (aesengr.com) from context; vault calls it "industrial engineering" but firm is electrical/technology. Needs Roy's confirmation — see ⚠️ on the AES page. |
+| Low | 16 stale May pages | Lint rec #4 — archive or refresh. Lint job, not scout research. |
 
 ## Researched
 
@@ -42,3 +47,6 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 | 2026-06-13 | SLF for ROY — missing project page | [[10-Projects/pythonslayers/slf-for-roy\|SLF for ROY]] — AI companion, Django + React PWA |
 | 2026-06-13 | Chat Assistant + Spanish Tutor stubs enriched | [[10-Projects/pythonslayers/chat-assistant\|Chat Assistant]], [[10-Projects/pythonslayers/spanish-tutor\|Spanish Tutor]] — personal projects ecosystem |
 | 2026-06-13 | Second lint pass | [[Inbox/lint-2026-06-13\|Lint Report]] — 16 stale pages, 2 missing, specs/ discovered |
+| 2026-06-15 | AES Engineering — missing client page (connects 5+ pages, broken links) | [[10-Projects/aesengineering/_corporate-hub\|AES Engineering]] — electrical/lighting/technology firm, Innovatience client, revenue engine; contradiction flagged |
+| 2026-06-15 | social-media-automation skill — broken Auron Agent link | [[20-Skills/marketing/social-media-automation\|Social Media Automation]] — Buffer workflow, approval gate, 2026 best practices |
+| 2026-06-15 | Social Media Marketing — missing 5th marketing pillar | [[40-Resources/marketing/social-media-marketing\|Social Media Marketing]] — platforms, content strategy, connects to email/SEO/copywriting/growth |
