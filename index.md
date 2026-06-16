@@ -55,6 +55,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/auronmedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
 | [[10-Projects/auronmedia/signatures\|Signatures]] | Brand identity system — logos, colors, typography, email signatures for all Fortisyn entities |
 | [[10-Projects/auronmedia/social-media-strategy\|Social Media Strategy]] | Auron Media's content approach — platforms, influencer concept, brand voice |
+| [[chatgpt-conversation-index\|ChatGPT Conversations]] | 36 Auron Media conversations — SEO, design, brand, influencer (indexed) |
 
 ### La Dolce Niente
 | Page | Summary |
@@ -106,6 +107,19 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/mercovaretail/junglewear\|Jungle Wear]] | Apparel brand e-commerce storefront — Django |
 | [[10-Projects/mercovaretail/royhudlin\|Roy Hudlin Store]] | Roy Hudlin branded merchandise store — Django e-commerce |
 | [[10-Projects/mercovaretail/website/junglemeditation-com\|junglemeditation.com]] | Jungle Meditation website frontend |
+
+### ChatGPT Conversations by Entity
+
+85 conversations extracted from Roy's full ChatGPT history, filed under the entity that owns that work:
+
+| Entity | Conversations | Topics |
+|--------|--------------|--------|
+| [[chatgpt-conversations/python-slayers/|Python Slayers]] | 26 | Docker, K8s, Python, Django, Claude Code, APIs, VSCode |
+| [[chatgpt-conversations/hudlin-services/|Hudlin Services]] | 30 | Plex, Cloudflared, UniFi, networking, Pi, VPN, Starlink |
+| [[chatgpt-conversations/literary-imprint/|Literary Imprint]] | 7 | Em dash removal, chapter reviews, content writing |
+| [[chatgpt-conversations/auron-media/|Auron Media]] | 6 | Web design, image creation, video, SEO, brand |
+| [[chatgpt-conversations/roy-hudlin/|Roy Hudlin]] | 9 | Mindfulness, stillness, self-discovery, flow |
+| [[chatgpt-conversations/innovatience/|Innovatience]] | 7 | Salary, payroll, business setup, taxes |
 
 ### Clients (External)
 | Page | Summary |
