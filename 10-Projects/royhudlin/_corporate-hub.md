@@ -9,7 +9,7 @@ url: "https://royhudlin.com"
 tags:
   - corporate-hub
   - royhudlin
-updated: "2026-06-09"
+updated: "2026-06-16"
 ---
 # Roy Hudlin
 
@@ -19,7 +19,7 @@ updated: "2026-06-09"
 
 ## Brand
 
-- **MindTechArt** — the synthesis of mindfulness (Mind), creativity (Art), and technology (Tech)
+- **[[40-Resources/mindtechart|MindTechArt]]** — the synthesis of mindfulness (Mind), creativity (Art), and technology (Tech). Grounded in the calm-technology design movement.
 - **Narrative Alchemy** — storytelling as a timeless art for sharing experiences and connecting humanity
 - Focus: using technology as a tool for growth, not distraction
 
@@ -71,7 +71,7 @@ SORT priority ASC
 ## Digital Presence
 
 - [[10-Projects/royhudlin/website/royhudlin-com|royhudlin.com]] — Personal brand website
-- [[10-Projects/royhudlin/professional-history|Professional History]] — 35-year career: contractor → consultant → founder
+- [[10-Projects/royhudlin/professional-history|Professional History]] — 35-year career: contractor → consultant → founder ([[40-Resources/security-systems-consulting|low-voltage & security systems consulting]])
 - [[10-Projects/literaryimprint/creative-work|Creative Work]] — Photography, poetry, metal art, 5 books (via Literary Imprint)
 - [[10-Projects/literaryimprint/communication-style|Communication Style]] — Writing voice used by Auron Agent (via Literary Imprint)
 
@@ -81,6 +81,7 @@ SORT priority ASC
 - [[10-Projects/auronmedia/_corporate-hub|Auron Media]] — Content production, social media, branding
 - [[10-Projects/mercovaretail/_corporate-hub|Mercova Retail]] — Branded merchandise store ([[10-Projects/mercovaretail/royhudlin|Roy Hudlin Store]])
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
+- [[40-Resources/costa-rica|Costa Rica]] — Relocation base, creative source, Soleria R&D testbed
 
 ## File System
 
@@ -91,6 +92,9 @@ SORT priority ASC
 ```
 
 ## Notes
+
+### 2026-06-16
+- Scout #8: linked MindTechArt to new [[40-Resources/mindtechart|concept page]], professional history to [[40-Resources/security-systems-consulting|systems-consulting]] concept, added [[40-Resources/costa-rica|Costa Rica]] relocation link
 
 ### 2026-06-09
 - Scout research: added 4 of 5 book titles, MindTechArt brand framework, photographic poetry works, royhudlin.com URL

@@ -9,7 +9,7 @@ url: "https://innovatience.ca"
 tags:
   - corporate-hub
   - innovatience
-updated: "2026-06-09"
+updated: "2026-06-16"
 ---
 # Innovatience
 
@@ -49,6 +49,11 @@ SORT priority ASC
 - [[10-Projects/innovatience/accounting|Chart of Accounts Pro]] — Professional accounting application (Node.js)
 - [[10-Projects/innovatience/lab-network|Lab Network]] — Lab network infrastructure and topology
 - [[10-Projects/innovatience/website|Website]] — innovatience.ca corporate website
+- [[10-Projects/innovatience/logo-and-brand|Logo & Brand]] — name origin, logo concepts, domain strategy
+
+## Discipline
+
+Innovatience monetizes Roy's 35-year practice in [[40-Resources/security-systems-consulting|low-voltage & security systems consulting]] — the design and specification of communications (MasterFormat Div 27) and electronic safety/security (Div 28) systems. See [[10-Projects/royhudlin/professional-history|Professional History]].
 
 ## Related Entities
 
@@ -67,6 +72,9 @@ SORT priority ASC
 ```
 
 ## Notes
+
+### 2026-06-16
+- Scout #8: cataloged [[10-Projects/innovatience/logo-and-brand|Logo & Brand]] page, added [[40-Resources/security-systems-consulting|systems-consulting]] discipline concept link
 
 ### 2026-06-09
 - Scout research: documented Technical Systems Consulting positioning, AES Engineering as primary client, innovatience.ca URL

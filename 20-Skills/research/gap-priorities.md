@@ -17,6 +17,8 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 
 | Priority | Gap | Notes |
 |----------|-----|-------|
+| Med | Costa Rica specifics needing Roy's input | New page [[40-Resources/costa-rica\|Costa Rica]] is synthesized from general 2026 guides. Confirm: which entity (S.R.L. vs S.A.) Costa Rica ops use; La Dolce Niente fiber availability; current residency/visa status; how Fortisyn/Aurora Legacy bank locally given holding-company banking caveat. Human-input gap, not web research. |
+| Low | "Industrial engineering" label on Innovatience hub | Innovatience hub still calls AES "industrial engineering" — contradicts [[40-Resources/security-systems-consulting\|systems-consulting]] + AES page (electrical/lighting/technology). Tied to AES identity-confirmation gap below. |
 | Low | AES Engineering firm identity confirmation | Identified as AES Engineering Ltd (aesengr.com) from context; vault calls it "industrial engineering" but firm is electrical/technology. Needs Roy's confirmation — see ⚠️ on the AES page. |
 | Low | 16 stale May pages | Lint rec #4 — archive or refresh. Lint job, not scout research. |
 
@@ -24,6 +26,10 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 
 | Date | Gap | Result Pages |
 |------|-----|-------------|
+| 2026-06-16 | Costa Rica — relocation/business/tech hub (connects 14+ pages) | [[40-Resources/costa-rica\|Costa Rica]] — digital nomad visa, territorial tax, S.A./S.R.L. setup, fiber infrastructure, cost of living; open questions flagged for Roy |
+| 2026-06-16 | MindTechArt — personal-brand framework, no concept page (11+ pages) | [[40-Resources/mindtechart\|MindTechArt]] — Mind/Tech/Art pillars, calm-technology grounding (Amber Case), brand application |
+| 2026-06-16 | Security/low-voltage systems consulting — Roy's technical domain | [[40-Resources/security-systems-consulting\|Low-Voltage & Security Systems Consulting]] — MasterFormat Div 27/28, acronym glossary, consulting workflow, Fortisyn revenue link |
+| 2026-06-16 | 5 uncataloged ChatGPT-import pages + social-media-agent (navigation) | index.md + hub backlinks (Roy Hudlin, Innovatience, Auron Media) — all now cataloged and cross-linked |
 | 2026-06-09 | Fortisyn Group — corporate structure and strategy | [[10-Projects/fortisyn/_corporate-hub\|Fortisyn hub]] — group architecture, synergy model, subsidiary table with URLs |
 | 2026-06-09 | Jungle Media → Auron Media rebrand | [[10-Projects/auronmedia/_corporate-hub\|Auron Media hub]] — full rebrand, services, comparison table, auron.media |
 | 2026-06-09 | Versa Retail → Mercova Retail rebrand + platform architecture | [[10-Projects/mercovaretail/_corporate-hub\|Mercova Retail hub]] — rebrand, white-label platform, architecture, mercovaretail.com |

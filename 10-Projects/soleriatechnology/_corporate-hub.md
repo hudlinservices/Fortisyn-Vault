@@ -53,6 +53,7 @@ This gives Soleria a unique advantage — every product ships with real-world va
 - [[10-Projects/ladolceniente/_corporate-hub|La Dolce Niente]] — Primary testbed and deployment site
 - [[10-Projects/hudlinservices/_corporate-hub|Hudlin Services]] — Network infrastructure for automation connectivity
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
+- [[40-Resources/costa-rica|Costa Rica]] — Operating environment for the testbed and deployments
 
 ## Notes
 

@@ -28,6 +28,7 @@ updated: "2026-06-09"
 - [[10-Projects/soleriatechnology/_corporate-hub|Soleria Technology]] — Home automation tested at the Costa Rica property
 - [[10-Projects/hudlinservices/_corporate-hub|Hudlin Services]] — Network and internet connectivity at the property
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
+- [[40-Resources/costa-rica|Costa Rica]] — Jurisdiction for property ownership and the Soleria testbed
 
 ## Notes
 

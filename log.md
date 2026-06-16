@@ -11,6 +11,26 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-16] scout | Eighth run (autonomous cron) — Costa Rica hub, MindTechArt concept, Security Systems Consulting concept
+
+Autonomous cron run — no human gate. The gap registry had only "Low" items left (AES identity confirmation needs Roy; 16 stale pages are a lint job), and the 2026-06-13 lint recs were all resolved in the seventh run. So I scanned the vault directly: a broken-link sweep (all hits were directory/`.js`/template-placeholder false positives — no real broken-link gaps), an uncataloged-page sweep, and a recurring-term sweep for concepts mentioned everywhere but lacking a page.
+
+**Gap selection rationale (recorded per autonomous-run protocol):**
+1. **Costa Rica** (highest compound value) — appears in 14+ pages (relocation destination, Soleria R&D testbed at La Dolce Niente, *Sloth Adventures* setting, "Costa Rica-ready" SFF LLM build, Auron social content) with **no dedicated page**. Genuine research warranted: digital nomad visa, territorial tax, corporate setup, fiber/connectivity, cost of living.
+2. **MindTechArt** — Roy's core personal-brand framework (Mind + Tech + Art), referenced in 11+ pages, no concept page. Grounded the "Tech" pillar in the **calm-technology** design movement (Amber Case) to give the framework real backbone.
+3. **Low-Voltage & Security Systems Consulting** — the actual technical domain behind Roy's 35-year career (ACS/IPVS/RTLS/CCTV, MasterFormat Div 27/28). Connects professional-history ↔ AES ↔ Innovatience ↔ lab-network with a shared concept instead of scattered acronyms.
+
+A fourth gap — **5 uncataloged ChatGPT-import pages** (royhudlin/professional-history, creative-work, communication-style; innovatience/logo-and-brand; auronmedia/social-media-strategy) plus the uncataloged social-media-agent — was a navigation gap, not a research gap, so it was handled in the update step (index.md + hub backlinks) rather than counted against the max-3-gap guardrail.
+
+**⚠️ Tooling deviation (same as 2026-06-15):** NotebookLM auth unavailable (`No cookies found` — cannot interactively re-login in cron). Fell back to WebSearch + WebFetch on authoritative 2026 sources. All findings attributed via `source:` frontmatter and per-page `## Sources` lists.
+
+**Pages created:**
+- [[40-Resources/costa-rica|Costa Rica]] — DNV (~$3k/mo, territorial 0% foreign-income tax), S.A./S.R.L. setup + RTBF + holding-company banking caveat, fiber (50–200 Mbps, beach-town variability), cost of living (~$2–3k/mo). Flagged open questions for Roy.
+- [[40-Resources/mindtechart|MindTechArt]] — three pillars mapped to vault evidence; grounded in calm technology (periphery, attention, Calm Tech Institute); brand application (audience, voice, channels, aesthetic).
+- [[40-Resources/security-systems-consulting|Low-Voltage & Security Systems Consulting]] — MasterFormat Div 27/28 backbone, acronym glossary (ACS/IPVS/IDS/IPS/RTLS), consulting workflow (Procore bid mgmt, spec writing, master planning), Fortisyn revenue-engine connection.
+
+**Cataloged + cross-linked (navigation):** added all 5 ChatGPT-import pages + social-media-agent to index.md; added backlinks from Roy Hudlin, Innovatience, and Auron Media hubs to the new concept pages and the import pages. Updated hub `updated` dates to 2026-06-16.
+
 ## [2026-06-15] scout | Seventh run (autonomous cron) — AES Engineering, social-media-automation skill, Social Media Marketing concept
 
 Autonomous cron run — no human gate. Selected 3 gaps from the 2026-06-13 lint report's open recommendations and the broken-link scan.

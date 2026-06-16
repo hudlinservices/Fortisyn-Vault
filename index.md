@@ -45,7 +45,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/innovatience/accounting\|Chart of Accounts Pro]] | Professional accounting application — Node.js |
 | [[10-Projects/innovatience/lab-network\|Lab Network]] | Lab network infrastructure and topology |
 | [[10-Projects/innovatience/website\|Innovatience Website]] | innovatience.ca website project |
-| [[10-Projects/innovatience/logo-and-brand\|Logo & Brand]] | Name origin, logo concepts, domain strategy — ChatGPT extracted |
+| [[10-Projects/innovatience/logo-and-brand\|Logo & Brand]] | Name origin, logo concepts (phoenix/infinity), domain strategy — from ChatGPT export |
 
 ### Auron Media (formerly Jungle Media)
 | Page | Summary |
@@ -54,7 +54,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/auronmedia/Junglemedia\|Junglemedia]] | Auron Media project overview |
 | [[10-Projects/auronmedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
 | [[10-Projects/auronmedia/signatures\|Signatures]] | Brand identity system — logos, colors, typography, email signatures for all Fortisyn entities |
-| [[10-Projects/auronmedia/social-media-strategy\|Social Media Strategy]] | Auron Media's content approach — platforms, influencer concept, brand voice |
+| [[10-Projects/auronmedia/social-media-strategy\|Social Media Strategy]] | Content themes, platforms, historical AI-influencer concept — from ChatGPT export |
 | [[chatgpt-conversation-index\|ChatGPT Conversations]] | 36 Auron Media conversations — SEO, design, brand, influencer (indexed) |
 
 ### La Dolce Niente
@@ -87,7 +87,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 |---|---|
 | [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]] | MindTechArt — meditation teacher, author of 5 books, photographic poetry. royhudlin.com |
 | [[10-Projects/royhudlin/website/royhudlin-com\|royhudlin.com]] | Personal brand website — MindTechArt: mindfulness, creativity, technology |
-| [[10-Projects/royhudlin/professional-history\|Professional History]] | 35-year career — contractor → consultant → Fortisyn founder |
+| [[10-Projects/royhudlin/professional-history\|Professional History]] | 35-year career: contractor → senior consultant → founder. Hospital security projects, AES bid manager — from ChatGPT export |
 
 ### Soleria Technology
 | Page | Summary |
@@ -171,6 +171,9 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/hyperframes\|Hyperframes]] | HTML-based video composition framework — Remotion + GSAP, 13 related skills |
 | [[40-Resources/sff-llm-build\|SFF LLM Machine]] | Carry-on portable PC build — RTX 3090, 64GB, runs any Ollama model. Costa Rica-ready |
 | [[40-Resources/unified-knowledge-graph\|Unified Knowledge Graph]] | Cross-vault map — all 3 vaults, 11 entities, 7 AES projects, agents, skills, gaps |
+| [[40-Resources/costa-rica\|Costa Rica]] | Relocation + business + tech-infrastructure hub — digital nomad visa, territorial tax, fiber, Soleria testbed. Connects 14+ pages |
+| [[40-Resources/mindtechart\|MindTechArt]] | Roy's personal-brand framework (Mind + Tech + Art), grounded in the calm-technology design movement |
+| [[40-Resources/security-systems-consulting\|Low-Voltage & Security Systems Consulting]] | The technical domain behind Roy's career — MasterFormat Div 27/28, ACS/IPVS/RTLS. Connects professional-history, AES, Innovatience |
 
 ### Marketing
 | Page | Summary |
@@ -198,6 +201,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[90-System/agents/marketing-agent\|Marketing Agent]] | Marketing agent definition — surveys, status reports, analysis |
 | [[90-System/agents/knowledge-scout-agent\|Knowledge Scout Agent]] | Research agent definition — autonomous gap finding and NotebookLM research |
 | [[90-System/agents/auron-agent\|Auron Agent]] | Auron Media's content agent — posts to Instagram, LinkedIn, YouTube via Buffer MCP. Serves 6 Fortisyn brands |
+| [[90-System/agents/social-media-agent\|Social Media Agent]] | Autonomous social content creation + posting — MindTechArt voice, human approval gate |
 | [[90-System/agents/agent-template\|Agent Template]] | Template for defining new agents |
 | [[90-System/agents/run-logs/marketing-agent-run-2026-05-19\|Marketing Agent Run: 2026-05-19]] | Marketing agent execution log |
 
@@ -244,4 +248,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 3 agents, 6 templates, 4 daily notes. Last updated 2026-06-15.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-16.

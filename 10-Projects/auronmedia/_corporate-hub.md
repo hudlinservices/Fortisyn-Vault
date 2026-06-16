@@ -10,7 +10,7 @@ tags:
   - corporate-hub
   - auronmedia
   - junglemedia
-updated: "2026-06-09"
+updated: "2026-06-16"
 ---
 # Auron Media
 
@@ -52,6 +52,7 @@ SORT priority ASC
 
 - [[10-Projects/auronmedia/limited-edition-intro|Limited Edition Intro]] — Hyperframes video intro
 - [[10-Projects/auronmedia/signatures|Signatures]] — Brand signatures and visuals
+- [[10-Projects/auronmedia/social-media-strategy|Social Media Strategy]] — content themes, platforms, historical influencer concept
 
 ## Related Entities
 
@@ -61,6 +62,9 @@ SORT priority ASC
 - [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] — Publishing (book covers, marketing)
 
 ## Notes
+
+### 2026-06-16
+- Scout #8: cataloged [[10-Projects/auronmedia/social-media-strategy|Social Media Strategy]] page
 
 ### 2026-06-09
 - Scout research: documented rebrand from Jungle Media to Auron Media based on auron.media site and NotebookLM synthesis
