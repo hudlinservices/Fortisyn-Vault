@@ -71,9 +71,9 @@ SORT priority ASC
 ## Digital Presence
 
 - [[10-Projects/royhudlin/website/royhudlin-com|royhudlin.com]] — Personal brand website
-- [[10-Projects/royhudlin/creative-work|Creative Work]] — Photography, poetry, metal art, 5 books, MindTechArt
-- [[10-Projects/royhudlin/communication-style|Communication Style]] — Writing, romantic, professional voice (used by Auron Agent)
 - [[10-Projects/royhudlin/professional-history|Professional History]] — 35-year career: contractor → consultant → founder
+- [[10-Projects/literaryimprint/creative-work|Creative Work]] — Photography, poetry, metal art, 5 books (via Literary Imprint)
+- [[10-Projects/literaryimprint/communication-style|Communication Style]] — Writing voice used by Auron Agent (via Literary Imprint)
 
 ## Related Entities
 

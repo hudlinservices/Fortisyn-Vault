@@ -45,6 +45,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/innovatience/accounting\|Chart of Accounts Pro]] | Professional accounting application — Node.js |
 | [[10-Projects/innovatience/lab-network\|Lab Network]] | Lab network infrastructure and topology |
 | [[10-Projects/innovatience/website\|Innovatience Website]] | innovatience.ca website project |
+| [[10-Projects/innovatience/logo-and-brand\|Logo & Brand]] | Name origin, logo concepts, domain strategy — ChatGPT extracted |
 
 ### Auron Media (formerly Jungle Media)
 | Page | Summary |
@@ -53,6 +54,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[10-Projects/auronmedia/Junglemedia\|Junglemedia]] | Auron Media project overview |
 | [[10-Projects/auronmedia/limited-edition-intro\|Limited Edition Intro]] | Limited edition product introduction strategy |
 | [[10-Projects/auronmedia/signatures\|Signatures]] | Brand identity system — logos, colors, typography, email signatures for all Fortisyn entities |
+| [[10-Projects/auronmedia/social-media-strategy\|Social Media Strategy]] | Auron Media's content approach — platforms, influencer concept, brand voice |
 
 ### La Dolce Niente
 | Page | Summary |
@@ -63,6 +65,8 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | Page | Summary |
 |---|---|
 | [[10-Projects/literaryimprint/_corporate-hub\|Literary Imprint]] | Digital publishing — DIY or done-for-you. Published 5 books by Roy Hudlin. literaryimprint.com |
+| [[10-Projects/literaryimprint/creative-work\|Creative Work]] | Photography, poetry, metal art, 5 books — the author's creative output |
+| [[10-Projects/literaryimprint/communication-style\|Communication Style]] | Writing, romantic, professional voice — used by Auron Agent |
 
 ### Python Slayers
 | Page | Summary |
@@ -82,6 +86,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 |---|---|
 | [[10-Projects/royhudlin/_corporate-hub\|Roy Hudlin]] | MindTechArt — meditation teacher, author of 5 books, photographic poetry. royhudlin.com |
 | [[10-Projects/royhudlin/website/royhudlin-com\|royhudlin.com]] | Personal brand website — MindTechArt: mindfulness, creativity, technology |
+| [[10-Projects/royhudlin/professional-history\|Professional History]] | 35-year career — contractor → consultant → Fortisyn founder |
 
 ### Soleria Technology
 | Page | Summary |

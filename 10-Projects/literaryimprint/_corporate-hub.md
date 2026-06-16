@@ -46,6 +46,8 @@ Authors choose their path and can switch at any time. Manuscript drafts reviewed
 ## Related Entities
 
 - [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin]] — Primary author, 5 books published
+- [[10-Projects/literaryimprint/creative-work|Creative Work]] — Photography, poetry, metal art, 5 books catalog
+- [[10-Projects/literaryimprint/communication-style|Communication Style]] — Roy's writing voice (used by Auron Agent for marketing)
 - [[10-Projects/auronmedia/_corporate-hub|Auron Media]] — Custom cover design and marketing visuals
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
 
