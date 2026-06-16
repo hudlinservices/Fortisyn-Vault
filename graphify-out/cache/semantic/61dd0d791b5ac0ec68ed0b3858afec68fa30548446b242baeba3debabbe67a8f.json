@@ -1,0 +1,1 @@
+{"nodes": [{"id": "home_md", "label": "Home Dashboard", "file_type": "document", "source_file": "00-Dashboard/Home.md"}], "edges": [{"source": "home_md", "target": "monitor_md", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "00-Dashboard/Home.md"}], "hyperedges": []}

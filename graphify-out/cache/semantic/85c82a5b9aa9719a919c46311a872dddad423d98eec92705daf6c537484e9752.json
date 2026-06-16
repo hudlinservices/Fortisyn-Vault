@@ -1,0 +1,1 @@
+{"nodes": [{"id": "knowledge_scout_md", "label": "Knowledge Scout Skill", "file_type": "document", "source_file": "20-Skills/research/knowledge-scout.md"}], "edges": [{"source": "knowledge_scout_md", "target": "index_md", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "20-Skills/research/knowledge-scout.md"}], "hyperedges": []}

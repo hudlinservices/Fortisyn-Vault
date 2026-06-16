@@ -1,0 +1,152 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1779126985.193265,
+    "ast_hash": "f2e13fa6626f9abaaa2733e3ed84ad1b",
+    "semantic_hash": "f2e13fa6626f9abaaa2733e3ed84ad1b"
+  },
+  ".obsidian/app.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "f6efc59b87b574aa316e2f0eb8d8bf64",
+    "semantic_hash": "f6efc59b87b574aa316e2f0eb8d8bf64"
+  },
+  ".obsidian/appearance.json": {
+    "mtime": 1779126985.560465,
+    "ast_hash": "f5b32f12de907615590d4574802b2e50",
+    "semantic_hash": "f5b32f12de907615590d4574802b2e50"
+  },
+  ".obsidian/community-plugins.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "581cce7902e547427fb2b57906d61106",
+    "semantic_hash": "581cce7902e547427fb2b57906d61106"
+  },
+  ".obsidian/core-plugins.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "7c877bea49eaeabb100563bd157b9051",
+    "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
+  },
+  ".obsidian/dataview.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "254c17063135be016df37db3dc274e09",
+    "semantic_hash": "254c17063135be016df37db3dc274e09"
+  },
+  ".obsidian/plugins/dataview/main.js": {
+    "mtime": 1779128706.7137063,
+    "ast_hash": "17271febd9cc7192a727d29cf544bd81",
+    "semantic_hash": "17271febd9cc7192a727d29cf544bd81"
+  },
+  ".obsidian/plugins/dataview/manifest.json": {
+    "mtime": 1779128707.4479258,
+    "ast_hash": "d32e8819a2a4841067c0a4e8055cc22f",
+    "semantic_hash": "d32e8819a2a4841067c0a4e8055cc22f"
+  },
+  ".obsidian/plugins/quickadd/main.js": {
+    "mtime": 1779128710.0540419,
+    "ast_hash": "ff5feb998fb4401a3f0aa53eef59229a",
+    "semantic_hash": "ff5feb998fb4401a3f0aa53eef59229a"
+  },
+  ".obsidian/plugins/quickadd/manifest.json": {
+    "mtime": 1779128710.7591834,
+    "ast_hash": "000a4ccc8674e284b632cdbf11e48cfa",
+    "semantic_hash": "000a4ccc8674e284b632cdbf11e48cfa"
+  },
+  ".obsidian/plugins/shellcommands/main.js": {
+    "mtime": 1779128713.0527112,
+    "ast_hash": "61cfd43332ca6f5ebac7bdac2261ae3f",
+    "semantic_hash": "61cfd43332ca6f5ebac7bdac2261ae3f"
+  },
+  ".obsidian/plugins/shellcommands/manifest.json": {
+    "mtime": 1779128713.681523,
+    "ast_hash": "b162cee06614bfdb1e60da9a0ebe4cb2",
+    "semantic_hash": "b162cee06614bfdb1e60da9a0ebe4cb2"
+  },
+  ".obsidian/plugins/templater/main.js": {
+    "mtime": 1779128704.6346288,
+    "ast_hash": "e3ac3b81e9582a35718fa2068dd7d7a3",
+    "semantic_hash": "e3ac3b81e9582a35718fa2068dd7d7a3"
+  },
+  ".obsidian/plugins/templater/manifest.json": {
+    "mtime": 1779128705.1834762,
+    "ast_hash": "4578138e1a15a954efdd537804c25b55",
+    "semantic_hash": "4578138e1a15a954efdd537804c25b55"
+  },
+  ".obsidian/quickadd.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "a400d3608d365e4d0592f7257e1c1e43",
+    "semantic_hash": "a400d3608d365e4d0592f7257e1c1e43"
+  },
+  ".obsidian/shell-commands.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "08e06eee0dce8d4c8aa8954f6c9fc14b",
+    "semantic_hash": "08e06eee0dce8d4c8aa8954f6c9fc14b"
+  },
+  ".obsidian/templater.json": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "bd05cab8417ffa57aac8cc0208bc201b",
+    "semantic_hash": "bd05cab8417ffa57aac8cc0208bc201b"
+  },
+  ".specify/feature.json": {
+    "mtime": 1779126985.193265,
+    "ast_hash": "e167961f068db5fbd7d170fdd58d4d62",
+    "semantic_hash": "e167961f068db5fbd7d170fdd58d4d62"
+  },
+  ".specify/init-options.json": {
+    "mtime": 1779126985.189665,
+    "ast_hash": "806b939bc9fa09916a8212243d640f60",
+    "semantic_hash": "806b939bc9fa09916a8212243d640f60"
+  },
+  ".specify/scripts/bash/check-prerequisites.sh": {
+    "mtime": 1779126985.193265,
+    "ast_hash": "cb11cb2fee95a9999955350d5d664e47",
+    "semantic_hash": "cb11cb2fee95a9999955350d5d664e47"
+  },
+  ".specify/scripts/bash/setup-plan.sh": {
+    "mtime": 1779126985.193265,
+    "ast_hash": "e38d64cfd8f5505956c7abeac060d6bd",
+    "semantic_hash": "e38d64cfd8f5505956c7abeac060d6bd"
+  },
+  ".specify/scripts/bash/setup-tasks.sh": {
+    "mtime": 1779126985.193265,
+    "ast_hash": "389687c2d9d6e0b540a1f90cc5a29053",
+    "semantic_hash": "389687c2d9d6e0b540a1f90cc5a29053"
+  },
+  "30-Automations/scripts/dashboard-server.js": {
+    "mtime": 1781055023.002295,
+    "ast_hash": "070b9321a1bd367806275b8879e8b3aa",
+    "semantic_hash": "070b9321a1bd367806275b8879e8b3aa"
+  },
+  "90-System/agents/gates.js": {
+    "mtime": 1779163088.1621153,
+    "ast_hash": "914637257d765cdddef547cfc5226b2d",
+    "semantic_hash": "914637257d765cdddef547cfc5226b2d"
+  },
+  "90-System/agents/lock.js": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "ec3caf3770913e7ec40b4654c3939580",
+    "semantic_hash": "ec3caf3770913e7ec40b4654c3939580"
+  },
+  "90-System/agents/package.json": {
+    "mtime": 1779137689.4803662,
+    "ast_hash": "01130d3fb473dc545b22798778ea0184",
+    "semantic_hash": "01130d3fb473dc545b22798778ea0184"
+  },
+  "90-System/agents/run-agent.js": {
+    "mtime": 1779160687.0647464,
+    "ast_hash": "c2efb9f216fc9c18d28cdabb8424fd57",
+    "semantic_hash": "c2efb9f216fc9c18d28cdabb8424fd57"
+  },
+  "90-System/agents/run-log.js": {
+    "mtime": 1779126985.553265,
+    "ast_hash": "7cd4d14adfd9f8fef60641de62eaff93",
+    "semantic_hash": "7cd4d14adfd9f8fef60641de62eaff93"
+  },
+  "90-System/agents/tools.js": {
+    "mtime": 1779136578.8669393,
+    "ast_hash": "207fa69741c7781167591367e85e8266",
+    "semantic_hash": "207fa69741c7781167591367e85e8266"
+  },
+  "90-System/scripts/pi-claude-setup.sh": {
+    "mtime": 1781307152.695633,
+    "ast_hash": "f5cb3de90bf137855c33a4dd8042d245",
+    "semantic_hash": "f5cb3de90bf137855c33a4dd8042d245"
+  }
+}
