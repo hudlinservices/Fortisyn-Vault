@@ -151,6 +151,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/index-log-pattern\|Index and Log Pattern]] | How index.md and log.md work together for wiki navigation |
 | [[40-Resources/hyperframes\|Hyperframes]] | HTML-based video composition framework — Remotion + GSAP, 13 related skills |
 | [[40-Resources/sff-llm-build\|SFF LLM Machine]] | Carry-on portable PC build — RTX 3090, 64GB, runs any Ollama model. Costa Rica-ready |
+| [[40-Resources/unified-knowledge-graph\|Unified Knowledge Graph]] | Cross-vault map — all 3 vaults, 11 entities, 7 AES projects, agents, skills, gaps |
 
 ### Marketing
 | Page | Summary |
