@@ -73,6 +73,7 @@ SORT priority ASC
 - [[10-Projects/royhudlin/website/royhudlin-com|royhudlin.com]] — Personal brand website
 - [[10-Projects/royhudlin/creative-work|Creative Work]] — Photography, poetry, metal art, 5 books, MindTechArt
 - [[10-Projects/royhudlin/communication-style|Communication Style]] — Writing, romantic, professional voice (used by Auron Agent)
+- [[10-Projects/royhudlin/professional-history|Professional History]] — 35-year career: contractor → consultant → founder
 
 ## Related Entities
 
