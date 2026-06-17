@@ -29,8 +29,8 @@ updated: "2026-06-09"
 
 ## Infrastructure Stack
 
-- **Kubernetes clusters** — container orchestration for client workloads
-- **VLAN segmentation** — isolated networks per entity/client
+- **Kubernetes clusters** — container orchestration for client workloads → see [[40-Resources/cloud-deployment-infrastructure|Cloud Deployment & Hosting Infrastructure]] (DOKS, Helm, Cloudflare Tunnel)
+- **VLAN segmentation** — isolated networks per entity/client → see [[40-Resources/network-architecture|Network Architecture]] (Ubiquiti/UniFi, 802.1Q)
 - **Cloud services** — integrated cloud infrastructure
 - **Failover systems** — redundant servers, automatic cutover
 - **Security** — hardened and encrypted, 99.9% uptime guarantee
@@ -57,6 +57,9 @@ Every entity in the Fortisyn Group depends on Hudlin Services:
 - All 10 other Fortisyn entities — IT dependency
 
 ## Notes
+
+### 2026-06-17
+- Scout #9: documented the two halves of the Hudlin Services backbone as concept pages — [[40-Resources/cloud-deployment-infrastructure|Cloud Deployment & Hosting]] (DOKS/Kubernetes + Cloudflare Tunnel) and [[40-Resources/network-architecture|Network Architecture]] (Ubiquiti/UniFi + VLAN). Grounded in ChatGPT-export infra conversations.
 
 ### 2026-06-09
 - Scout research: documented full service catalog, infrastructure stack (Kubernetes, VLAN, failover), hudlinservices.com URL, 99.9% uptime SLA

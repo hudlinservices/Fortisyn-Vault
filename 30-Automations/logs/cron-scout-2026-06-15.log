@@ -1,0 +1,27 @@
+=== scout run: 2026-06-15T04:13:01-06:00 ===
+Scout run #7 complete and pushed (`8f11a0b`). The push went through despite a GitHub "repository moved" notice (the remote was renamed to `hudlinservices/Fortisyn-Vault` — worth updating the remote URL sometime, but the push succeeded against the old name's redirect).
+
+## Scout #7 Summary (autonomous cron run)
+
+**Gap selection** (no human gate; rationale logged): I scanned `index.md`, `log.md`, `gap-priorities.md`, and the 2026-06-13 lint report, then ran a broken-link sweep. The lint recommendations mapped almost 1:1 to the highest-value gaps. Ranked by compound value:
+
+1. **AES Engineering** — referenced from 5+ live pages via **broken wikilinks**. Top connectivity.
+2. **`social-media-automation` skill** — broken `allowed_skills` link from the *active* Auron Agent.
+3. **Social Media Marketing** concept page — paired with #2 (shared sources), completes the marketing pillar set.
+
+(Dropped lint rec #3: the `specs/` directory no longer exists.)
+
+**⚠️ Tooling deviation:** NotebookLM auth was down (`No cookies found` — can't interactively re-login in cron). Fell back to **WebSearch + WebFetch** on authoritative sources (aesengr.com, Wikipedia, Buffer/Sprout Social), all attributed via `source:` frontmatter.
+
+**Pages created:**
+- `10-Projects/aesengineering/_corporate-hub.md` — AES Engineering Ltd: electrical/lighting/technology consulting engineer (aesengr.com), founded 2001, ~150 staff, Vancouver BC. Documented the Innovatience engagement (PMO Setup) and revenue-engine role. **Flagged a contradiction:** the vault calls AES "industrial engineering" but the firm is electrical/technology — left existing claims intact under a `⚠️` callout for Roy to confirm (firm identity inferred from context).
+- `20-Skills/marketing/social-media-automation.md` — execution skill behind the Auron Agent (Buffer queue → approval gate → publish/log) with 2026 best practices.
+- `40-Resources/marketing/social-media-marketing.md` — fifth marketing pillar.
+
+**Fixes:** stale `junglemedia → auronmedia` link in `growth-hacking.md`; broken links from Innovatience hub, Fortisyn hub, and Auron Agent now all resolve.
+
+**Navigation updated:** `index.md` (new Clients section + 2 entries, stats line), `log.md` (run entry), `gap-priorities.md` (3 gaps → Researched, 2 low-priority follow-ups added), and 4 new entries in the scout's own Research Strategies (broken-link scanning as the best gap-finder, web-tool fallback for cron, skill+concept pairing, lint-as-gap-queue).
+
+**Open follow-ups** (recorded in gap-priorities): confirm AES firm identity with Roy; the 16 stale May pages remain a lint job.
+=== FAILED: scout run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-15T04:19:43-06:00 ===

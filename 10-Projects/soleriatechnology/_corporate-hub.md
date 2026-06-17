@@ -48,14 +48,23 @@ This gives Soleria a unique advantage — every product ships with real-world va
 - Home automation development (formerly standalone homeautomation entity, now merged)
 - [[10-Projects/soleriatechnology/website/soleriatechnology-com|soleriatechnology.com]] — 12-route React SPA, most complex frontend in the Fortisyn portfolio
 
+## Technical Stack
+
+The automation products are built on **Home Assistant** (local-control hub) with **Z-Wave** devices, isolated on a dedicated IoT VLAN. Full stack — Home Assistant, the Z-Wave/Zigbee/Matter/Thread protocol landscape, and the R&D loop grounded in real config — is documented in [[40-Resources/home-automation-stack|Home Automation Stack]].
+
 ## Related Entities
 
 - [[10-Projects/ladolceniente/_corporate-hub|La Dolce Niente]] — Primary testbed and deployment site
 - [[10-Projects/hudlinservices/_corporate-hub|Hudlin Services]] — Network infrastructure for automation connectivity
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]] — Parent holding company
 - [[40-Resources/costa-rica|Costa Rica]] — Operating environment for the testbed and deployments
+- [[40-Resources/home-automation-stack|Home Automation Stack]] — the technical foundation (Home Assistant, Z-Wave/Matter)
+- [[40-Resources/network-architecture|Network Architecture]] — IoT VLAN isolation for smart-home devices
 
 ## Notes
+
+### 2026-06-17
+- Scout #9: documented the technical foundation in [[40-Resources/home-automation-stack|Home Automation Stack]] — Home Assistant hub, Z-Wave (Z-Stick 10 Pro), 2026 protocol landscape (Z-Wave/Zigbee/Matter/Thread), and the Matter portability bet for productization.
 
 ### 2026-06-09
 - Scout research: documented smart home automation positioning, solariatechnology.com URL, R&D testbed loop

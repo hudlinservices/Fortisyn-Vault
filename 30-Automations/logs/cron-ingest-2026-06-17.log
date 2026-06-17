@@ -1,0 +1,27 @@
+=== auto-ingest run: 2026-06-17T03:07:01-06:00 ===
+I'm blocked on the NotebookLM connection and can't proceed with the ingest. Here's the situation:
+
+**Blocker:** The NotebookLM MCP server (`notebooklm`) is not authenticated in this session. Both `source_list` and `notebook_list` return:
+
+```
+Error: No cookies found. Please login first.
+Suggestion: Run "npx oneclicklm login" to re-authenticate.
+```
+
+Because of this, I **cannot check `source_list` for the Vault Ingest notebook (`1ded6d40`)**, which is step 1 of the Path B workflow. Without that, I can't determine whether there are new sources beyond the ones already recorded in `90-System/ingest-log.md` (last checked 2026-06-12), let alone query them or synthesize pages.
+
+I did **not** make any changes to the vault, and I did not commit/push anything — proceeding would mean either fabricating source content or guessing, neither of which is acceptable.
+
+**To unblock, re-authenticate the NotebookLM session:**
+
+```bash
+npx oneclicklm login
+```
+
+Once that's done, just say "go" (or re-run this command) and I'll pick up the workflow from the top: check `source_list`, ingest any new sources, and commit/push.
+
+One note: this is the kind of failure that will also hit your **weekly ingest cron** silently — if the cron runs headless without a valid NotebookLM cookie, it'll error out the same way and no ingest will happen. You may want to check whether the cron has a way to surface that auth failure (e.g., write the error into a log or notify you), so a stale login doesn't quietly stall ingestion for weeks.
+
+Want me to look at the cron-ingest script (`90-System/scripts/cron-ingest.sh`, currently untracked) to see how it handles this auth case?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-17T03:07:42-06:00 ===

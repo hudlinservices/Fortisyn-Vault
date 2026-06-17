@@ -11,6 +11,29 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-17] scout | Ninth run (autonomous cron) — infrastructure trilogy: Cloud Deployment, Network Architecture, Home Automation Stack
+
+Autonomous cron run — no human gate. The gap registry held only "Low/Med" human-input items (Costa Rica specifics, AES identity confirmation, "industrial engineering" label, 16 stale pages — all need Roy or are lint jobs, not researchable). So I swept the vault directly per the run-#8 "queues are dry" protocol: a recurring-term sweep, an uncataloged-page sweep, and a broken-link check.
+
+**Gap selection rationale (recorded per autonomous-run protocol):**
+The recurring-term sweep surfaced a cluster of *infrastructure* terms mentioned across project pages + ~40 ChatGPT-export conversations but with **no concept page**: Kubernetes (django-arch + Hudlin hub), Cloudflared, UniFi/Ubiquiti, Starlink, Plex, Home Assistant, Z-Wave. These split cleanly into three distinct, high-connectivity domains — a coherent "infrastructure trilogy":
+1. **Cloud Deployment & Hosting** (highest compound value) — "Kubernetes clusters" was a one-line bullet on the Hudlin hub and a single row in django-platform-architecture with no explanation of *how*. Connects Hudlin Services ↔ Python Slayers ↔ Django architecture ↔ all Django/personal apps. Grounded in *Kubernetes Setup on DigitalOcean* (300-msg) + *Plex Cloudflared Tunnel Setup* conversations.
+2. **Network Architecture (Ubiquiti/UniFi)** — also enriches the [[10-Projects/innovatience/lab-network|lab-network]] near-stub (literally a Ubiquiti project). Connects lab-network ↔ Hudlin ↔ Soleria ↔ Costa Rica. Grounded in *Starlink and Dream Wall setup* + UDM/AP conversations.
+3. **Home Automation Stack** — Soleria's actual foundation (Home Assistant + Z-Wave), previously undocumented. Connects Soleria ↔ La Dolce Niente ↔ Costa Rica ↔ Hudlin. Grounded in *Home Assistant Z-Stick setup* conversation.
+
+The three interlock: CGNAT on Starlink (Network) is *why* ingress uses Cloudflare Tunnel (Cloud); IoT devices (Home Automation) ride an isolated VLAN (Network).
+
+A fourth finding — **30 uncataloged root-level `chatgpt-conversations/*.md` files** (not under entity subdirs) — is a *navigation/filing* gap, not research, so it was logged to gap-priorities for a future lint/filing pass rather than spending a max-3 research slot. Also fixed a stale index summary ("36 Auron Media conversations" → "36 across all 6 entities" — the conversation index always covered all entities).
+
+**⚠️ Tooling deviation (THIRD consecutive cron failure):** NotebookLM auth unavailable again (`No cookies found`) — 2026-06-15, -16, and -17. Per the standing strategy note, this third failure triggers rewriting the skill's "NotebookLM MCP available" prerequisite to make WebSearch+WebFetch the *primary* research path for cron (done in this run's self-improve step). All findings attributed via `source:` frontmatter + per-page `## Sources` lists.
+
+**Pages created:**
+- [[40-Resources/cloud-deployment-infrastructure|Cloud Deployment & Hosting Infrastructure]] — DOKS managed K8s (doctl/kubectl/helm, namespaces per entity, HPA), Cloudflare Tunnel (outbound-only, no open ports, works behind CGNAT, zero-trust, systemd), who-uses-it table.
+- [[40-Resources/network-architecture|Network Architecture (Ubiquiti/UniFi)]] — UDM-Pro/Dream Wall, 802.1Q VLAN segmentation (security/perf/multi-tenancy), ui.com remote site adoption, Starlink WAN + CGNAT consequence.
+- [[40-Resources/home-automation-stack|Home Automation Stack]] — Home Assistant local-control hub, Z-Wave JS + Z-Stick 10 Pro, 2026 protocol comparison (Z-Wave/Zigbee/Matter/Thread), IoT VLAN isolation, R&D-loop grounding, Matter portability bet.
+
+**Enriched / cross-linked:** lab-network stub (Research Notes → Network Architecture); Hudlin Services hub (infra-stack bullets now link both concept pages + 2026 note); Soleria hub (new Technical Stack section + related links + note); django-platform-architecture (Hosting row links Cloud Deployment). index.md, gap-priorities.md, knowledge-scout strategies updated.
+
 ## [2026-06-16] scout | Eighth run (autonomous cron) — Costa Rica hub, MindTechArt concept, Security Systems Consulting concept
 
 Autonomous cron run — no human gate. The gap registry had only "Low" items left (AES identity confirmation needs Roy; 16 stale pages are a lint job), and the 2026-06-13 lint recs were all resolved in the seventh run. So I scanned the vault directly: a broken-link sweep (all hits were directory/`.js`/template-placeholder false positives — no real broken-link gaps), an uncataloged-page sweep, and a recurring-term sweep for concepts mentioned everywhere but lacking a page.

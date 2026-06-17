@@ -1,0 +1,25 @@
+=== scout run: 2026-06-16T04:13:01-06:00 ===
+Scout #8 complete — committed and pushed to `main` (`34b56cb`).
+
+## What I did
+
+**Gap selection (autonomous — rationale recorded in log.md):** The gap registry held only "Low" human-input items and the 2026-06-13 lint recs were all resolved in run #7, so I scanned the vault directly. A broken-link sweep returned only false positives (directory links, `.js` files, `{{VALUE}}` placeholders). The real signals came from a **recurring-term sweep** and an **uncataloged-page sweep**:
+
+1. **Costa Rica** (highest compound value, 14+ pages) — relocation destination, Soleria's R&D testbed, *Sloth Adventures* setting, "Costa Rica-ready" builds — but no page.
+2. **MindTechArt** (11+ pages) — Roy's core brand framework, no concept page.
+3. **Low-Voltage & Security Systems Consulting** — the technical domain tying professional-history ↔ AES ↔ Innovatience ↔ lab-network.
+
+**Tooling deviation:** NotebookLM auth failed again (`No cookies found` — 2nd consecutive cron run). Fell back to WebSearch + WebFetch on authoritative 2026 sources, with full `source:` attribution and per-page `## Sources` lists.
+
+**Pages created (40-Resources/):**
+- `costa-rica.md` — digital nomad visa, territorial 0% foreign-income tax, S.A./S.R.L. setup + holding-company banking caveat, fiber infrastructure, cost of living; open questions flagged for Roy
+- `mindtechart.md` — Mind/Tech/Art pillars grounded in the **calm-technology** movement (Amber Case)
+- `security-systems-consulting.md` — MasterFormat Div 27/28, ACS/IPVS/RTLS glossary, consulting workflow
+
+**Navigation:** cataloged 5 ChatGPT-import pages + the social-media-agent in index.md; added backlinks from the Roy Hudlin, Innovatience, Auron Media, Soleria, and La Dolce Niente hubs. Updated index.md, log.md, gap-priorities.md (3 gaps → Researched, 2 new gaps added), and the knowledge-scout Research Strategies (7 new learnings).
+
+**Merge note:** the remote had diverged with 7 new commits (a third lint pass, ChatGPT-conversation indexing, and a move of `creative-work`/`communication-style` to `literaryimprint/`). I rebased onto it rather than force-pushing, resolved the index.md and royhudlin-hub conflicts in favor of the remote's canonical file locations, and repointed my new pages' links to the moved files. Verified all wikilinks resolve before pushing.
+
+**Flagged for Roy** (in gap-priorities.md): Costa Rica specifics need his confirmation (which entity uses S.R.L. vs S.A., La Dolce Niente fiber, residency status, holding-company banking), and the "industrial engineering" label on the Innovatience hub still contradicts the systems-consulting/AES pages.
+=== FAILED: scout run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-16T04:26:33-06:00 ===

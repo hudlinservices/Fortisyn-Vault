@@ -64,7 +64,7 @@ Every Django project in the Fortisyn ecosystem follows this layout:
 | **Framework** | Django 5.x |
 | **API** | Django REST Framework 3.15-3.16+ |
 | **Server** | Gunicorn |
-| **Hosting** | Hudlin Services (Kubernetes clusters) |
+| **Hosting** | Hudlin Services — see [[40-Resources/cloud-deployment-infrastructure\|Cloud Deployment Infrastructure]] (DOKS/Kubernetes + Cloudflare Tunnel) |
 | **Auth** | Django auth + DRF token/session |
 | **Static** | WhiteNoise or CDN |
 | **Database** | PostgreSQL (standard for Django projects) |

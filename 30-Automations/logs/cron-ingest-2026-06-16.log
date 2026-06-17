@@ -1,0 +1,38 @@
+=== auto-ingest run: 2026-06-16T03:07:02-06:00 ===
+I can't complete the Path B ingest. Here's what happened.
+
+## Result: Blocked — no ingest performed
+
+**The blocker:** NotebookLM authentication is unavailable in this environment. Both `source_list` calls (short and full notebook ID) returned:
+
+```
+Error: No cookies found. Please login first.
+```
+
+Re-authenticating isn't possible here — `npx oneclicklm login` requires Chrome/Chromium for the interactive Google OAuth flow, and no browser is installed:
+
+```
+❌ Chrome/Chromium not found on your system.
+```
+
+This is the same tooling deviation recorded in the **2026-06-15 autonomous scout run** (`log.md`): *"NotebookLM auth was unavailable (No cookies found — cannot interactively re-login in cron)."* The OneClickLM session cookies appear to have expired and can't be refreshed without an interactive desktop browser session.
+
+**What this means:** I could not check `source_list(notebook_id="1ded6d40")` for sources missing from `90-System/ingest-log.md`, so I cannot determine whether new sources exist, query them, or synthesize pages.
+
+**What I did NOT do:** No wiki pages were created or modified. `index.md`, `log.md`, and `ingest-log.md` are untouched. No commit or push was made — there are no changes to commit (the pre-existing untracked cron log files in `git status` are unrelated to this run).
+
+## To unblock
+
+Re-authenticate OneClickLM from a machine with a browser (the Pi desktop or your laptop):
+
+```bash
+npx oneclicklm login          # opens Chrome → Google login → saves cookies
+# or, if Chrome is installed at a non-standard path:
+CHROME_PATH=/path/to/chrome npx oneclicklm login
+```
+
+Once cookies are restored, re-run this ingest and it'll proceed normally.
+
+Want me to (a) save a memory noting the recurring NotebookLM-auth-in-headless blocker so future runs flag it immediately, or (b) check whether there's a non-browser auth path in the OneClickLM/cron setup scripts?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-16T03:07:51-06:00 ===

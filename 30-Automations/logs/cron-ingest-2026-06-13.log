@@ -1,0 +1,67 @@
+=== auto-ingest run: 2026-06-13T09:37:26-06:00 ===
+I've traced the problem to its root. I cannot run the ingest workflow, and here's exactly why.
+
+## Blocked: NotebookLM access is unavailable
+
+The Path B workflow requires the `notebooklm` MCP server to call `source_list` and `notebook_query` against the Vault Ingest notebook (`1ded6d40`). That server **failed to connect**, and it can't be recovered from here:
+
+- `claude mcp list` reports: `notebooklm: oneclicklm — ✘ Failed to connect`
+- The server is configured in `~/.claude.json` as `command: "oneclicklm"`, but that binary **does not exist anywhere on this machine** (`command not found`; a filesystem-wide `find` turned up nothing; not in `~/.local/bin`, not in global `node_modules`).
+- It's **not on the public npm registry** either (`npm view oneclicklm` → 404), so it's a private/custom package.
+- The `pi-claude-setup.sh` script that provisioned this Pi installs Node, Claude Code, git, and tmux — but **never installs `oneclicklm`**. The MCP config was carried over via `.claude.json`, but the actual binary was not. That's the gap.
+
+There is no alternative path to the notebook configured (no API key, no other CLI), so I can't check for new sources at all — this is different from "checked and found nothing." The `ingest-log.md` table is still empty, so nothing has been processed yet.
+
+I made **no changes** to the vault and did not commit anything.
+
+## What's needed to unblock
+
+Install the `oneclicklm` binary on this Pi so the `notebooklm` MCP server connects, then re-run. Likely one of:
+1. Copy the binary/package from your main machine (where it presumably works) to the Pi, e.g. into `~/.local/bin/` so it's on PATH, **or**
+2. If it's a private npm package, `npm install -g <private-package>` with registry auth configured.
+
+Once `claude mcp list` shows `notebooklm: ✔ Connected`, this exact command will work as written.
+
+Two suggestions for durability:
+- Add the `oneclicklm` install step to `pi-claude-setup.sh` so future Pi rebuilds don't hit this.
+- The daily cron (`cron-ingest.sh`) will silently fail the same way until this is fixed — worth fixing before it runs again.
+
+Want me to add the install step to `pi-claude-setup.sh` now (once you tell me where the binary/package comes from), or should I just wait while you install `oneclicklm` and then retry the ingest?
+=== exit code: 0 — finished: 2026-06-13T09:41:42-06:00 ===
+=== auto-ingest run: 2026-06-13T09:56:12-06:00 ===
+The auto-ingest workflow is **blocked on authentication** and cannot proceed. Here's what happened:
+
+## Status: Blocked — NotebookLM not authenticated
+
+I followed the Path B workflow:
+1. ✅ Read `90-System/ingest-log.md` — no sources processed yet (empty table)
+2. ❌ **Failed** to check `source_list` on the Vault Ingest notebook (`1ded6d40-a688-4ea3-adb0-5b549b96eaf2`)
+
+Both `source_list` and `notebook_list` returned the same error:
+
+```
+Error: No cookies found. Please login first.
+Suggestion: Run "npx oneclicklm login" to re-authenticate.
+```
+
+The NotebookLM MCP server's saved Google session has expired. Until it's re-authenticated, I can't see whether there are new sources, let alone query them.
+
+## What I did *not* do
+- No wiki pages created/updated
+- No changes to `index.md`, `log.md`, or `ingest-log.md`
+- No git commit/push
+
+I deliberately left everything untouched since I couldn't determine whether new sources exist.
+
+## To unblock
+Re-authentication requires an **interactive browser login**, which I can't perform autonomously. You'll need to run this yourself (on the Pi or wherever the MCP server runs):
+
+```bash
+npx oneclicklm login
+```
+
+This opens a Google auth flow and saves fresh cookies. Once that's done, just re-run this same command and I'll proceed with the full ingest.
+
+**One thing worth flagging for the 24/7 cron setup:** if the cron-ingest job depends on these same cookies, it's silently failing too whenever the session expires. You may want the cron script to detect this auth error and notify you (e.g., push notification or log alert) rather than failing quietly. I can wire that into `90-System/scripts/cron-ingest.sh` if you'd like — want me to take a look?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-13T09:56:47-06:00 ===

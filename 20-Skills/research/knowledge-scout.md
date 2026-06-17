@@ -2,11 +2,13 @@
 name: "Knowledge Scout"
 domain: "research"
 prerequisites:
-  - "NotebookLM MCP tools available"
+  - "WebSearch + WebFetch available (PRIMARY research path for cron — NotebookLM auth has failed 3 consecutive cron runs)"
+  - "NotebookLM MCP tools available (preferred only for interactive runs where a human can re-auth)"
   - "Obsidian vault open"
 estimated_time: "30 minutes per run"
 tools:
-  - "NotebookLM MCP (notebook_create, source_add, notebook_query, source_list)"
+  - "WebSearch + WebFetch (primary for cron)"
+  - "NotebookLM MCP (notebook_create, source_add, notebook_query, source_list) — interactive runs only"
   - "Obsidian Read/Write/Edit"
 agent_executable: true
 agent_steps: [1, 3, 4, 5, 6]
@@ -14,8 +16,8 @@ tags:
   - skill
   - research
   - self-learning
-version: 1
-last_updated: "2026-06-16"
+version: 2
+last_updated: "2026-06-17"
 ---
 # Knowledge Scout
 
@@ -27,9 +29,10 @@ Find what the vault doesn't know and fill it in. Instead of waiting for a human 
 
 ## Prerequisites
 
-- [ ] NotebookLM MCP tools available in the session
+- [ ] **WebSearch + WebFetch available — the PRIMARY research path for cron runs.** NotebookLM auth has failed 3 consecutive cron runs (2026-06-15/16/17). Don't attempt `notebook_list` in cron unless someone re-ran `npx oneclicklm login` since the last failure.
+- [ ] NotebookLM MCP tools — *preferred only for interactive runs* where a human can re-authenticate.
 - [ ] Vault open and readable
-- [ ] Human available for gap approval (step 2)
+- [ ] Human available for gap approval (step 2) — skipped in autonomous cron runs; record gap-selection rationale in `log.md` instead.
 
 ## Steps
 
@@ -156,3 +159,7 @@ Strategies evolve over time based on what works. Updated by the agent after each
 - [2026-06-16] **Ground internal/brand concepts in an external movement.** MindTechArt is a personal brand — it would have been easy to write it from vault content alone. Instead, anchoring the fuzzy "Tech" pillar to the documented **calm-technology** movement (Amber Case, Calm Tech Institute) gave it a citable backbone and turned a personal-brand page into a real concept page. Even "internal" gaps benefit from one web-research pass that connects them to an established framework.
 - [2026-06-15] **Pair a skill template with its concept page.** social-media-automation (executable skill) and Social Media Marketing (domain concept) drew from the same two web sources. Writing both in one run cost one research pass and produced a clean separation: 40-Resources/ holds the *why/what*, 20-Skills/ holds the *how*, and they cross-link. When a gap is "we do X but have no page on X," check whether X needs both a concept page and a skill — and source them together.
 - [2026-06-15] **Lint reports are a pre-ranked gap queue.** The 2026-06-13 lint's "Recommendations" list mapped almost 1:1 to this run's top gaps. Read the latest lint report's recommendations first — the linter already did the connectivity analysis. Verify each is still open (specs/ rec was stale — directory gone) before researching.
+- [2026-06-17] **Always check for an uncataloged *later* lint report before trusting "the last lint."** This run found `Inbox/lint-2026-06-15.md` that wasn't in index.md — newer than the 2026-06-13 report I'd have used otherwise. Run the uncataloged-page sweep *first* so the "read the last lint report" step actually reads the latest one.
+- [2026-06-17] **The recurring-term sweep produces themed *clusters*, not just single gaps — split a cluster into a trilogy of distinct, interlocking concept pages.** This run's infra terms (Kubernetes, Cloudflared, UniFi, Starlink, Home Assistant, Z-Wave) didn't make one page — they split into three distinct domains (cloud / LAN / IoT) that cross-reference each other (CGNAT-on-Starlink is *why* ingress uses Cloudflare Tunnel; IoT rides an isolated VLAN). Three interlocking pages create far more wikilinks than one sprawling page, and each is independently findable. When a sweep returns a themed cluster, look for the natural seams (here: layer of the stack) and make one page per layer.
+- [2026-06-17] **ChatGPT-export conversations are a free grounding corpus — read 3-4 of the richest before writing an infra/technical concept page.** The export conversations (e.g. *Kubernetes Setup on DigitalOcean* 300 msgs, *Plex Cloudflared Tunnel Setup*, *Home Assistant Z-Stick setup*, *Starlink and Dream Wall setup*) gave exact, citable real-world detail — DigitalOcean `doctl`/`helm`, Aeotec Z-Stick 10 Pro on a Silicon Labs CP2105, Ubiquiti UDW-US adopted over `ui.com`. This turns a generic web-sourced concept page into one grounded in *what Fortisyn actually runs*. Pattern: WebSearch for the 2026 best-practice frame, then quote the vault conversation for the concrete stack. Grep `chatgpt-conversations/` by keyword before researching any technical gap.
+- [2026-06-17] ⚠️ **NotebookLM auth has now failed THREE consecutive cron runs — the skill prerequisite was rewritten this run to make WebSearch+WebFetch the PRIMARY path (version 2).** The web flow is reliable, fast (no source-processing wait), and well-attributed. NotebookLM is now documented as interactive-only. If Roy re-runs `npx oneclicklm login`, NotebookLM can resume for interactive sessions, but cron should keep defaulting to web tools.

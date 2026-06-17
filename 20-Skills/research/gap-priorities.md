@@ -17,7 +17,9 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 
 | Priority | Gap | Notes |
 |----------|-----|-------|
+| Med | 30 uncataloged root-level ChatGPT conversations | `chatgpt-conversations/*.md` (root, not under an entity subdir) — e.g. `book-setup-on-kdp`, `jungle-meditation`, `mindtechart---website`, `corporate-structure-with-trust`, `costa-rica-book-promo`, `influencer:-siena-wilder`, `roy.md`. They're documented by title in [[40-Resources/chatgpt-conversation-index\|chatgpt-conversation-index]] but not filed into entity subdirs like the other 85. **Navigation/filing gap, not research** — handle in a lint/filing pass (move to `chatgpt-conversations/<entity>/`). Moving 30 files autonomously is a destructive-ish gate; defer to a run with human present or a dedicated filing task. |
 | Med | Costa Rica specifics needing Roy's input | New page [[40-Resources/costa-rica\|Costa Rica]] is synthesized from general 2026 guides. Confirm: which entity (S.R.L. vs S.A.) Costa Rica ops use; La Dolce Niente fiber availability; current residency/visa status; how Fortisyn/Aurora Legacy bank locally given holding-company banking caveat. Human-input gap, not web research. |
+| Low | NotebookLM auth dead 3 cron runs | `No cookies found` on 2026-06-15, -16, -17. Needs `npx oneclicklm login` re-run by Roy (interactive). Until then, web tools are the primary cron research path (skill prerequisite updated). |
 | Low | "Industrial engineering" label on Innovatience hub | Innovatience hub still calls AES "industrial engineering" — contradicts [[40-Resources/security-systems-consulting\|systems-consulting]] + AES page (electrical/lighting/technology). Tied to AES identity-confirmation gap below. |
 | Low | AES Engineering firm identity confirmation | Identified as AES Engineering Ltd (aesengr.com) from context; vault calls it "industrial engineering" but firm is electrical/technology. Needs Roy's confirmation — see ⚠️ on the AES page. |
 | Low | 16 stale May pages | Lint rec #4 — archive or refresh. Lint job, not scout research. |
@@ -26,6 +28,9 @@ Running list of knowledge gaps identified but not yet filled. Updated by Knowled
 
 | Date | Gap | Result Pages |
 |------|-----|-------------|
+| 2026-06-17 | Cloud deployment/hosting — "Kubernetes clusters" undocumented (connects Hudlin↔Python Slayers↔Django↔apps) | [[40-Resources/cloud-deployment-infrastructure\|Cloud Deployment & Hosting Infrastructure]] — DOKS, Helm, namespaces, HPA, Cloudflare Tunnel (zero-trust, CGNAT) |
+| 2026-06-17 | Network architecture — Ubiquiti/UniFi platform, no concept page; lab-network stub | [[40-Resources/network-architecture\|Network Architecture]] — UDM-Pro/Dream Wall, 802.1Q VLAN, ui.com remote mgmt, Starlink WAN; enriched lab-network |
+| 2026-06-17 | Home automation stack — Soleria's foundation undocumented | [[40-Resources/home-automation-stack\|Home Automation Stack]] — Home Assistant, Z-Wave/Zigbee/Matter/Thread (2026), IoT VLAN, R&D loop |
 | 2026-06-16 | Costa Rica — relocation/business/tech hub (connects 14+ pages) | [[40-Resources/costa-rica\|Costa Rica]] — digital nomad visa, territorial tax, S.A./S.R.L. setup, fiber infrastructure, cost of living; open questions flagged for Roy |
 | 2026-06-16 | MindTechArt — personal-brand framework, no concept page (11+ pages) | [[40-Resources/mindtechart\|MindTechArt]] — Mind/Tech/Art pillars, calm-technology grounding (Amber Case), brand application |
 | 2026-06-16 | Security/low-voltage systems consulting — Roy's technical domain | [[40-Resources/security-systems-consulting\|Low-Voltage & Security Systems Consulting]] — MasterFormat Div 27/28, acronym glossary, consulting workflow, Fortisyn revenue link |
