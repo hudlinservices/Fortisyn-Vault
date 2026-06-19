@@ -42,7 +42,7 @@ The territorial system is the key strategic fact: a holding structure earning in
 - **Entity choice:** **S.R.L.** (Sociedad de Responsabilidad Limitada — uses quotas, streamlined, popular for SMBs) vs **S.A.** (Sociedad Anónima — shares, better for governance/transfer, favored by investors/developers).
 - **Compliance:** Registered office + resident agent required. Since 2020, all entities file the **RTBF** (Registro de Transparencia y Beneficiarios Finales), disclosing any beneficial owner holding ≥15% to the Central Bank.
 - **Timeline/cost:** Registry filing 5–7 business days; full incorporation incl. tax registration and banking 3–6 weeks; first-year cost ~US$2,000–5,000.
-- **Banking caveat:** Banks often require an in-person (or video) interview with a director, and **frequently decline pure holding companies with no local operations** — relevant to how [[10-Projects/fortisyn/_corporate-hub|Fortisyn]]/[[10-Projects/auroralegacy/_corporate-hub|Aurora Legacy]] would bank locally.
+- **Banking caveat:** Banks often require an in-person (or video) interview with a director, and **frequently decline pure holding companies with no local operations** — relevant to how [[10-Projects/fortisyn/_corporate-hub|Fortisyn]]/[[10-Projects/auroralegacy/_corporate-hub|Aurora Legacy]] would bank locally. See [[40-Resources/holding-company-trust-structure|Holding Company & Trust Structure]] for the umbrella's trust→holding→operating design.
 
 ## Tech & Connectivity Infrastructure
 

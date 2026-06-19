@@ -1,1 +1,21 @@
 === scout run: 2026-06-17T04:13:01-06:00 ===
+Scout #9 complete — committed (`650aa59`) and pushed to `main`.
+
+## Scout run summary
+
+**Scan.** The gap registry held only human-input/lint items (Costa Rica specifics, AES identity, "industrial engineering" label, 16 stale pages) — nothing researchable. So I swept the vault directly per the run-#8 "queues are dry" protocol. The uncataloged-page sweep also surfaced a *newer* lint report (`lint-2026-06-15`) that wasn't in the index, plus 30 unfiled root-level ChatGPT conversations.
+
+**Ranked gaps (autonomous — no human gate).** The recurring-term sweep found an infrastructure cluster (Kubernetes, Cloudflared, UniFi, Starlink, Home Assistant, Z-Wave) referenced across project pages and ~40 ChatGPT-export conversations with **no concept page**. I split it into three interlocking, high-connectivity domains:
+
+1. **[[Cloud Deployment & Hosting]]** — DOKS/Kubernetes, Helm, Cloudflare Tunnel. Was a one-line bullet on the Hudlin hub; connects Hudlin ↔ Python Slayers ↔ Django arch ↔ all apps.
+2. **[[Network Architecture (Ubiquiti/UniFi)]]** — UDM-Pro/Dream Wall, 802.1Q VLAN, `ui.com` remote mgmt, Starlink WAN. Also enriched the `lab-network` stub (a real Ubiquiti project).
+3. **[[Home Automation Stack]]** — Home Assistant, Z-Wave/Zigbee/Matter/Thread, IoT VLAN. Soleria's previously-undocumented foundation.
+
+They interlock: Starlink CGNAT → why ingress uses Cloudflare Tunnel; IoT devices → isolated VLAN.
+
+**Research.** ⚠️ NotebookLM auth failed for the **3rd consecutive cron run** — per the standing strategy note, this triggered rewriting the skill prerequisite (v2) to make WebSearch+WebFetch the *primary* cron path. Findings are web-sourced (DigitalOcean, Cloudflare, Ubiquiti, Home Assistant 2026 guides) and **grounded in the vault's own ChatGPT-export conversations** for exact stack detail (doctl/helm, Aeotec Z-Stick 10 Pro on a CP2105, UDW-US over ui.com).
+
+**Synthesize + update.** 3 new concept pages; enriched lab-network + Hudlin/Soleria hubs + django-arch with backlinks; updated `index.md`, `log.md`, `gap-priorities.md`, and the knowledge-scout Research Strategies. Fixed a stale index summary ("36 Auron Media" → "36 across all 6 entities"). Logged the 30 uncataloged conversations as a deferred filing gap (moving 30 files autonomously is a destructive-ish gate — left for a human-present run).
+
+The commit also swept in the previously-untracked cron logs and `cron-scout.sh`/`cron-ingest.sh` scripts so the automation that drives these runs is now version-controlled.
+=== OK (claude rc=0) — finished: 2026-06-17T04:21:19-06:00 ===

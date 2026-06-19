@@ -1,0 +1,4 @@
+=== scout run: 2026-06-18T04:13:01-06:00 ===
+Credit balance is too low
+=== FAILED: scout run blocked or errored (claude rc=1) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-18T04:14:34-06:00 ===

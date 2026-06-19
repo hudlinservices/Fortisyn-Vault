@@ -177,6 +177,9 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/cloud-deployment-infrastructure\|Cloud Deployment & Hosting Infrastructure]] | How Fortisyn ships software — DOKS/Kubernetes, Helm, Cloudflare Tunnel. The cloud half of the Hudlin Services backbone |
 | [[40-Resources/network-architecture\|Network Architecture (Ubiquiti/UniFi)]] | On-prem networking — UDM-Pro/Dream Wall, 802.1Q VLAN segmentation, ui.com remote mgmt, Starlink WAN. The LAN half of the backbone |
 | [[40-Resources/home-automation-stack\|Home Automation Stack]] | Soleria's foundation — Home Assistant hub, Z-Wave/Zigbee/Matter/Thread, IoT VLAN. Tested at La Dolce Niente |
+| [[40-Resources/holding-company-trust-structure\|Holding Company & Trust Structure]] | The corporate/legal backbone — trust→holding→operating firewall. Aurora Legacy (trust) + Fortisyn (holding). Connects all 11 entities + Costa Rica |
+| [[40-Resources/model-context-protocol\|Model Context Protocol (MCP)]] | The agentic-OS integration layer — hosts/clients/servers, JSON-RPC, tools/resources/prompts. OneClickLM is Fortisyn's MCP server |
+| [[40-Resources/agentic-orchestration\|Agentic Orchestration & Agent Runtime]] | How the vault runs agents — the loop, three-gate model (creative/destructive/ambiguous), locking, resumable run logs. CLAUDE.md principle #6 made real |
 
 ### Marketing
 | Page | Summary |
@@ -241,6 +244,7 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[Inbox/test-run\|Agent Test Passed]] | Agent runtime test — verification that DeepSeek agent is working |
 | [[Inbox/lint-2026-06-09\|Lint Report: 2026-06-09]] | First lint pass — frontmatter fixes, broken links, stale pages, recommendations |
 | [[Inbox/lint-2026-06-13\|Lint Report: 2026-06-13]] | Second lint pass — 16 stale pages, 2 missing pages, 3 new pages created |
+| [[Inbox/lint-2026-06-15\|Lint Report: 2026-06-15]] | Third lint pass — 294 pages, 7 missing frontmatter, 10 stale May pages, otherwise healthy |
 
 ## Root
 
@@ -251,4 +255,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-17.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-19.

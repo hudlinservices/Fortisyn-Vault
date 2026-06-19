@@ -1,0 +1,25 @@
+=== auto-ingest run: 2026-06-18T03:07:01-06:00 ===
+I've hit a blocker. The NotebookLM connection is not authenticated, so I cannot reach the Vault Ingest notebook to check `source_list`.
+
+**Status: cannot run the Path B ingest — auth expired**
+
+Both attempts to list sources (short ID `1ded6d40` and full ID `1ded6d40-a688-4ea3-adb0-5b549b96eaf2`) returned:
+
+```
+Error: No cookies found. Please login first.
+Suggestion: Run "npx oneclicklm login" to re-authenticate.
+```
+
+Without notebook access I can't determine whether there are new sources, so per the workflow I'm doing nothing destructive — **no pages created, no index/log/ingest-log changes, no commit**.
+
+**To unblock:** the NotebookLM session needs re-authentication. That's an interactive browser login, so it's best run by you:
+
+```
+npx oneclicklm login
+```
+
+It's a one-time auth that I shouldn't drive on your behalf. Once you've logged in, just say "go" and I'll re-run the workflow from `source_list` — checking the notebook against `90-System/ingest-log.md` (last processed: the 10 marketing sources on 2026-06-13), querying any new sources, synthesizing, and committing.
+
+Want me to attempt the login command anyway, or will you run it?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-18T03:07:38-06:00 ===

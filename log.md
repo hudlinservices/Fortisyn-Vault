@@ -11,6 +11,31 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-19] scout | Tenth run (autonomous cron) — the "backbone" trilogy: Holding/Trust Structure, Model Context Protocol, Agentic Orchestration
+
+Autonomous cron run — no human gate. Same as runs #8/#9: the gap registry held only Low/Med human-input + lint items (Costa Rica specifics, AES identity, "industrial engineering" label, 16 stale pages, the 30 uncataloged root ChatGPT files — all need Roy or are filing/lint jobs, not researchable). So I swept the vault directly: uncataloged-page sweep first (per the run-#9 strategy), then a recurring-term frequency sweep, then a concept-existence check.
+
+**Gap selection rationale (recorded per autonomous-run protocol):**
+The recurring-term sweep surfaced high-frequency terms with **no concept page**: "holding company" (17 pages), "trust" (15), MCP (12), "agentic" (7) + the runtime `.js` files. These form a coherent **"backbone" trilogy** — the conceptual scaffolding the vault names everywhere but never documented, parallel to run #9's infrastructure trilogy but for *corporate/legal* and *agentic-OS* structure rather than tech infra:
+1. **Holding Company & Trust Structure** (highest compound value) — every corporate hub + Corporate Registry + Costa Rica banking caveat reference the holding/trust setup, but no page explained the trust→holding→operating firewall. Grounded in Roy's own `chatgpt-conversations/corporate-structure-with-trust` (the naming brief: privacy/stability/strength, no "Hudlin"). Connects all 11 entities + Aurora Legacy + Fortisyn + Costa Rica.
+2. **Model Context Protocol (MCP)** — OneClickLM is a *built, shippable* MCP server; the scout/agents reach NotebookLM/Obsidian/Buffer over MCP; no concept page. Connects OneClickLM ↔ all agents ↔ knowledge-scout ↔ tools.js.
+3. **Agentic Orchestration & Agent Runtime** — CLAUDE.md principle #6 is implemented in ~5 `.js` files (run-agent/gates/tools/lock/run-log) with no concept page. Documented the loop, the three-gate model (creative/destructive/ambiguous), locking, resumable run logs (exit code 2 + `--resume`), and grounded it against 2026 HITL-orchestration practice + EU AI Act.
+
+#2 and #3 interlock (MCP is *how* agents reach tools; the runtime is *what* orchestrates them with gates) — same interlocking-trilogy pattern as run #9. #1 is the high-connectivity standalone (corporate vs tech).
+
+**Bonus stale-reference fix:** [[10-Projects/Corporate-Registry|Corporate Registry]] was stale (2026-05-18) — still listed "Jungle Media," "Versa Retail," and "12 entities." Rewrote the structure tree with current names (Auron Media, Mercova Retail), corrected to 11 entities + 1 external client, re-rooted it under Aurora Legacy (trust)→Fortisyn (holding), and linked the new concept page. High-value/low-effort per the stale-reference strategy.
+
+**Navigation fix:** catalogued `Inbox/lint-2026-06-15.md` in index.md (third lint pass, was never added — same class of miss the run-#9 strategy warns about; uncataloged-page sweep caught it).
+
+**⚠️ Tooling deviation (FOURTH consecutive cron failure):** NotebookLM auth unavailable again (`No cookies found`) — 2026-06-15, -16, -17, and now -19. Web tools remain the primary path (skill v2). All findings attributed via `source:` frontmatter + per-page `## Sources` lists.
+
+**Pages created:**
+- [[40-Resources/holding-company-trust-structure|Holding Company & Trust Structure]] — two-layer risk/value split, trust ownership principle (irrevocable trust = can't be sued for what you don't own), the deliberate no-"Hudlin"/no-"Trust" naming, Fortisyn application diagram, Costa Rica banking link. ⚠️ revocable-trust-alone caveat flagged.
+- [[40-Resources/model-context-protocol|Model Context Protocol (MCP)]] — Nov 2024 Anthropic standard, hosts/clients/servers, JSON-RPC, tools/resources/prompts; vault as both consumer (NotebookLM/Obsidian/Buffer) and producer (OneClickLM).
+- [[40-Resources/agentic-orchestration|Agentic Orchestration & Agent Runtime]] — runtime file-by-file, the agent loop (DeepSeek/OpenAI-compatible), three-gate model, MAX_TURNS + locking + resumable run logs, all 6 agents, 2026 HITL/EU-AI-Act context.
+
+**Enriched / cross-linked:** Aurora Legacy hub (Structure section + link), Fortisyn hub (asset-protection link), Corporate Registry (rewritten + link), OneClickLM (MCP resource link), Agent Registry (runtime link), Costa Rica (banking-caveat link). index.md, gap-priorities.md, knowledge-scout strategies updated.
+
 ## [2026-06-17] scout | Ninth run (autonomous cron) — infrastructure trilogy: Cloud Deployment, Network Architecture, Home Automation Stack
 
 Autonomous cron run — no human gate. The gap registry held only "Low/Med" human-input items (Costa Rica specifics, AES identity confirmation, "industrial engineering" label, 16 stale pages — all need Roy or are lint jobs, not researchable). So I swept the vault directly per the run-#8 "queues are dry" protocol: a recurring-term sweep, an uncataloged-page sweep, and a broken-link check.

@@ -10,6 +10,8 @@ updated: "2026-05-18"
 
 # Agent Registry
 
+How the runtime executes these agents — the loop, the three-gate model, locking, and resumable run logs — is documented in [[40-Resources/agentic-orchestration|Agentic Orchestration & Agent Runtime]].
+
 ## Active Agents
 
 ```dataview

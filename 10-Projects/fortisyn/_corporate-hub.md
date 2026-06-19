@@ -30,7 +30,7 @@ The Fortisyn Group operates through high internal synergy — specialized entiti
 - **Mercova Retail** provides white-label storefronts for branded merchandise
 
 **Asset protection:**
-- **Aurora Legacy** is the trust company that holds and protects assets across the umbrella
+- **Aurora Legacy** is the trust company that holds and protects assets across the umbrella. Fortisyn (holding) + Aurora Legacy (trust) form a two-layer firewall — see [[40-Resources/holding-company-trust-structure|Holding Company & Trust Structure]].
 
 ## Subsidiaries
 

@@ -81,6 +81,7 @@ SORT start_time DESC
 
 ## Resources
 
+- [[40-Resources/model-context-protocol|Model Context Protocol]] — the standard OneClickLM implements (concept page)
 - [NotebookLM](https://notebooklm.google.com/)
 - [MCP SDK docs](https://github.com/modelcontextprotocol/sdk)
 
