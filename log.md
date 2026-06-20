@@ -11,6 +11,34 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-20] scout | Eleventh run (autonomous cron) — the "workbench" trilogy: Obsidian/PKM stack, Claude Code, Mindfulness & Meditation Practice
+
+Autonomous cron run — no human gate. Same dry-queue state as runs #8–#10: the gap registry holds only Low/Med items that need Roy (Costa Rica specifics, AES identity, "industrial engineering" label, NotebookLM re-auth) or are filing/lint jobs (30 uncataloged root ChatGPT files, 16 stale May pages). So I swept the vault directly per the standing protocol: uncataloged-page sweep first (none found — lint-2026-06-15 is already cataloged and is the latest), then a recurring-term frequency sweep, then a concept-existence check.
+
+**Gap selection rationale (recorded per autonomous-run protocol):**
+The recurring-term sweep again surfaced a themed *backbone* cluster (the pattern runs #8/#9/#10 established) — but this time the vault's own **workbench**: the tools Roy uses to *build and run* everything, named everywhere with no concept page.
+- **Obsidian** (22 pages), **Dataview** (11), **Templater** (6) — the knowledge-management substrate.
+- **Claude Code** (5), **DeepSeek** (7), **Anthropic** (3) — the AI-development substrate.
+- **meditation** (18), **breathwork** (3) — the wellness/content practice domain, the one big undocumented half of the *business* (runs #9/#10 covered the tech/corporate halves).
+
+These split into three pages, two interlocking + one standalone (the predicted shape):
+1. **Obsidian & the Knowledge-Management Stack** (highest compound value, 22 pages) — the literal substrate every page lives in; local-first Markdown is *why* an LLM/Claude Code can read the vault at all. Grounded in CLAUDE.md tech stack + linking-guide + templates + 2026 PKM sources.
+2. **Claude Code & AI-Assisted Development** — the tool actually executing this scout run; the *third leg* of the agentic trilogy (orchestration model → MCP integration → **the agent host itself**). Clarified the ⚠️ that two agent systems coexist (custom DeepSeek runtime vs Claude Code). Grounded in the export convos + 2026 Claude Code sources.
+3. **Mindfulness & Meditation Practice** (high-connectivity standalone, 18 pages) — the practice domain behind Roy-as-teacher / Jungle Meditation / MindTechArt's "Mind" pillar; meditation vs breathwork vs flow, evidence-grounded. The wellness analogue to run #8's security-systems-consulting (career domain).
+
+#1 and #2 interlock (Obsidian = where knowledge lives, Claude Code = how Roy acts on it — the two halves of the "agentic personal OS" workbench; Claude Code is also an MCP host and the agentic-orchestration runner). #3 is the standalone on the *content/wellness* side.
+
+**Bonus stale-reference fix:** [[10-Projects/mercovaretail/junglemeditation|Jungle Meditation]] frontmatter was stale — `corporate_entity: Versa Retail`, `path: /home/projects/versaretail/`, `tags: versaretail`, and a "Jungle Media" link. Rewrote to Mercova Retail / `/home/projects/mercovaretail/` / Auron Media, bumped `updated`, and linked the new practice page. (Run-#10 strategy: a new concept page is the best anchor for fixing a stale page nearby.)
+
+**⚠️ Tooling deviation (FIFTH consecutive cron failure):** NotebookLM auth unavailable again (`No cookies found`) — now 2026-06-15, -16, -17, -19, -20. The prompt named NotebookLM so I spot-checked `notebook_list` once (failed instantly, zero cost) per the run-#10 note, then proceeded on web tools as the primary path. All findings attributed via `source:` frontmatter + per-page `## Sources` lists.
+
+**Pages created:**
+- [[40-Resources/obsidian-pkm-stack|Obsidian & the Knowledge-Management Stack]] — local-first/Markdown/bidirectional-links mapped to CLAUDE.md principles, the four-plugin stack, the Dataview-invisible-to-LLM caveat, 2026 agentic-PKM context.
+- [[40-Resources/claude-code|Claude Code & AI-Assisted Development]] — agentic CLI, the third leg of the agent trilogy, MCP host, sub-agents/`/fork`, ⚠️ two-agent-systems clarification, where Roy uses it.
+- [[40-Resources/mindfulness-meditation-practice|Mindfulness & Meditation Practice]] — meditation vs breathwork vs flow (evidence table), the flow→"Tech"-pillar bridge, Roy's "returning" teaching angle, vault threading.
+
+**Enriched / cross-linked:** Jungle Meditation (stale fix + practice-page link), MindTechArt (practice-page link under "Mind"), agentic-orchestration + MCP (Claude Code links), my-brain project page (substrate links). index.md, gap-priorities.md, knowledge-scout strategies updated.
+
 ## [2026-06-19] scout | Tenth run (autonomous cron) — the "backbone" trilogy: Holding/Trust Structure, Model Context Protocol, Agentic Orchestration
 
 Autonomous cron run — no human gate. Same as runs #8/#9: the gap registry held only Low/Med human-input + lint items (Costa Rica specifics, AES identity, "industrial engineering" label, 16 stale pages, the 30 uncataloged root ChatGPT files — all need Roy or are filing/lint jobs, not researchable). So I swept the vault directly: uncataloged-page sweep first (per the run-#9 strategy), then a recurring-term frequency sweep, then a concept-existence check.

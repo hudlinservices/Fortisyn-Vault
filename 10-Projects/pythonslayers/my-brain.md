@@ -70,8 +70,11 @@ SORT start_time DESC
 
 ## Notes
 
+### 2026-06-20
+- The vault's substrate is now documented: [[40-Resources/obsidian-pkm-stack|Obsidian & the Knowledge-Management Stack]] (where knowledge lives) + [[40-Resources/claude-code|Claude Code]] (how Roy acts on it).
+
 ### 2026-05-18
 - Vault infrastructure complete (57 tasks implemented)
-- 4 Obsidian plugins installed (Templater, Dataview, QuickAdd, Shell Commands)
+- 4 Obsidian plugins installed (Templater, Dataview, QuickAdd, Shell Commands) — see [[40-Resources/obsidian-pkm-stack|Obsidian & the Knowledge-Management Stack]]
 - 2 agents defined (Content Agent, Marketing Agent)
 - Corporate alignment in progress — mapping all 13 entities

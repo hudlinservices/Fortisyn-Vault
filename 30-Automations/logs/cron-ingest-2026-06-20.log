@@ -1,0 +1,31 @@
+=== auto-ingest run: 2026-06-20T03:07:01-06:00 ===
+The Path B auto-ingest workflow is blocked at step 1. I cannot reach the Vault Ingest notebook.
+
+**What happened:**
+
+The NotebookLM MCP server has no valid authentication. Both `source_list` calls (short ID `1ded6d40` and full ID `1ded6d40-a688-4ea3-adb0-5b549b96eaf2`) returned:
+
+```
+Error: No cookies found. Please login first.
+Suggestion: Run "npx oneclicklm login" to re-authenticate.
+```
+
+**Why I stopped here:**
+
+Step 1 of the workflow is `source_list(notebook_id="1ded6d40")` to compare against `90-System/ingest-log.md`. Without it, I can't tell whether there are new sources, query them, or synthesize anything. Proceeding would mean fabricating content — which I won't do. No wiki pages, index, log, or git changes have been made.
+
+**To unblock:**
+
+The `oneclicklm` session cookie has expired. It needs a re-auth, which is an interactive browser login I can't perform headlessly. You'll need to run it yourself:
+
+```
+npx oneclicklm login
+```
+
+Once that completes, re-run this command and the workflow will pick up from `source_list`.
+
+**One note for reference:** the last ingest recorded in `ingest-log.md` was 2026-06-13 (the marketing batch + the Meta page). So whatever is waiting in the notebook since then is what would get processed.
+
+Want me to attempt `npx oneclicklm login` in the terminal anyway (in case it supports a device-code / non-browser flow), or will you handle the re-auth?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-20T03:07:30-06:00 ===

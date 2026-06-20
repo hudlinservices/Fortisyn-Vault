@@ -79,6 +79,7 @@ External orchestration practice has converged on what this runtime already does:
 ## Related
 
 - [[90-System/agents/Agent-Registry|Agent Registry]] — all agents
+- [[40-Resources/claude-code|Claude Code]] — the agent host that actually runs these loops today
 - [[40-Resources/model-context-protocol|Model Context Protocol]] — the networked tool layer
 - [[20-Skills/research/knowledge-scout|Knowledge Scout]] — the most-run agentic loop
 - [[40-Resources/unified-knowledge-graph|Unified Knowledge Graph]]

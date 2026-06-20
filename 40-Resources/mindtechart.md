@@ -51,6 +51,7 @@ This is the design-theory backbone for the otherwise-fuzzy "Tech" pillar: MindTe
 ## Related
 
 - [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin Hub]]
+- [[40-Resources/mindfulness-meditation-practice|Mindfulness & Meditation Practice]] — the "Mind" pillar's practice domain
 - [[10-Projects/literaryimprint/creative-work|Creative Work]]
 - [[10-Projects/literaryimprint/communication-style|Communication Style]]
 - [[10-Projects/auronmedia/social-media-strategy|Social Media Strategy]]

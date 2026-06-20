@@ -1,1 +1,20 @@
 === scout run: 2026-06-19T04:13:01-06:00 ===
+Scout #10 complete and pushed (`393a041`).
+
+## What I did
+
+This was an autonomous cron run, so I proceeded without the human gap-approval gate and recorded the selection rationale in `log.md`. The lint/gap queues held only Low/Med human-input items (Costa Rica specifics, AES identity, stale-page lint), so I swept the vault directly: an uncataloged-page sweep first, then a recurring-term frequency sweep.
+
+**Gaps chosen (ranked by compound value)** — a "backbone" trilogy of high-frequency concepts the vault *names everywhere but never documented*:
+
+1. **[[40-Resources/holding-company-trust-structure|Holding Company & Trust Structure]]** (17+ pages) — the trust→holding→operating firewall, irrevocable-trust principle, the deliberate no-"Hudlin"/no-"Trust" naming (grounded in Roy's own `corporate-structure-with-trust` conversation), Fortisyn map. Flagged the revocable-trust caveat.
+2. **[[40-Resources/model-context-protocol|Model Context Protocol (MCP)]]** (12+ pages) — hosts/clients/servers, JSON-RPC, tools/resources/prompts; vault as both consumer (NotebookLM/Obsidian/Buffer) and producer (OneClickLM).
+3. **[[40-Resources/agentic-orchestration|Agentic Orchestration & Agent Runtime]]** — read the actual `.js` runtime to document the agent loop, three-gate model, locking, and resumable run logs, then framed it against 2026 HITL/EU-AI-Act practice. (#2 and #3 interlock; #1 is the standalone.)
+
+**Bonus fixes:** rewrote the stale Corporate Registry (old names "Jungle Media"/"Versa Retail", "12 entities" → current names, 11+1, trust/holding root), and catalogued the previously-missing `lint-2026-06-15` in index.md.
+
+**Cross-linked** Aurora Legacy, Fortisyn, OneClickLM, Agent Registry, and Costa Rica into the new pages. Updated `index.md`, `log.md`, `gap-priorities.md`, and the scout's Research Strategies.
+
+**Tooling note:** NotebookLM auth failed again (`No cookies found`) — **4th consecutive cron failure** (06-15/-16/-17/-19). Per the v2 skill protocol, WebSearch+WebFetch was the primary path; all findings are attributed via `source:` frontmatter and per-page `## Sources`. Re-running `npx oneclicklm login` would restore NotebookLM for interactive sessions.
+=== FAILED: scout run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-19T04:21:11-06:00 ===

@@ -68,6 +68,7 @@ MCP is everywhere in the Fortisyn agentic OS, in two directions:
 ## Related
 
 - [[10-Projects/pythonslayers/OneClickLM|OneClickLM]] — Fortisyn's MCP server
+- [[40-Resources/claude-code|Claude Code]] — an MCP host that connects to these servers
 - [[40-Resources/agentic-orchestration|Agentic Orchestration]] — how agents use these tools with gates
 - [[20-Skills/research/knowledge-scout|Knowledge Scout]] — primary MCP consumer
 - [[90-System/agents/Agent-Registry|Agent Registry]]

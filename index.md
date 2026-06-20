@@ -180,6 +180,9 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/holding-company-trust-structure\|Holding Company & Trust Structure]] | The corporate/legal backbone — trust→holding→operating firewall. Aurora Legacy (trust) + Fortisyn (holding). Connects all 11 entities + Costa Rica |
 | [[40-Resources/model-context-protocol\|Model Context Protocol (MCP)]] | The agentic-OS integration layer — hosts/clients/servers, JSON-RPC, tools/resources/prompts. OneClickLM is Fortisyn's MCP server |
 | [[40-Resources/agentic-orchestration\|Agentic Orchestration & Agent Runtime]] | How the vault runs agents — the loop, three-gate model (creative/destructive/ambiguous), locking, resumable run logs. CLAUDE.md principle #6 made real |
+| [[40-Resources/obsidian-pkm-stack\|Obsidian & the Knowledge-Management Stack]] | The vault's substrate — Obsidian + Templater/Dataview/QuickAdd/Shell Commands. Local-first Markdown is *why* an LLM can read it. The knowledge half of the workbench |
+| [[40-Resources/claude-code\|Claude Code & AI-Assisted Development]] | Anthropic's agentic CLI — the tool that runs the scout/lint/ingest workflows and builds every Fortisyn app. The action half of the workbench; an MCP host |
+| [[40-Resources/mindfulness-meditation-practice\|Mindfulness & Meditation Practice]] | The practice domain behind the wellness side — meditation/breathwork/flow, evidence-grounded. Connects Roy Hudlin, Jungle Meditation, MindTechArt's "Mind" pillar |
 
 ### Marketing
 | Page | Summary |
@@ -255,4 +258,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-19.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-20.
