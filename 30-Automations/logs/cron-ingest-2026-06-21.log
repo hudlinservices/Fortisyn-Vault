@@ -1,0 +1,29 @@
+=== auto-ingest run: 2026-06-21T03:07:01-06:00 ===
+I can't complete the workflow — the NotebookLM MCP server is not authenticated, so I cannot read the Vault Ingest notebook's source list.
+
+## What happened
+
+I followed the workflow steps in order:
+
+1. ✅ **Loaded** the NotebookLM tools and read `90-System/ingest-log.md` (last checked 2026-06-12; 11 sources processed across two batches)
+2. ❌ **Blocked at `source_list`** — both the short and full notebook IDs return:
+   ```
+   Error: No cookies found. Please login first.
+   Suggestion: Run "npx oneclicklm login" to re-authenticate.
+   ```
+
+Because I can't read the notebook, I can't determine whether there are new sources, can't query any of them, and have nothing to synthesize. I have **not** created any pages, touched `index.md`/`log.md`/`ingest-log.md`, or made any git changes — the working tree is untouched.
+
+## To unblock
+
+The NotebookLM session cookies have expired. Re-authenticate from a terminal:
+
+```bash
+npx oneclicklm login
+```
+
+Once that completes, just say the word and I'll re-run the full Path B ingest from the top — check `source_list`, diff against the ingest log, query each new source, synthesize into wiki pages, update the indexes, and commit/push.
+
+I won't fabricate sources or guess at content, so I'm stopping here rather than producing empty or invented results. Want me to retry after you've logged in?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-21T03:07:30-06:00 ===

@@ -9,7 +9,7 @@ url: "https://royhudlin.com"
 tags:
   - corporate-hub
   - royhudlin
-updated: "2026-06-16"
+updated: "2026-06-21"
 ---
 # Roy Hudlin
 
@@ -19,8 +19,9 @@ updated: "2026-06-16"
 
 ## Brand
 
-- **[[40-Resources/mindtechart|MindTechArt]]** — the synthesis of mindfulness (Mind), creativity (Art), and technology (Tech). Grounded in the calm-technology design movement.
-- **Narrative Alchemy** — storytelling as a timeless art for sharing experiences and connecting humanity
+- **[[40-Resources/mindtechart|MindTechArt]]** — the synthesis of mindfulness (Mind), creativity (Art), and technology (Tech). Grounded in the calm-technology design movement. The three pillars meet in [[40-Resources/flow-and-creativity|flow]].
+- **[[40-Resources/narrative-alchemy|Narrative Alchemy]]** — storytelling as a timeless art for sharing experiences and connecting humanity; the binding voice across the three pillars
+- **[[40-Resources/photographic-poetry|Photographic Poetry]]** — Roy's signature creative medium: photography + poetry as one expression, atmospheric and nature-only
 - Focus: using technology as a tool for growth, not distraction
 
 ## Published Books (5)

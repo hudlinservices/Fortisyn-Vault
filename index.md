@@ -183,6 +183,9 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/obsidian-pkm-stack\|Obsidian & the Knowledge-Management Stack]] | The vault's substrate — Obsidian + Templater/Dataview/QuickAdd/Shell Commands. Local-first Markdown is *why* an LLM can read it. The knowledge half of the workbench |
 | [[40-Resources/claude-code\|Claude Code & AI-Assisted Development]] | Anthropic's agentic CLI — the tool that runs the scout/lint/ingest workflows and builds every Fortisyn app. The action half of the workbench; an MCP host |
 | [[40-Resources/mindfulness-meditation-practice\|Mindfulness & Meditation Practice]] | The practice domain behind the wellness side — meditation/breathwork/flow, evidence-grounded. Connects Roy Hudlin, Jungle Meditation, MindTechArt's "Mind" pillar |
+| [[40-Resources/flow-and-creativity\|Flow & Creativity]] | The hinge state of MindTechArt — Csíkszentmihályi flow, the bridge across Mind/Tech/Art. The vault's most-referenced undocumented concept (~30 pages) |
+| [[40-Resources/photographic-poetry\|Photographic Poetry]] | The "Art" pillar's visual form — photopoetry as an art form + Roy's aesthetic spec (atmospheric, nature-only, green/gold). Connects creative-work, Roy Hudlin, Literary Imprint |
+| [[40-Resources/narrative-alchemy\|Narrative Alchemy]] | The "Art" pillar's verbal craft — storytelling as the binding voice across all three MindTechArt pillars. Connects communication-style, Literary Imprint, Auron Media |
 
 ### Marketing
 | Page | Summary |
@@ -258,4 +261,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-20.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-21.

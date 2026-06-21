@@ -29,6 +29,8 @@ The practical takeaway Roy's content can lean on: **breathwork is the fast on-ra
 
 ## Flow: the bridge to the "Tech" pillar
 
+> See [[40-Resources/flow-and-creativity|Flow & Creativity]] for the full treatment — Csíkszentmihályi's six characteristics, the three conditions, and how flow is the hinge across *all three* MindTechArt pillars. This section is the mindfulness→flow half of that bridge.
+
 Roy's writing repeatedly connects mindfulness to **flow** — Mihály Csíkszentmihályi's state of energized, fully-absorbed focus (see the export conversations *Flow and Mindfulness*, *Mindfulness and creativity flow*). The evidence backs the link: present-moment awareness and breathwork both *increase access to flow* by minimizing distraction. This is the hinge that makes [[40-Resources/mindtechart|MindTechArt]] coherent — mindfulness is not opposed to productivity/creativity; **it is the precondition for the deep focus that technical and creative work require.** It also dovetails with [[40-Resources/mindtechart|calm technology]]: tech that stays in the periphery is tech that protects flow.
 
 ## How it threads through the vault

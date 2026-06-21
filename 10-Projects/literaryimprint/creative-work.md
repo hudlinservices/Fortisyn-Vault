@@ -51,3 +51,12 @@ Roy's creative identity. The artist behind the consultant.
 - **Narrative Alchemy** — storytelling as a timeless art
 - Helps people with fast-paced, always-on lives struggling with exhaustion and burnout
 - Goal: help people slow down and find tools to bring back peace and relaxation
+
+## Related Concepts
+
+The "Art" pillar of [[40-Resources/mindtechart|MindTechArt]], now documented as concept pages:
+
+- [[40-Resources/photographic-poetry|Photographic Poetry]] — the photopoetry art form and Roy's aesthetic spec (the photography + poetry above as a named medium)
+- [[40-Resources/narrative-alchemy|Narrative Alchemy]] — storytelling as the craft that binds Roy's three pillars into one voice
+- [[40-Resources/flow-and-creativity|Flow & Creativity]] — the autotelic state this work is made in
+- [[40-Resources/mindfulness-meditation-practice|Mindfulness & Meditation Practice]] — the contemplative "Mind" pillar these works express

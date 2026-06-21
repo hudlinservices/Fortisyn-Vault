@@ -20,9 +20,9 @@ source: "Vault synthesis (royhudlin hub, creative-work, social-media-strategy) +
 |--------|----------------------|----------------|
 | **Mind** | Mindfulness, stillness, slowing down a fast-paced life; helping people with always-on lives find peace | *The Art of Stillness* (Mindful Way Trilogy), [[10-Projects/mercovaretail/junglemeditation\|Jungle Meditation]] |
 | **Tech** | Technology as a tool for growth, not distraction; AI agents, Django apps, the [[40-Resources/sff-llm-build\|SFF LLM Machine]] | [[10-Projects/pythonslayers/slf-for-roy\|SLF for ROY]], [[90-System/agents/auron-agent\|Auron Agent]] |
-| **Art** | Photography, poetry, metal art — atmospheric, nature-only, "between the chest and the gut" | [[10-Projects/literaryimprint/creative-work\|Creative Work]] |
+| **Art** | Photography, poetry, metal art — atmospheric, nature-only, "between the chest and the gut" | [[40-Resources/photographic-poetry\|Photographic Poetry]], [[10-Projects/literaryimprint/creative-work\|Creative Work]] |
 
-The companion concept is **Narrative Alchemy** — storytelling as a timeless art that binds the three pillars into a single voice.
+The companion concept is **[[40-Resources/narrative-alchemy\|Narrative Alchemy]]** — storytelling as a timeless art that binds the three pillars into a single voice. And the state where all three pillars meet is **[[40-Resources/flow-and-creativity\|flow]]** — the deep, autotelic focus that mindfulness opens, calm technology protects, and creative work lives inside. Flow is the hinge that makes the framework cohere rather than three separate hobbies.
 
 ## The Core Tension It Resolves
 
@@ -52,6 +52,9 @@ This is the design-theory backbone for the otherwise-fuzzy "Tech" pillar: MindTe
 
 - [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin Hub]]
 - [[40-Resources/mindfulness-meditation-practice|Mindfulness & Meditation Practice]] — the "Mind" pillar's practice domain
+- [[40-Resources/flow-and-creativity|Flow & Creativity]] — the hinge state across all three pillars
+- [[40-Resources/photographic-poetry|Photographic Poetry]] — the "Art" pillar's visual form
+- [[40-Resources/narrative-alchemy|Narrative Alchemy]] — the "Art" pillar's verbal craft; the binding voice
 - [[10-Projects/literaryimprint/creative-work|Creative Work]]
 - [[10-Projects/literaryimprint/communication-style|Communication Style]]
 - [[10-Projects/auronmedia/social-media-strategy|Social Media Strategy]]

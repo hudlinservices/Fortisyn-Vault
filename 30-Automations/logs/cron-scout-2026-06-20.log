@@ -1,1 +1,26 @@
 === scout run: 2026-06-20T04:13:01-06:00 ===
+Scout run #11 complete and pushed (`393a041..6b92bd1`).
+
+## Summary
+
+**Queues were dry** (same as runs #8–#10 — gap registry holds only Roy-input and lint/filing items), so I swept the vault directly. The uncataloged-page sweep was clean; the recurring-term frequency sweep surfaced a coherent **"workbench" backbone cluster** — the tools and practices the vault *uses* everywhere but never documented.
+
+**3 gaps researched → 3 concept pages created** (2 interlocking + 1 standalone, the predicted shape):
+
+| Page | Why | Connectivity |
+|---|---|---|
+| [[40-Resources/obsidian-pkm-stack\|Obsidian & the Knowledge-Management Stack]] | The substrate every page lives in; local-first Markdown is *why* an LLM can read the vault | 22 pages |
+| [[40-Resources/claude-code\|Claude Code & AI-Assisted Development]] | The agent host actually running this scout; third leg of the agent trilogy (orchestration → MCP → host) | 5+ pages |
+| [[40-Resources/mindfulness-meditation-practice\|Mindfulness & Meditation Practice]] | The wellness practice domain behind Roy-as-teacher / Jungle Meditation / MindTechArt's "Mind" pillar | 18 pages |
+
+#1 + #2 interlock (knowledge substrate ↔ action substrate of the "agentic personal OS"); #3 is the content/wellness standalone.
+
+**Bonus stale fix:** Jungle Meditation frontmatter (Versa Retail → Mercova, old path, "Jungle Media" link → Auron Media).
+
+**Cross-linked:** MindTechArt, agentic-orchestration, MCP, my-brain. **Updated:** index.md, log.md (with full gap-selection rationale), gap-priorities.md, and 5 new strategies in knowledge-scout.md.
+
+**Notes:**
+- ⚠️ NotebookLM auth failed for the **5th consecutive cron run** (`No cookies found`). Spot-checked once because the prompt named it (zero cost), then proceeded on web tools as primary. Needs `npx oneclicklm login` from Roy to restore — logged as a Low gap.
+- The remote reports it **moved** to `git@github.com:hudlinservices/Fortisyn-Vault.git` (capitalized). The push still succeeded via redirect, but you may want to update the remote URL: `git remote set-url origin git@github.com:hudlinservices/Fortisyn-Vault.git`.
+=== FAILED: scout run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-20T04:20:42-06:00 ===
