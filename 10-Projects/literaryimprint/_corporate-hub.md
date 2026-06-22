@@ -43,6 +43,10 @@ Authors choose their path and can switch at any time. Manuscript drafts reviewed
 | 4 | *Echoes of Dusk* |
 | 5 | *Sloth Adventures: Hank Gets Lost* |
 
+## How the Publishing Works
+
+The mechanics behind the DIY/DFY model — KDP royalty tiers, the three formats (ebook/paperback/hardcover), print-on-demand, KDP Select exclusivity, and the ISBN / publisher-of-record choice — are documented in **[[40-Resources/digital-publishing-self-publishing|Digital Publishing & Self-Publishing (KDP)]]**. Literary Imprint is the first arm of Fortisyn's content-to-commerce pipeline; merch is the [[40-Resources/ecommerce-white-label-retail|other arm]].
+
 ## Related Entities
 
 - [[10-Projects/royhudlin/_corporate-hub|Roy Hudlin]] — Primary author, 5 books published

@@ -79,4 +79,5 @@ The structure has a live open question at the [[40-Resources/costa-rica|Costa Ri
 - [[10-Projects/auroralegacy/_corporate-hub|Aurora Legacy]] — the trust
 - [[10-Projects/Corporate-Registry|Corporate Registry]] — full entity map
 - [[40-Resources/costa-rica|Costa Rica]] — territorial tax + holding-company banking caveat
+- [[40-Resources/accounting-multi-entity-finance|Accounting & Multi-Entity Finance]] — the accounting/tax that flows through this firewall (SBD sharing, passive-income grind, intercompany)
 - [[40-Resources/unified-knowledge-graph|Unified Knowledge Graph]]

@@ -11,6 +11,31 @@ tags:
 
 Append-only chronological record of everything that happens in this wiki — ingests, queries, lint passes, merges, and structural changes. Parseable with `grep "^## \[" log.md | tail -5`.
 
+## [2026-06-22] scout | Thirteenth run (autonomous cron) — the "monetization" trilogy: Digital Publishing (KDP), E-Commerce & White-Label Retail, Accounting & Multi-Entity Finance
+
+Autonomous cron run — no human gate. Same dry-queue state as runs #8–#12: the gap registry holds only Low/Med items needing Roy (Costa Rica specifics, AES identity, "industrial engineering" label, NotebookLM re-auth) or filing/lint jobs (30 uncataloged root ChatGPT files, 16 stale May pages). Swept the vault directly per the standing protocol: uncataloged-page sweep first (none found; lint-2026-06-15 remains the latest and is cataloged), then a recurring-term frequency sweep (excluding meta files), then a concept-existence check.
+
+**Gap selection rationale (recorded per autonomous-run protocol):**
+The backbone-cluster pattern is now SIX runs deep (#8 brand/career, #9 tech-infra, #10 corporate/agentic, #11 workbench, #12 Art-pillar) — and the recurring-term sweep surfaced the last untouched backbone: **how Fortisyn makes money.** The vault has documented how it *builds*, *runs*, is *structured*, and what it's *about* — but never the **monetization layer**. The single highest-frequency *undocumented* term in the whole vault is **`ebook` (34 pages)**; `publishing` (15), `e-commerce` (9), `merchandise` (8), `accounting` (6), `tax` (7) all sit unfilled, and the Fortisyn hub literally names a "content-to-commerce pipeline" that no page defines. A concept-existence check confirmed **zero** pages for publishing, commerce, or finance.
+
+The cluster split into the now-standard three interlocking pages (two interlock + one high-connectivity standalone):
+1. **Digital Publishing & Self-Publishing (KDP)** (highest compound value, `ebook`=34) — the *books* arm; KDP 2026 royalty tiers (ebook 70%/35% + $0.15/MB delivery fee, print 60%/40% expanded, KU exclusivity), three POD formats, ISBN/publisher-of-record. The Literary Imprint domain, grounded in Roy's own [[chatgpt-conversations/book-setup-on-kdp|KDP setup conversation]].
+2. **E-Commerce & White-Label Retail** — the *merch* arm; white-label print-on-demand, multi-tenant storefronts, the 2026 POD landscape (Printful/Sellfy/Fourthwall), payment processing. The Mercova Retail domain, grounded in the [[40-Resources/django-platform-architecture|Django triad]].
+3. **Accounting, Bookkeeping & Multi-Entity Finance** (high-connectivity standalone) — the finance layer beneath all 11 entities; chart of accounts, Canadian SBD *sharing* among associated CCPCs (s.125(3)), the passive-income grind, intercompany dividends/loans/management-fees, 2026's new Form T2SCH23A, and Roy's Canada/Costa-Rica dual-residency tax position. Grounded in the 7-file [[chatgpt-conversations/innovatience/|Innovatience finance corpus]].
+
+#1 and #2 interlock (the two arms of the content-to-commerce pipeline — books-as-products vs merch-as-products, both POD/produce-on-order; Auron creates → Literary/Mercova sell). #3 is the standalone where *all* revenue lands, tying to the [[40-Resources/holding-company-trust-structure|holding/trust]] firewall and [[40-Resources/costa-rica|Costa Rica]] tax. Together they document the "how Fortisyn monetizes" layer.
+
+**Bonus stale-fix (new-concept-anchors-a-stale-page strategy):** [[10-Projects/innovatience/accounting|Chart of Accounts Pro]] was a thin 2026-05-18 stub (lint-flagged stale). The new finance page gave it something authoritative to anchor to — added a "What It Implements" section + Research Notes, bumped `updated` to 2026-06-22.
+
+**⚠️ Tooling deviation (SEVENTH consecutive cron failure):** NotebookLM auth unavailable again (`No cookies found`) — now -15/-16/-17/-19/-20/-21/-22. Prompt named NotebookLM so I spot-checked `notebook_list` once (instant failure, zero cost), then proceeded on web tools as primary. All findings attributed via `source:` frontmatter + per-page `## Sources` lists.
+
+**Pages created:**
+- [[40-Resources/digital-publishing-self-publishing|Digital Publishing & Self-Publishing (KDP)]] — three formats, 2026 KDP royalty math (ebook 70%/35% + delivery fee, print 60%/40%, KU 90-day exclusivity + ~$0.0045/page), ISBN/publisher-of-record, Literary Imprint DIY/DFY mapping.
+- [[40-Resources/ecommerce-white-label-retail|E-Commerce & White-Label Retail]] — white-label = brand's face/Mercova's engine, POD zero-inventory, the four-way 2026 POD landscape, multi-tenant payment/storefront mechanics, the Fortisyn storefronts (Jungle Wear, Roy Hudlin Store, Jungle Meditation).
+- [[40-Resources/accounting-multi-entity-finance|Accounting, Bookkeeping & Multi-Entity Finance]] — chart of accounts, SBD sharing + passive-income grind + intercompany (CRA), salary-vs-dividend, GST/payroll, T2SCH23A (2026), Costa Rica dual-residency layer; the high-connectivity revenue hub. ⚠️ dual-residency tax flagged as open-for-Roy.
+
+**Enriched / cross-linked:** Literary Imprint hub (new "How the Publishing Works" section), Mercova hub (new "The Business Model" section), Chart of Accounts Pro (stale-fix + finance link), Fortisyn hub (content-to-commerce bullets → all 3 pages), holding-company-trust (finance link), Costa Rica (finance link), django-platform-architecture (e-commerce link), Roy Hudlin hub (KDP link on books), creative-work (publishing link). index.md, gap-priorities.md, knowledge-scout strategies updated.
+
 ## [2026-06-21] scout | Twelfth run (autonomous cron) — the "Art pillar" trilogy: Flow & Creativity, Photographic Poetry, Narrative Alchemy
 
 Autonomous cron run — no human gate. Same dry-queue state as runs #8–#11: the gap registry holds only Low/Med items needing Roy (Costa Rica specifics, AES identity, "industrial engineering" label, NotebookLM re-auth) or filing/lint jobs (30 uncataloged root ChatGPT files, 16 stale May pages). So I swept the vault directly per the standing protocol: uncataloged-page sweep first (none found; lint-2026-06-15 remains the latest and is cataloged), then a recurring-term frequency sweep, then a concept-existence check.

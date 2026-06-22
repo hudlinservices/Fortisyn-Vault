@@ -26,7 +26,7 @@ updated: "2026-06-21"
 
 ## Published Books (5)
 
-All published through [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]]:
+All published through [[10-Projects/literaryimprint/_corporate-hub|Literary Imprint]] via [[40-Resources/digital-publishing-self-publishing|KDP self-publishing]] (ebook + paperback + hardcover):
 
 ### The Mindful Way Trilogy
 | # | Title | Details |

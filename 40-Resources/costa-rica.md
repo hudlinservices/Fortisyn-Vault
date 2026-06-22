@@ -71,6 +71,7 @@ Costa Rica is now viable for serious remote tech work:
 - [[10-Projects/soleriatechnology/_corporate-hub|Soleria Technology]]
 - [[10-Projects/ladolceniente/_corporate-hub|La Dolce Niente]]
 - [[10-Projects/fortisyn/_corporate-hub|Fortisyn]]
+- [[40-Resources/accounting-multi-entity-finance|Accounting & Multi-Entity Finance]] — the Canada/Costa-Rica dual-residency tax layer
 - [[40-Resources/sff-llm-build|SFF LLM Machine]]
 
 ## Sources

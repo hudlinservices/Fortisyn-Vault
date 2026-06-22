@@ -1,0 +1,33 @@
+=== auto-ingest run: 2026-06-22T03:07:01-06:00 ===
+The NotebookLM MCP server is **not authenticated**, so I cannot access the Vault Ingest notebook. Both `source_list` calls (short and full notebook ID) failed identically with:
+
+```
+Error: No cookies found. Please login first.
+Suggestion: Run "npx oneclicklm login" to re-authenticate.
+```
+
+## What this means
+
+The Path B ingest workflow is **blocked at step 1** — I can't check `source_list(notebook_id="1ded6d40")` for new sources, so I can't determine whether anything needs ingesting, let alone query and synthesize.
+
+Re-authentication via `npx oneclicklm login` is an **interactive browser/OAuth flow**, which I can't complete autonomously in this environment. It needs to be run by you in a terminal where a browser session is available.
+
+## Actions taken
+
+- **No new sources processed** (couldn't reach the notebook).
+- **No wiki pages created or modified.**
+- **No git commit or push** — there's nothing to commit, and committing would misrepresent state.
+
+The only pre-existing uncommitted changes in the working tree are unrelated cron log files (`cron-scout-2026-06-21.log`, `cron-ingest-2026-06-22.log`) that were already present before this session — I left them untouched.
+
+## To unblock
+
+Run this in a terminal with browser access, then re-run the ingest:
+
+```bash
+npx oneclicklm login
+```
+
+Once the cookies are refreshed, the MCP server should connect and I can run the full Path B workflow. Want me to retry now in case the session refreshes, or set up a `/loop` to retry periodically?
+=== FAILED: ingest run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-22T03:07:37-06:00 ===

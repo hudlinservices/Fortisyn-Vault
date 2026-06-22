@@ -45,6 +45,10 @@ Seven Django projects power the platform:
 - [[10-Projects/mercovaretail/junglewear|Jungle Wear]] — Apparel brand
 - [[10-Projects/mercovaretail/royhudlin|Roy Hudlin]] — Personal brand merchandise
 
+## The Business Model
+
+White-label print-on-demand merch — *what* Mercova sells and how the economics work (POD zero-inventory fulfillment, the 2026 platform landscape, payment processing, multi-tenant storefronts) — is documented in **[[40-Resources/ecommerce-white-label-retail|E-Commerce & White-Label Retail]]**. The *software* that implements it is [[40-Resources/django-platform-architecture|Django Platform Architecture]]. Mercova is the second arm of Fortisyn's content-to-commerce pipeline; books are the [[40-Resources/digital-publishing-self-publishing|first arm]].
+
 ## Tech Stack
 
 - Django 5.x + Django REST Framework 3.15+

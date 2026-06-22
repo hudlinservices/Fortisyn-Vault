@@ -1,1 +1,21 @@
 === scout run: 2026-06-21T04:13:01-06:00 ===
+Scout run #12 complete. Committed as `746bbb9` and pushed to `main` (the remote "moved location" line is a GitHub rename notice — the push succeeded).
+
+## Summary
+
+**Autonomous cron run #12** — no human gate. With the gap registry holding only human-input/lint items (same dry state as runs #8–#11), I swept the vault directly per the standing protocol.
+
+**Gap selected: the "Art pillar" trilogy** — and notably, the vault *self-specified* this one. The [[40-Resources/mindtechart|MindTechArt]] page has a three-pillar table where Mind and Tech link to concept pages but **Art** linked only to a project page, and it names **Narrative Alchemy** as "the companion concept that binds the three pillars" while never defining it. Meanwhile **flow** was the single most-referenced undocumented term in the vault (~30 genuine concept uses). That completes a three-run arc: #8 created MindTechArt + grounded Tech, #11 documented the Mind pillar, #12 documents Art.
+
+**Pages created (3):**
+- **[[40-Resources/flow-and-creativity|Flow & Creativity]]** — Csíkszentmihályi's flow (six characteristics, three conditions), autotelic creativity, the Mind↔Tech↔Art hinge. The anchor (~30 inbound mentions).
+- **[[40-Resources/photographic-poetry|Photographic Poetry]]** — photopoetry as a recognized genre (symbiosis vs illustration) grounded in Roy's aesthetic spec + photo-poetry books.
+- **[[40-Resources/narrative-alchemy|Narrative Alchemy]]** — storytelling-as-transformation, Roy's house voice as the medium, flagged the market's "brand alchemy" as its commercial cousin.
+
+**Enriched/cross-linked:** MindTechArt (Art-pillar row, Narrative Alchemy link, flow paragraph, Related), mindfulness-meditation (Flow section), creative-work (new Related Concepts), Roy Hudlin hub (Brand section, date bumped). Updated index.md, log.md, gap-priorities.md, and 5 new strategy notes in knowledge-scout.
+
+**⚠️ Tooling:** NotebookLM auth failed for the **6th consecutive cron run** (`No cookies found`). Spot-checked once at zero cost (prompt named it), proceeded on web tools. Needs `npx oneclicklm login` from Roy to restore — all else healthy.
+
+The strongest new strategy recorded: *a concept page that names its own undocumented sub-concepts is the strongest gap signal there is* — the connectivity and framing are already done for you.
+=== FAILED: scout run blocked or errored (claude rc=0) — see output above. Likely stale NotebookLM cookie; run: npx oneclicklm login ===
+=== finished: 2026-06-21T04:21:25-06:00 ===

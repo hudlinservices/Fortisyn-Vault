@@ -25,9 +25,10 @@ The Fortisyn Group operates through high internal synergy — specialized entiti
 - **La Dolce Niente** property serves as the primary real-world testbed for **Soleria Technology** home automation systems
 
 **Content-to-commerce pipeline:**
-- **Literary Imprint** publishes books by **Roy Hudlin**
+- **Literary Imprint** publishes books by **Roy Hudlin** — see [[40-Resources/digital-publishing-self-publishing|Digital Publishing (KDP)]]
 - **Auron Media** is the creative engine — produces content, video, branding, and social media
-- **Mercova Retail** provides white-label storefronts for branded merchandise
+- **Mercova Retail** provides white-label storefronts for branded merchandise — see [[40-Resources/ecommerce-white-label-retail|E-Commerce & White-Label Retail]]
+- All revenue lands in the [[40-Resources/accounting-multi-entity-finance|multi-entity finance layer]]
 
 **Asset protection:**
 - **Aurora Legacy** is the trust company that holds and protects assets across the umbrella. Fortisyn (holding) + Aurora Legacy (trust) form a two-layer firewall — see [[40-Resources/holding-company-trust-structure|Holding Company & Trust Structure]].

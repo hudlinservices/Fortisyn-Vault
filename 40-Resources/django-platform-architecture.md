@@ -93,3 +93,4 @@ Every Django project in the Fortisyn ecosystem follows this layout:
 - [[10-Projects/pythonslayers/_corporate-hub|Python Slayers]] — Builds Django applications
 - [[10-Projects/hudlinservices/_corporate-hub|Hudlin Services]] — Kubernetes hosting and infrastructure
 - [[10-Projects/innovatience/_corporate-hub|Innovatience]] — Consulting projects (Node.js stack, different pattern)
+- [[40-Resources/ecommerce-white-label-retail|E-Commerce & White-Label Retail]] — the *commerce model* this architecture implements (white-label POD)

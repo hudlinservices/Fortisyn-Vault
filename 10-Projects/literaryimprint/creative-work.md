@@ -60,3 +60,4 @@ The "Art" pillar of [[40-Resources/mindtechart|MindTechArt]], now documented as 
 - [[40-Resources/narrative-alchemy|Narrative Alchemy]] — storytelling as the craft that binds Roy's three pillars into one voice
 - [[40-Resources/flow-and-creativity|Flow & Creativity]] — the autotelic state this work is made in
 - [[40-Resources/mindfulness-meditation-practice|Mindfulness & Meditation Practice]] — the contemplative "Mind" pillar these works express
+- [[40-Resources/digital-publishing-self-publishing|Digital Publishing (KDP)]] — how these books become sellable products (the ebook delivery fee hits the image-heavy photo-poetry titles)

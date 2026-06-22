@@ -186,6 +186,9 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 | [[40-Resources/flow-and-creativity\|Flow & Creativity]] | The hinge state of MindTechArt — Csíkszentmihályi flow, the bridge across Mind/Tech/Art. The vault's most-referenced undocumented concept (~30 pages) |
 | [[40-Resources/photographic-poetry\|Photographic Poetry]] | The "Art" pillar's visual form — photopoetry as an art form + Roy's aesthetic spec (atmospheric, nature-only, green/gold). Connects creative-work, Roy Hudlin, Literary Imprint |
 | [[40-Resources/narrative-alchemy\|Narrative Alchemy]] | The "Art" pillar's verbal craft — storytelling as the binding voice across all three MindTechArt pillars. Connects communication-style, Literary Imprint, Auron Media |
+| [[40-Resources/digital-publishing-self-publishing\|Digital Publishing (KDP)]] | The monetization backbone's first arm — KDP royalty tiers, ebook/paperback/hardcover POD, Select exclusivity, ISBN/publisher-of-record. The Literary Imprint domain. Connects Literary Imprint, Roy Hudlin, creative-work, e-commerce, finance |
+| [[40-Resources/ecommerce-white-label-retail\|E-Commerce & White-Label Retail]] | The monetization backbone's second arm — white-label print-on-demand merch, multi-tenant storefronts, the 2026 POD landscape. The Mercova Retail domain. Connects Mercova, Django architecture, Auron, publishing, finance |
+| [[40-Resources/accounting-multi-entity-finance\|Accounting & Multi-Entity Finance]] | The monetization backbone's finance layer — chart of accounts, Canadian SBD sharing, passive-income grind, intercompany, Costa Rica dual-residency tax. Connects Chart of Accounts Pro, holding/trust, Costa Rica, both revenue arms |
 
 ### Marketing
 | Page | Summary |
@@ -261,4 +264,4 @@ Catalog of everything in the wiki. The LLM reads this first to find relevant pag
 
 ---
 
-**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-21.
+**Stats:** 11 corporate entities (2 rebranded: Jungle Media→Auron Media, Versa Retail→Mercova Retail) + 1 external client (AES Engineering), 30+ projects, 8 skill templates, 4 agents, 6 templates, 4 daily notes. Last updated 2026-06-22.
